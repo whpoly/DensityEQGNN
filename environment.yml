@@ -1,0 +1,16 @@
+name: density-eqgnn
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch=2.5.1
+  - cpuonly
+  - numpy
+  - pymatgen
+  - pyyaml
+  - tqdm
+  - pytest
+variables:
+  PYTHONPATH: src

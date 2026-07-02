@@ -73,13 +73,24 @@ data/processed/materials_project
 
 这三套数据集对应 ChargE3Net 文章/官方仓库里的主要 benchmark。你可以先只放少量 `.npz` 跑 smoke training，再换成完整数据。
 
-## 训练
+## 环境
 
-安装依赖：
+创建并激活 conda 环境：
 
 ```bash
-pip install -e .
+conda env create -f environment.yml
+conda activate density-eqgnn
 ```
+
+这个环境会设置 `PYTHONPATH=src`，所以不需要 `pip install -e .`。
+
+如果你想完全复现当前 Windows 机器上解析出来的包版本，可以用：
+
+```bash
+conda env create -f environment-win64.lock.yml
+```
+
+## 训练
 
 跑 QM9：
 
@@ -123,4 +134,3 @@ L = w_density * L_density
 
 - ChargE3Net paper: https://www.nature.com/articles/s41524-024-01343-1
 - ChargE3Net code: https://github.com/AIforGreatGood/charge3net
-
