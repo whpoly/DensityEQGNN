@@ -1,0 +1,41 @@
+# ChargE3Net benchmark: NMC Li-ion battery cathode charge densities.
+model:
+  latent_dim: 160
+  hidden_dim: 320
+  num_interactions: 5
+  num_basis: 24
+  cutoff: 5.0
+  num_species: 119
+  property_dim: 1
+  positive_density: true
+  pbc: true
+
+data:
+  root: data/processed/nmc
+  train_split: train.txt
+  val_split: val.txt
+  test_split: test.txt
+  train_probes: 1000
+  val_probes: 5000
+  test_probes: 5000
+  num_workers: 0
+  pin_memory: false
+  seed: 11
+
+training:
+  output_dir: runs/nmc
+  device: auto
+  epochs: 100
+  batch_size: 1
+  lr: 0.0001
+  weight_decay: 0.000001
+  grad_clip: 5.0
+  density_loss: mse
+
+loss_weights:
+  density: 1.0
+  teacher_recon: 0.5
+  latent: 0.1
+  property: 0.0
+  charge: 0.01
+

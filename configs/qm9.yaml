@@ -1,0 +1,41 @@
+# ChargE3Net benchmark: QM9 charge densities from Jorgensen and Bhowmik.
+model:
+  latent_dim: 128
+  hidden_dim: 256
+  num_interactions: 4
+  num_basis: 20
+  cutoff: 4.0
+  num_species: 119
+  property_dim: 1
+  positive_density: true
+  pbc: false
+
+data:
+  root: data/processed/qm9
+  train_split: train.txt
+  val_split: val.txt
+  test_split: test.txt
+  train_probes: 1000
+  val_probes: 5000
+  test_probes: 5000
+  num_workers: 0
+  pin_memory: false
+  seed: 7
+
+training:
+  output_dir: runs/qm9
+  device: auto
+  epochs: 100
+  batch_size: 2
+  lr: 0.0001
+  weight_decay: 0.000001
+  grad_clip: 5.0
+  density_loss: mse
+
+loss_weights:
+  density: 1.0
+  teacher_recon: 0.5
+  latent: 0.1
+  property: 0.0
+  charge: 0.01
+

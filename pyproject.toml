@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "density-eqgnn"
+version = "0.1.0"
+description = "Density-supervised atom representation learning inspired by ChargE3Net."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "torch>=2.1",
+  "pymatgen>=2024.1",
+  "PyYAML>=6.0",
+  "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+e3 = ["e3nn>=0.5"]
+dev = ["pytest>=8.0", "ruff>=0.5"]
+
+[project.scripts]
+density-eqgnn-train = "density_eqgnn.training.train:main"
+density-eqgnn-eval = "density_eqgnn.training.evaluate:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
