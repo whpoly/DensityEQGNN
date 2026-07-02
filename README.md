@@ -53,6 +53,43 @@ python scripts/prepare_chgcar_dataset.py \
   --probes 5000
 ```
 
+或者一条命令自动准备 benchmark 数据：
+
+```bash
+python scripts/prepare_all_benchmarks.py --datasets qm9 nmc mp --mp-api-key "$MP_API_KEY"
+```
+
+先只测试 Materials Project：
+
+```bash
+export MP_API_KEY="your_materials_project_key"
+bash scripts/prepare_mp_test.sh
+```
+
+可以在提交脚本时覆盖参数：
+
+```bash
+MP_LIMIT_SAMPLES=5 PROBES=2000 bash scripts/prepare_mp_test.sh
+```
+
+`scripts/prepare_mp_test.sh` 默认使用一个已验证可下载的 MP id 做快速测试：
+
+```bash
+MP_IDS="mp-1524357" bash scripts/prepare_mp_test.sh
+```
+
+如果要扫描 Materials Project 里所有有 charge density 的材料，把 `MP_IDS` 设为空：
+
+```bash
+MP_IDS="" MP_LIMIT_SAMPLES=100 bash scripts/prepare_mp_test.sh
+```
+
+说明：
+
+- QM9/NMC 会从 DTU/Figshare 自动下载原始 tar 文件并转换。
+- Materials Project 需要 Materials Project API key；建议通过环境变量 `MP_API_KEY` 传入，不要写进脚本。
+- 完整 QM9/NMC 数据很大，可以先用 `--limit-files 1 --limit-samples 10` 做测试。
+
 ## Benchmark 配置
 
 配置文件已经放在：

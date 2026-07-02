@@ -9,6 +9,7 @@ dependencies:
   - cpuonly
   - numpy
   - pymatgen
+  - mp-api
   - pyyaml
   - tqdm
   - pytest
