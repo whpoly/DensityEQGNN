@@ -59,7 +59,16 @@ python scripts/prepare_chgcar_dataset.py \
 python scripts/prepare_all_benchmarks.py --datasets qm9 nmc mp --mp-api-key "$MP_API_KEY"
 ```
 
-先只测试 Materials Project：
+正式准备完整 Materials Project benchmark：
+
+```bash
+export MP_API_KEY="your_materials_project_key"
+bash scripts/prepare_mp_full.sh
+```
+
+`scripts/prepare_mp_full.sh` 默认不限制样本数，也不指定单个 `mp-id`，会扫描 Materials Project 中所有带 charge density 的材料并转换成训练用 `.npz`。如果中途断掉，重新运行会跳过已经转换好的样本继续准备。
+
+先只测试 Materials Project 下载和转换流程：
 
 ```bash
 export MP_API_KEY="your_materials_project_key"
@@ -78,10 +87,10 @@ MP_LIMIT_SAMPLES=5 PROBES=2000 bash scripts/prepare_mp_test.sh
 MP_IDS="mp-1524357" bash scripts/prepare_mp_test.sh
 ```
 
-如果要扫描 Materials Project 里所有有 charge density 的材料，把 `MP_IDS` 设为空：
+如果只想临时调试完整 MP 脚本，可以给它加样本数限制：
 
 ```bash
-MP_IDS="" MP_LIMIT_SAMPLES=100 bash scripts/prepare_mp_test.sh
+MP_LIMIT_SAMPLES=100 bash scripts/prepare_mp_full.sh
 ```
 
 说明：
