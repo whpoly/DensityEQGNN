@@ -1,12 +1,13 @@
 name: density-eqgnn
 channels:
   - pytorch
+  - nvidia
   - conda-forge
   - defaults
 dependencies:
   - python=3.11
   - pytorch=2.5.1
-  - cpuonly
+  - pytorch-cuda=12.1
   - numpy
   - pymatgen
   - mp-api
