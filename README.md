@@ -156,6 +156,15 @@ python -m density_eqgnn.training.train --config configs/nmc.yaml
 python -m density_eqgnn.training.train --config configs/materials_project.yaml
 ```
 
+集群上一键准备完整 MP、训练并评估：
+
+```bash
+cd /home/wuhao/DensityEQGNN
+sbatch --export=ALL,MP_API_KEY="your_materials_project_key" scripts/run_mp_full.sbatch
+```
+
+这个脚本会先检查 CUDA，然后运行 `scripts/prepare_mp_full.sh`。只有 `data/processed/materials_project/train.txt` 存在后才会训练，只有 `runs/materials_project/best.pt` 存在后才会评估。
+
 ## Loss
 
 总 loss：
