@@ -1,0 +1,28 @@
+{
+  "dataset": "10 non-magnetic four-site Materials Project charge densities",
+  "metric": "sample mean of offline LS-fit density NMAE on 4096 fixed probes",
+  "lmax": 2,
+  "cutoff_angstrom": 5.0,
+  "results": {
+    "4": {
+      "coefficients_per_atom": 52,
+      "mean_nmae": 0.3009645559,
+      "median_nmae": 0.2601589262
+    },
+    "8": {
+      "coefficients_per_atom": 104,
+      "mean_nmae": 0.0430265186,
+      "median_nmae": 0.0425499883
+    },
+    "12": {
+      "coefficients_per_atom": 156,
+      "mean_nmae": 0.0195623492,
+      "median_nmae": 0.0195643790
+    },
+    "16": {
+      "coefficients_per_atom": 208,
+      "mean_nmae": 0.0174402816,
+      "median_nmae": 0.0156854894
+    }
+  }
+}

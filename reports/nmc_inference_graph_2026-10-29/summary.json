@@ -1,0 +1,36 @@
+{
+  "baseline": {
+    "test_nmae": 0.003061069683095146,
+    "fresh_inputs_prepared_graph_seconds": 0.43148067500442266
+  },
+  "angular": {
+    "test_nmae": 0.003061069771587274,
+    "fresh_inputs_prepared_graph_seconds": 0.44556422499590553
+  },
+  "graph": {
+    "test_nmae": 0.0030610699141450527,
+    "fresh_inputs_prepared_graph_seconds": 0.27765891249873675
+  },
+  "combined": {
+    "test_nmae": 0.003061069912371092,
+    "fresh_inputs_prepared_graph_seconds": 0.28805202498915605
+  },
+  "cold_combined_seconds": 1.173357425010181,
+  "graph_setup_seconds": 0.783510675013531,
+  "components": {
+    "network_eager": 0.1860469500097679,
+    "network_graph": 0.026712537539424375,
+    "grid": 0.054861124968738295,
+    "decoder_radial_first": 0.18432068749098107,
+    "decoder_angular_first": 0.19549701250798535,
+    "sad": 0.00807817502936814
+  },
+  "max_abs_density_difference": 3.2633543014526367e-06,
+  "baseline_vs_combined_speedup": 1.4979261993407826,
+  "approx_calls_to_amortize": 7,
+  "selected": "graph",
+  "selected_speedup": 1.5539954079679894,
+  "selected_latency_reduction_percent": 35.6497454965067,
+  "selected_approx_calls_to_amortize": 6,
+  "selection_source_sha256": "c49c2ef1464c416d5124efcf26ea5347b068a1ac5e6d5c9cc750d28f2cd48fbc"
+}

@@ -1,0 +1,126 @@
+{
+  "dataset": "ec",
+  "expected_test_structures": 4000,
+  "accuracy_completed": true,
+  "timing_completed": {
+    "reference": true,
+    "fused_same_chunk": true,
+    "fused": true
+  },
+  "attempted": 4000,
+  "successful": 4000,
+  "errors": [],
+  "nmae_percent": {
+    "reference": {
+      "mean": 0.1827079272841483,
+      "median": 0.18093840215901547,
+      "p95": 0.211081801934743,
+      "maximum": 0.24371342802625276,
+      "count": 4000,
+      "mean_bootstrap_95_percent": [
+        0.18222210177055637,
+        0.18316166131287856
+      ],
+      "pooled_nmae_percent": 0.18270792702433802,
+      "worst_indices": [
+        10903,
+        10899,
+        10916,
+        10907,
+        10913,
+        8988,
+        10897,
+        8989,
+        10239,
+        10870
+      ]
+    },
+    "fused": {
+      "mean": 0.1827077190197756,
+      "median": 0.180938018493974,
+      "p95": 0.21108160235079518,
+      "maximum": 0.24371317928701292,
+      "count": 4000,
+      "mean_bootstrap_95_percent": [
+        0.18222189151242782,
+        0.1831614511883353
+      ],
+      "pooled_nmae_percent": 0.1827077187599647,
+      "worst_indices": [
+        10903,
+        10899,
+        10916,
+        10907,
+        10913,
+        8988,
+        10897,
+        8989,
+        10239,
+        10870
+      ]
+    }
+  },
+  "paired_delta_percentage_points": {
+    "mean": -2.082643726960664e-07,
+    "bootstrap_95": [
+      -2.1399985394193167e-07,
+      -2.026971613861627e-07
+    ]
+  },
+  "agreement_failures": [],
+  "max_relative_l1": 1.306243353439827e-07,
+  "timing": {
+    "reference": {
+      "attempted": 50,
+      "successful": 50,
+      "errors": [],
+      "mean": 6.155942625997122,
+      "median": 6.1570605500019155,
+      "p95": 6.162353364977752,
+      "maximum": 6.165493699954823,
+      "count": 50,
+      "max_allocated_gib": 2.646609306335449
+    },
+    "fused_same_chunk": {
+      "attempted": 50,
+      "successful": 50,
+      "errors": [],
+      "mean": 1.1624729200010189,
+      "median": 1.1657060000579804,
+      "p95": 1.1834201300051064,
+      "maximum": 1.1906167999841273,
+      "count": 50,
+      "max_allocated_gib": 2.716926097869873
+    },
+    "fused": {
+      "attempted": 50,
+      "successful": 50,
+      "errors": [],
+      "mean": 1.0316214860021136,
+      "median": 1.0327433499624021,
+      "p95": 1.0378767400456126,
+      "maximum": 1.0390011999988928,
+      "count": 50,
+      "max_allocated_gib": 2.716926097869873
+    }
+  },
+  "paired_speedups": {
+    "fused_same_chunk": {
+      "mean": 5.296516097534873,
+      "median": 5.27977098942481,
+      "p95": 5.432859169269336,
+      "maximum": 5.4686852957712935,
+      "count": 50,
+      "ratio_of_total_seconds": 5.2955578750098775
+    },
+    "fused": {
+      "mean": 5.967382005777881,
+      "median": 5.960388552874282,
+      "p95": 6.016953979672366,
+      "maximum": 6.032315850668437,
+      "count": 50,
+      "ratio_of_total_seconds": 5.967249334689128
+    }
+  },
+  "all_pass": true
+}

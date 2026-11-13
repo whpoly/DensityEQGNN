@@ -1,0 +1,769 @@
+{
+  "recorded_at": "2026-10-26T10:54:50.565141+08:00",
+  "scope": "Eight local NMC training-set structures only; no full training; finite single-seed comparison.",
+  "source_snapshot_note": "Report-time source snapshot; not a byte-for-byte record of each process launch. Non-objective diagnostics and exact-origin handling evolved during the run. Final production-decoder evaluation and tests use this version. GPU bitwise reproducibility is not guaranteed.",
+  "git_head": "132cf579a8d52b6a1369d6812357fe801aa73726",
+  "git_dirty": true,
+  "runtime": {
+    "python": "3.11.15",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch_cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "e3nn": "0.6.0",
+      "ase": "3.29.0",
+      "lz4": "4.4.5",
+      "pytest": "9.1.1",
+      "matplotlib": "3.11.0",
+      "PyYAML": "6.0.3"
+    }
+  },
+  "source_files": [
+    {
+      "path": "configs/nmc_full_l2_to_l4_mace.yaml",
+      "bytes": 1018,
+      "sha256": "004ac56e8adf452fbba70e0aecc40f629f8a3c05d91ec818a461a3ae10032c6f"
+    },
+    {
+      "path": "configs/nmc_full_l2_to_l4_mace_pbc.yaml",
+      "bytes": 1024,
+      "sha256": "6afb53d53f3913963a0a3233fa5b6277edf9405ac0f596ec0548b081e12d6888"
+    },
+    {
+      "path": "configs/nmc_small.yaml",
+      "bytes": 555,
+      "sha256": "2d21ed77fe1ca5e06096d6b1c8ee29ae51492364c435f3cf48b73ad1d8b38da6"
+    },
+    {
+      "path": "configs/qm9_3500.yaml",
+      "bytes": 659,
+      "sha256": "820c40cbb9c44f49be61dfa5ae7a9a95de2b9c2b2b7dbc8debc3784c5ddce173"
+    },
+    {
+      "path": "configs/qm9_atoms_le12_500.yaml",
+      "bytes": 814,
+      "sha256": "138ca3d3bc30847305f208f6d022ee8c4f4c5b3f2e6500f58215eeb21e88086c"
+    },
+    {
+      "path": "configs/qm9_l2_r12_mace_like_coeff_500.yaml",
+      "bytes": 748,
+      "sha256": "3f19ab01b3c5bc665b360639c93ef5fd8a9f8aab2c3691eb7ca47fc14f5711f6"
+    },
+    {
+      "path": "configs/qm9_l3_r12_coeff_500.yaml",
+      "bytes": 602,
+      "sha256": "f9d3c36e94e5008c6ea64c8c716ad411087d81cf08a116fe582386c958845728"
+    },
+    {
+      "path": "configs/qm9_l3_r12_coeff_overfit_one.yaml",
+      "bytes": 781,
+      "sha256": "cdfdd883222e08bd566008de5c5c13e0cca1724ae2edb0ca1ef32482148e2c8e"
+    },
+    {
+      "path": "configs/qm9_l3_r12_mace_like_coeff_500.yaml",
+      "bytes": 731,
+      "sha256": "59cd7a0849ec31ee6827ebd0de0749565161454c1e8a5819a46eb53b28471843"
+    },
+    {
+      "path": "configs/qm9_l3_r12_mace_like_density_500.yaml",
+      "bytes": 800,
+      "sha256": "b4a249f43bcd1fb4051785b205774c3eddc42e7bd089960b9378e4c3ebf17157"
+    },
+    {
+      "path": "configs/qm9_l3_r12_mace_like_density_no_ls_500.yaml",
+      "bytes": 840,
+      "sha256": "eb66b222d4b03d3cef3184b30b4ca27e31d54aa690ff017d1dceb02078f494c4"
+    },
+    {
+      "path": "configs/qm9_l3_r12_mace_like_overfit_one.yaml",
+      "bytes": 903,
+      "sha256": "72156930ba57306c900ad77ed9b1f64fcaee186b95f74aa0fe7bca6c0bc3dcb4"
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 287,
+      "sha256": "22931fee8a00082f76f5f40b8f7a71f39d6e57416c8e506ffd38c0ed8a4d2174"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 749,
+      "sha256": "02eba2b007be689610dc77b8aabacee4aa7004a192544377b213387cce8c2641"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9385,
+      "sha256": "ec12fedc58e9e164c7fb7eefae2e0d95b1f26179f901718a2121319c8f99645e"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 52,
+      "sha256": "ec614f208898ccd9dfafc3388c39cc99e880899a35a1742fede5c71ee9d58a83"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "bytes": 41,
+      "sha256": "0a7bd497fed858f475bea2a7a202bdb0abf40c5a3268c167b319b5b45a164c1f"
+    },
+    {
+      "path": "scripts/add_charge3net_scf_cases.py",
+      "bytes": 13692,
+      "sha256": "a7abd156c3a873fabf4da8b90cde2610f13e898e925b474b14e7db8fc24d2be3"
+    },
+    {
+      "path": "scripts/analyze_nmc_scf_benchmark.py",
+      "bytes": 8601,
+      "sha256": "2e9d21378fb416bd09efd6d6b839846488ef226b99fabbab0f4b7c2dfc8d4606"
+    },
+    {
+      "path": "scripts/apply_oracle_paw_to_scf_benchmark.py",
+      "bytes": 4430,
+      "sha256": "96efeaa32ba236edea970b681b2b04ddc70588be8a7aafacc7700ae628f58ddc"
+    },
+    {
+      "path": "scripts/benchmark_charge3net_nmc.py",
+      "bytes": 12392,
+      "sha256": "548891cb02a11159e010ec6eeeb6209781bdc7e05f9542b8a9750cccf7899525"
+    },
+    {
+      "path": "scripts/compare_local_nmc_oracles.py",
+      "bytes": 20104,
+      "sha256": "14f6757e9b385ab3e80907c8c8faed3f36bd2837f04c4e8147fd66b8e5671e6c"
+    },
+    {
+      "path": "scripts/download_mp_small_validation.py",
+      "bytes": 3038,
+      "sha256": "430e0ff0248d06a6c8c173cf015d50c7f7dd29a9081df142b49a0484669651ae"
+    },
+    {
+      "path": "scripts/download_qm9_benchmark.py",
+      "bytes": 6365,
+      "sha256": "b48f5ba2f113a18dd1dc547cfcb0666d189eb5a74bc76185625fd4ed599acc13"
+    },
+    {
+      "path": "scripts/evaluate_atomic_superposition.py",
+      "bytes": 6398,
+      "sha256": "058155e8e804d2cf9748b58ef9f47dc9808a8fd70b93f325684fa5795d1817f9"
+    },
+    {
+      "path": "scripts/evaluate_nmc_basis_oracle.py",
+      "bytes": 16398,
+      "sha256": "3f5ddd2314fd07b491ba2d40f07fd7f37d4adb5f66e3e82fd5bc016a543797d1"
+    },
+    {
+      "path": "scripts/evaluate_nmc_full_grid.py",
+      "bytes": 9280,
+      "sha256": "23ae91c44e2348380f3de8684632cff81997fa55ad26daf1953f19574a6a20f1"
+    },
+    {
+      "path": "scripts/evaluate_vasp_sad_nmc.py",
+      "bytes": 12841,
+      "sha256": "e57fe5f530ecc9c7b0f9c419e8adc9bdd15c30c15281b27f36b7f4595f12613f"
+    },
+    {
+      "path": "scripts/extract_chgcar_coefficients.py",
+      "bytes": 2043,
+      "sha256": "f0c73a1dac512e93a2efb7bb5e49e00f6e8f53051774c47caa40cf84676d897e"
+    },
+    {
+      "path": "scripts/polish_local_nmc_overfit.py",
+      "bytes": 8119,
+      "sha256": "fb895244dddbcfeb680dae4e3e3236d8a14bd68bd27771cb79dd8653fe4132d6"
+    },
+    {
+      "path": "scripts/predict_density.py",
+      "bytes": 2823,
+      "sha256": "dc7bf2a0a6596e60ad537d3f9614f20d187bd5bbe7fd00afd69e7d3387835fec"
+    },
+    {
+      "path": "scripts/prepare_nmc_full_benchmark.py",
+      "bytes": 14506,
+      "sha256": "390c296879bb18abfbc0403336af5fd5f1be454d7128b146f81d2d94327bec53"
+    },
+    {
+      "path": "scripts/prepare_nmc_scf_benchmark.py",
+      "bytes": 19036,
+      "sha256": "ec403c61d2460b15ce1b90b04da61192c08f990bf08e7d8738bf5b25309ee0be"
+    },
+    {
+      "path": "scripts/prepare_nmc_subset.py",
+      "bytes": 6567,
+      "sha256": "1c7800ca409a5328a675357ec4677cbcf0f5a601e1095986c93d9f9279d8b951"
+    },
+    {
+      "path": "scripts/prepare_qm9_benchmark.py",
+      "bytes": 9461,
+      "sha256": "e0329dc0f21d8b4fc3cd233937da3417706ce926cc2a9e8435a62d025a315a91"
+    },
+    {
+      "path": "scripts/qm9_compact_oracle.py",
+      "bytes": 11685,
+      "sha256": "5fb8a0d2e99b6712d65335d7038c19a95095056a1dbdec356ef18ea296d9127c"
+    },
+    {
+      "path": "scripts/select_qm9_subset.py",
+      "bytes": 1419,
+      "sha256": "3f13f192463fb5b5ba116125a58f201d140a449a3d1acaaf5bacf70f2a8865d7"
+    },
+    {
+      "path": "scripts/summarize_local_nmc_oracles.py",
+      "bytes": 7247,
+      "sha256": "3eadf7f03c9276ecae23833caad93b3afc152f27335ea0f3d046b788e4830f32"
+    },
+    {
+      "path": "scripts/summarize_local_nmc_overfit.py",
+      "bytes": 17831,
+      "sha256": "2a92799b5ca294e145784a63027ba1b9c363414d6edbc0f27808c774e7b715fa"
+    },
+    {
+      "path": "scripts/summarize_nmc_benchmark.py",
+      "bytes": 3410,
+      "sha256": "c881f7f4a329c72e38bd4be91b8ea91a09d943537f3033cc4e35f6669fbb2906"
+    },
+    {
+      "path": "scripts/train_local_nmc_overfit.py",
+      "bytes": 16070,
+      "sha256": "878f4102df3bb9d00269c1cefb9d0490ead95a85227b1bf0bf1121ed0ae8dddb"
+    },
+    {
+      "path": "scripts/truncate_compact_coefficients.py",
+      "bytes": 1872,
+      "sha256": "62583e57373793d3d059b55cc09e72d12839b82dddec28416cd6ac7183e1d545"
+    },
+    {
+      "path": "src/density_eqgnn/__init__.py",
+      "bytes": 112,
+      "sha256": "58ac3ef2af5b43732c2200f11635c481d1296c6b47dd3063912bef92aa4dad3e"
+    },
+    {
+      "path": "src/density_eqgnn/basis.py",
+      "bytes": 20468,
+      "sha256": "028b542bf449c759426579fad1997ecf299edb1819a4def8163d7499ccd8a08b"
+    },
+    {
+      "path": "src/density_eqgnn/chgcar.py",
+      "bytes": 4497,
+      "sha256": "80914c2225aaed69bfd68da55f4414ebc7bfa07599c9750629f2e8ecb7052bc5"
+    },
+    {
+      "path": "src/density_eqgnn/compact_basis.py",
+      "bytes": 9315,
+      "sha256": "dad698b9c45de126b5d425201272bd8b519662017d62b2a92a027e2ac647016a"
+    },
+    {
+      "path": "src/density_eqgnn/data/__init__.py",
+      "bytes": 178,
+      "sha256": "39c80cd6fc25ad469b7f9a7cf809af4eaa017f95406a673611f226db8f1bb295"
+    },
+    {
+      "path": "src/density_eqgnn/data/dataset.py",
+      "bytes": 6313,
+      "sha256": "d2efc5f53607cd0c4e0f3d1056ce5857eb3b18f5d9ba2579e7f5ee8ffff5d1ea"
+    },
+    {
+      "path": "src/density_eqgnn/fixed_grid.py",
+      "bytes": 2234,
+      "sha256": "1e6af12440b59945412ca22da67c73df7ae6642078d4652bd161cfed9ffaccfc"
+    },
+    {
+      "path": "src/density_eqgnn/models/__init__.py",
+      "bytes": 940,
+      "sha256": "315ec68625d96c44c06539a80b7bb0b6d301335487dc47583339badf54399686"
+    },
+    {
+      "path": "src/density_eqgnn/models/compact_model.py",
+      "bytes": 5492,
+      "sha256": "df476b140261c0fcc1726432aca7a025b39c698e5dd54d9807351ea32d622e8c"
+    },
+    {
+      "path": "src/density_eqgnn/models/mace_like_model.py",
+      "bytes": 14214,
+      "sha256": "fe3f0156dfdd0c35ef59f01b3f4e573af531288d4bffd5c18579df2736cec08c"
+    },
+    {
+      "path": "src/density_eqgnn/models/model.py",
+      "bytes": 8697,
+      "sha256": "1b85df13d7d2c42972d07877c3ba6df41d2f2bc448ea4c449e5530d14413e140"
+    },
+    {
+      "path": "src/density_eqgnn/oracle_basis.py",
+      "bytes": 10491,
+      "sha256": "be377ce698f03c0aa4d8aeffd17b0bcea4039107012241e84841beda432a33cb"
+    },
+    {
+      "path": "src/density_eqgnn/periodic.py",
+      "bytes": 7075,
+      "sha256": "a55673fa940db95103489c732ecfbd18f62475d8bd5a5123d11b712740ba9f8e"
+    },
+    {
+      "path": "src/density_eqgnn/radial_basis.py",
+      "bytes": 2862,
+      "sha256": "47505876e58597801e51fcac15e2ffa1ae52146a54db620a8695928f88bac633"
+    },
+    {
+      "path": "src/density_eqgnn/training/__init__.py",
+      "bytes": 27,
+      "sha256": "09def60e7c6f5f48cafea99f2b7a616cc01340b5f8e89281facdb07744744e5e"
+    },
+    {
+      "path": "src/density_eqgnn/training/config.py",
+      "bytes": 756,
+      "sha256": "b5d96ec36f0795312ba670baa3c2c1b750248f8852d1970c3aca6f126f2eebde"
+    },
+    {
+      "path": "src/density_eqgnn/training/evaluate.py",
+      "bytes": 1692,
+      "sha256": "a19a8564dfbc65388d57c9342e731bf8babd2040073d2a29b66b3b3ac43c2613"
+    },
+    {
+      "path": "src/density_eqgnn/training/evaluate_compact_coefficients.py",
+      "bytes": 1872,
+      "sha256": "7ef276f19a18caa07e35c1f99ff3280e47e2c0126cbd3ed363b6ccd64a7752bb"
+    },
+    {
+      "path": "src/density_eqgnn/training/losses.py",
+      "bytes": 1080,
+      "sha256": "b20fe183b26fd1129e62b09e6c357eec8a5ede109ba7a7a539da6d0f8f0dc491"
+    },
+    {
+      "path": "src/density_eqgnn/training/metrics.py",
+      "bytes": 809,
+      "sha256": "0e405b0cc3c50dad3b9857940fb422e5687b3bf4fb1b4986508016511367cfd4"
+    },
+    {
+      "path": "src/density_eqgnn/training/train.py",
+      "bytes": 12086,
+      "sha256": "696b3a5bd09b523b7a7be2c486d05084c486d181fd937edf9d1d0994a064a5eb"
+    },
+    {
+      "path": "src/density_eqgnn/training/train_compact_coefficients.py",
+      "bytes": 15734,
+      "sha256": "ca9ec6310e5dbf6def083bafb3a73223b589a9aa2d2d977d317dd2f5505725bb"
+    },
+    {
+      "path": "tests/test_basis.py",
+      "bytes": 3289,
+      "sha256": "08b75e0ba0f43536e8930a0ff45b5270b5f5736ac53884bad70baf72bf7ccf20"
+    },
+    {
+      "path": "tests/test_compact.py",
+      "bytes": 2566,
+      "sha256": "08747d36cebb1ae04b7b3f0bdbc47c26ace373c0d8fa22e4e6d7eabd2e6d8bf4"
+    },
+    {
+      "path": "tests/test_equivariance.py",
+      "bytes": 1666,
+      "sha256": "6c0cdf94420d69ec75c63fa161c3a0ff4ebd04a0bd1406b812e42cdca60c0503"
+    },
+    {
+      "path": "tests/test_mace_like_model.py",
+      "bytes": 3986,
+      "sha256": "42fdaadc826bcaab76bfc9bea5b12a8a1cd00b4e7a764827361337669e893227"
+    },
+    {
+      "path": "tests/test_oracle_basis.py",
+      "bytes": 5160,
+      "sha256": "5af6f485d464941b4d481284202d1e5277a928d754e25484e94558ccb6fdb23c"
+    },
+    {
+      "path": "tests/test_periodic.py",
+      "bytes": 15043,
+      "sha256": "6974f1a6d29eec76db933cfafc65ad50b5d7c277c1fe48f739c3363b95320ddf"
+    },
+    {
+      "path": "tests/test_regular_decoder.py",
+      "bytes": 8532,
+      "sha256": "bfbc7a710d9a23141b3d083b0c97bc4cce08848118e702edea5270e66254e3a3"
+    },
+    {
+      "path": "tests/test_scf_benchmark_analysis.py",
+      "bytes": 2593,
+      "sha256": "b0b09108288f84daaf4dd10c5407f07a1ebad5e6c01dd97278071958c61c2675"
+    }
+  ],
+  "experiment_files": [
+    {
+      "path": "runs/nmc_oracle_pbc_fixed_r16/sample_0004_regular_r16.json",
+      "bytes": 4970,
+      "sha256": "ff5675e8482f2bb0652e54fc392430cb7919e441cf01e88134a75ffa37ba4a17"
+    },
+    {
+      "path": "runs/nmc_oracle_pbc_fixed_r16/sample_0006_regular_r16.json",
+      "bytes": 4982,
+      "sha256": "fe733841916eef2668e42dba4dfdcef67c55fac030c7e3ca7048c32165de2c9b"
+    },
+    {
+      "path": "runs/nmc_oracle_pbc_sweep/sample_0000_current.json",
+      "bytes": 11119,
+      "sha256": "8add0c7d94c332526cad0510dd7238f9fc57d820b527b6d01a572a720a4f94b1"
+    },
+    {
+      "path": "runs/nmc_oracle_pbc_sweep/sample_0000_regular_capacity.json",
+      "bytes": 4989,
+      "sha256": "b040ec2eb9c815e2c7870bd1af070b9abc5d3faf2f5f1fa1ffb4ee63b9aafd2c"
+    },
+    {
+      "path": "runs/nmc_oracle_pbc_sweep/sample_0001_current.json",
+      "bytes": 11114,
+      "sha256": "b8747ae9f1a43675e5bbf7f2aa77da2a6f8837507692493a8e08a2eedf4dc8c8"
+    },
+    {
+      "path": "runs/nmc_oracle_pbc_sweep/sample_0001_regular_capacity.json",
+      "bytes": 4987,
+      "sha256": "35f3aa9ba79bf0fc8523d5dec853c476719a32b7dbbb30fbf334aecaf854a3ce"
+    },
+    {
+      "path": "runs/nmc_oracle_pbc_sweep/sample_0002_current.json",
+      "bytes": 11105,
+      "sha256": "e18aab391a980e8c629bf4f501e45151fb3da9a86b86cea243c3361e146e3890"
+    },
+    {
+      "path": "runs/nmc_oracle_pbc_sweep/sample_0002_regular_capacity.json",
+      "bytes": 4998,
+      "sha256": "8e42d2f8a5341ae79b03ab0d4b7fe48beceb4a63ce599a848305777cbb033652"
+    },
+    {
+      "path": "runs/nmc_oracle_pbc_sweep/sample_0003_current.json",
+      "bytes": 10883,
+      "sha256": "f8b0ffc54d29322c12740c8ff65782834753345efc2677fafba4bfff973a45f5"
+    },
+    {
+      "path": "runs/nmc_oracle_pbc_sweep/sample_0003_regular_capacity.json",
+      "bytes": 4927,
+      "sha256": "1bc01f146272ee3a9521bf0a00b9faf08a6547ef36902ff8608b63747ac2ca1f"
+    },
+    {
+      "path": "runs/nmc_oracle_pbc_sweep/sample_0004_current.json",
+      "bytes": 11118,
+      "sha256": "a695f59067dd126fd57819c31853b13987616af3b4abf5eb52cca0e4f986f796"
+    },
+    {
+      "path": "runs/nmc_oracle_pbc_sweep/sample_0005_current.json",
+      "bytes": 10892,
+      "sha256": "08455f62fe5dd4ed74c313cf49388e60d40e062a10977dbb5dda47298a341aa8"
+    },
+    {
+      "path": "runs/nmc_oracle_pbc_sweep/sample_0005_regular_capacity.json",
+      "bytes": 4933,
+      "sha256": "fb980bb3e4c59d89148f07ac7f5d2ff6fba0d741f948b356c7376ceb809f2140"
+    },
+    {
+      "path": "runs/nmc_oracle_pbc_sweep/sample_0006_current.json",
+      "bytes": 11119,
+      "sha256": "23cf2270490619e68f50cb3d7d03fe2ea2dc564746771b266a33c3c49a892866"
+    },
+    {
+      "path": "runs/nmc_oracle_pbc_sweep/sample_0007_current.json",
+      "bytes": 11097,
+      "sha256": "0e72a33343fb935dd51d548155d26cdb5fa184557fe46ae0e0c3667dec1e6a0f"
+    },
+    {
+      "path": "runs/nmc_oracle_pbc_sweep/sample_0007_regular_capacity.json",
+      "bytes": 4990,
+      "sha256": "7f7f138cba86d03d87d280dfa15ab0164b7aea9210385997c488cc872bfe00ba"
+    },
+    {
+      "path": "runs/nmc_overfit_r12_seed42/best.pt",
+      "bytes": 5815451,
+      "sha256": "e205fcead4de30c1d948b545e704348bd570b479f44a31d999193be96f68d513"
+    },
+    {
+      "path": "runs/nmc_overfit_r12_seed42/history.json",
+      "bytes": 39118,
+      "sha256": "5ee15df2d53778b95797c3d0aedd6c194700970af15862b2b07bd2166c092f41"
+    },
+    {
+      "path": "runs/nmc_overfit_r12_seed42/last.pt",
+      "bytes": 5815451,
+      "sha256": "a713dbda91bc49e91ec1a8fda206d3f507055a9164a9b6b7a521672cfd5386db"
+    },
+    {
+      "path": "runs/nmc_overfit_r12_seed42/result.json",
+      "bytes": 5458,
+      "sha256": "d82e021aed5335c2d275ba199ae970105b1d0548c72c5b8803b68b7dd9b66b47"
+    },
+    {
+      "path": "runs/nmc_overfit_r12_seed42/settings.json",
+      "bytes": 1850,
+      "sha256": "84f22c4ca2ef28115f431a29b69d8857f6706d1190481ddf1658a3ec0d4cd623"
+    },
+    {
+      "path": "runs/nmc_overfit_r12_seed42/sources.json",
+      "bytes": 3117,
+      "sha256": "73b69429b5ff04ae8ef784f614ae74cd1d8a1b026239536e9b2272533468bd2b"
+    },
+    {
+      "path": "runs/nmc_overfit_r12_seed42_polish/best.pt",
+      "bytes": 1966467,
+      "sha256": "7a7d196687bf98acafbab02a77c281bffded148c0499ffbde24527a03bce1337"
+    },
+    {
+      "path": "runs/nmc_overfit_r12_seed42_polish/history.json",
+      "bytes": 25311,
+      "sha256": "5562b4b25a11ef5f458ea39abb4e27638ab9dbd854926941c8128484ef59aa95"
+    },
+    {
+      "path": "runs/nmc_overfit_r12_seed42_polish/last.pt",
+      "bytes": 1966467,
+      "sha256": "5015ebf6c348914f3d84ff70b034980c379b18c0b2c335bdd425fb0d8eb7d543"
+    },
+    {
+      "path": "runs/nmc_overfit_r12_seed42_polish/result.json",
+      "bytes": 7325,
+      "sha256": "f97e235308278899ab563bc591628863265e5ff218b84f3281b1919bc111e797"
+    },
+    {
+      "path": "runs/nmc_overfit_r12_seed42_polish/settings.json",
+      "bytes": 746,
+      "sha256": "a0a7bf9ef11fe7e423cdcc35cf3bb575b6f61ad6232ae687e66706d34418ddca"
+    },
+    {
+      "path": "runs/nmc_overfit_r16_seed42/best.pt",
+      "bytes": 6354587,
+      "sha256": "d4894f3294a11856c7b975c0d8e5886bf2678163de8dc76dc9c8f5f6c1053017"
+    },
+    {
+      "path": "runs/nmc_overfit_r16_seed42/history.json",
+      "bytes": 39089,
+      "sha256": "36c8355e2161a8ca27e29fbc3e6be3747c88c18ba5c2dd714bbc15a2f13712ec"
+    },
+    {
+      "path": "runs/nmc_overfit_r16_seed42/last.pt",
+      "bytes": 6354587,
+      "sha256": "ba8ce10b8d74eb8d34ff02748a5e820cb4273bbc10ab7c645d24cdc1008d0f56"
+    },
+    {
+      "path": "runs/nmc_overfit_r16_seed42/result.json",
+      "bytes": 5463,
+      "sha256": "6b3a3f6423ab2427ec8878ee5511c8c9bee0f82f5552040132286fd462bb70d4"
+    },
+    {
+      "path": "runs/nmc_overfit_r16_seed42/settings.json",
+      "bytes": 1849,
+      "sha256": "b68f5967ff6066b9fa7de8decf934435bfc885ba322a1861528dac949c566e33"
+    },
+    {
+      "path": "runs/nmc_overfit_r16_seed42/sources.json",
+      "bytes": 3187,
+      "sha256": "fa605a4a68a7002b644d07ff3578236dce776212ac88eee2d351bae36cab6d96"
+    },
+    {
+      "path": "runs/nmc_overfit_r16_seed42_polish/best.pt",
+      "bytes": 2151171,
+      "sha256": "9b37d82c584b95cbce269f03221018b693398ec87d4f11b6cc6a9464e68f6425"
+    },
+    {
+      "path": "runs/nmc_overfit_r16_seed42_polish/history.json",
+      "bytes": 25337,
+      "sha256": "2ff149a77513e3c530df5220debc3075870377125f3a84bd234b3686c0a42466"
+    },
+    {
+      "path": "runs/nmc_overfit_r16_seed42_polish/last.pt",
+      "bytes": 2151171,
+      "sha256": "31491f8317ec0a759d2655766335889db894e30c02bc2f5fa16451766e085651"
+    },
+    {
+      "path": "runs/nmc_overfit_r16_seed42_polish/result.json",
+      "bytes": 7339,
+      "sha256": "47448b0eef729136a6efa9aeac66b490b353b49c2426fbbd4a9d5fd24ea50ecf"
+    },
+    {
+      "path": "runs/nmc_overfit_r16_seed42_polish/settings.json",
+      "bytes": 745,
+      "sha256": "e7555a231593df9a56549c5fc8f425e937e8ca0d267acff44b40d591c88eee70"
+    }
+  ],
+  "report_files": [
+    {
+      "path": "reports/nmc_overfit_2026-10-26/summary.json",
+      "bytes": 6998,
+      "sha256": "5e09cabbf165166ad542580767572d8ac47d14b73ed868510123e2671d5d76a2"
+    },
+    {
+      "path": "reports/nmc_overfit_2026-10-26/report.md",
+      "bytes": 10460,
+      "sha256": "ca73779611008cefaa839e13d193f928fc42444868668e145933ec436db699e9"
+    },
+    {
+      "path": "reports/nmc_overfit_2026-10-26/paired_table.md",
+      "bytes": 750,
+      "sha256": "b654130fab55e43f64a476d9a36c592db0eca23478a4ca5e5050732f874f1867"
+    },
+    {
+      "path": "reports/nmc_overfit_2026-10-26/overfit_comparison.png",
+      "bytes": 184480,
+      "sha256": "45dc199619b4a5d58b834e56154d6b982d564f9c723dfebb41a92a0c77993021"
+    },
+    {
+      "path": "reports/nmc_overfit_2026-10-26/overfit_comparison.pdf",
+      "bytes": 26060,
+      "sha256": "827f37457bbdc2aed1f5a4fe7f77d3dbcf7ee76328fda2e5d492429d37cea1fd"
+    },
+    {
+      "path": "reports/nmc_overfit_2026-10-26/low_norm_oracle_audit.json",
+      "bytes": 1010,
+      "sha256": "3f62347075ad060c2b26319107750d6b5b9380cb518d38e7eba50816d6b755ac"
+    },
+    {
+      "path": "reports/nmc_overfit_2026-10-26/pytest.log",
+      "bytes": 102,
+      "sha256": "9323aacf8a290181c7def58b33616888221141d21351b7e16fb8c9ab2f3c16b0"
+    },
+    {
+      "path": "reports/nmc_overfit_2026-10-26/source_snapshot.zip",
+      "bytes": 146556,
+      "sha256": "f0672dae7bb3008b217116fe363f7e58a224788366f3b826cb9176e4bfab6f7a"
+    }
+  ],
+  "verification": {
+    "r12": {
+      "macro_nmae": 0.025357708737053248,
+      "max_bin_sum_error": 6.938893903907228e-18,
+      "max_cached_vs_direct_difference": 5.329070518200751e-15,
+      "mean_absolute_charge_error_percent": 0.1681933883544898,
+      "mean_radial_error_contributions_percentage_points": [
+        0.008384993523445454,
+        0.04833068446294133,
+        0.42277704008787836,
+        1.591259391693527,
+        0.46494810211532983,
+        7.066182220275829e-05
+      ]
+    },
+    "r16": {
+      "macro_nmae": 0.024385904487567195,
+      "max_bin_sum_error": 6.938893903907228e-18,
+      "max_cached_vs_direct_difference": 5.329070518200751e-15,
+      "mean_absolute_charge_error_percent": 0.20527856782813358,
+      "mean_radial_error_contributions_percentage_points": [
+        0.0040227867838525085,
+        0.0453832994214982,
+        0.41039315466410814,
+        1.5446296046504122,
+        0.43407347833610066,
+        8.812490074740615e-05
+      ]
+    }
+  },
+  "tests": {
+    "command": "python -m pytest -q",
+    "result": "39 passed in 24.30s",
+    "log": "pytest.log"
+  },
+  "data_sources": [
+    {
+      "sample_id": 0,
+      "source": "data\\nmc_cache\\0.CHGCAR.lz4",
+      "sha256": "37671903b0d93ec276e15d14d0acd07ebe02efac038b5c5f1b1d2085f805c128",
+      "formula": "Li11 Mn2 Co5 Ni5 O24",
+      "atoms": 47,
+      "grid_shape": [
+        56,
+        56,
+        140
+      ],
+      "volume": 376.17629003278256,
+      "oracle_file": "runs\\nmc_oracle_pbc_sweep\\sample_0000_current.json"
+    },
+    {
+      "sample_id": 1,
+      "source": "data\\nmc_cache\\1.CHGCAR.lz4",
+      "sha256": "c9b8d31ef80b47153da4c79b2331d7429b7b2da0edf8b468750bcf99aef66953",
+      "formula": "Li5 Co10 Ni2 O24",
+      "atoms": 41,
+      "grid_shape": [
+        56,
+        56,
+        140
+      ],
+      "volume": 366.6281992162823,
+      "oracle_file": "runs\\nmc_oracle_pbc_sweep\\sample_0001_current.json"
+    },
+    {
+      "sample_id": 2,
+      "source": "data\\nmc_cache\\2.CHGCAR.lz4",
+      "sha256": "c76fe0a472a46db6f8443b0f53a58110bf88897da1f31c4c212241b8a210279a",
+      "formula": "Li6 Mn7 Co2 Ni3 O24",
+      "atoms": 42,
+      "grid_shape": [
+        56,
+        56,
+        140
+      ],
+      "volume": 366.35190954513325,
+      "oracle_file": "runs\\nmc_oracle_pbc_sweep\\sample_0002_current.json"
+    },
+    {
+      "sample_id": 3,
+      "source": "data\\nmc_cache\\3.CHGCAR.lz4",
+      "sha256": "275303397bdf5801f50eeca5ae925400b4af6b433ec1ef26f52c9e46f538db29",
+      "formula": "Li10 Mn12 O24",
+      "atoms": 46,
+      "grid_shape": [
+        56,
+        56,
+        140
+      ],
+      "volume": 365.6761140762095,
+      "oracle_file": "runs\\nmc_oracle_pbc_sweep\\sample_0003_current.json"
+    },
+    {
+      "sample_id": 4,
+      "source": "data\\nmc_cache\\4.CHGCAR.lz4",
+      "sha256": "67a678c0932f1baa7826ebce76223c7c481c7644055511bfce0f63388f11388d",
+      "formula": "Li2 Mn6 Ni6 O24",
+      "atoms": 38,
+      "grid_shape": [
+        56,
+        56,
+        140
+      ],
+      "volume": 360.3876174470032,
+      "oracle_file": "runs\\nmc_oracle_pbc_sweep\\sample_0004_current.json"
+    },
+    {
+      "sample_id": 5,
+      "source": "data\\nmc_cache\\5.CHGCAR.lz4",
+      "sha256": "12a8a0ec694fecb76e6fdf39773da402457f117a0d6ce59d340236642290c850",
+      "formula": "Li7 Mn10 Co2 O24",
+      "atoms": 43,
+      "grid_shape": [
+        56,
+        56,
+        140
+      ],
+      "volume": 360.3501812827718,
+      "oracle_file": "runs\\nmc_oracle_pbc_sweep\\sample_0005_current.json"
+    },
+    {
+      "sample_id": 6,
+      "source": "data\\nmc_cache\\6.CHGCAR.lz4",
+      "sha256": "9c87420a5122a9f5bc9ab99fa1e3abd7be346f3ab1a553f429da00bf45ce78d7",
+      "formula": "Li2 Mn2 Co6 Ni4 O24",
+      "atoms": 38,
+      "grid_shape": [
+        56,
+        56,
+        140
+      ],
+      "volume": 359.390996966833,
+      "oracle_file": "runs\\nmc_oracle_pbc_sweep\\sample_0006_current.json"
+    },
+    {
+      "sample_id": 7,
+      "source": "data\\nmc_cache\\7.CHGCAR.lz4",
+      "sha256": "c27f7980b24101798fc6f9f1ec10022a3f7c01172e51ef87bd38567b91498232",
+      "formula": "Li6 Mn2 Co3 Ni7 O24",
+      "atoms": 42,
+      "grid_shape": [
+        56,
+        56,
+        140
+      ],
+      "volume": 370.6777832089952,
+      "oracle_file": "runs\\nmc_oracle_pbc_sweep\\sample_0007_current.json"
+    }
+  ]
+}

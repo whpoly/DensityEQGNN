@@ -1,0 +1,21 @@
+{
+  "note": "Report-time source and experiment hashes; the finite-budget results do not certify feature capacity.",
+  "files": {
+    "src/density_eqgnn/frozen_readout.py": "0ee702f364cb8a0bf7143ab3bea7015f4e4082e6ce10ddd58d9752089fe04517",
+    "src/density_eqgnn/models/mace_like_model.py": "39cb82252836b5182ecfe9ce6aa70f47d8dbb505d016c3ee9961874da26b44e2",
+    "scripts/calibrate_local_nmc_readout.py": "e0faf8c42e5b02e4cb5c7fbfeb31b30ae61daffc140ae1f5099f3d5c8f70601c",
+    "tests/test_frozen_readout.py": "5f51d28c76f04f3382203bfbb1367a9fc97ef88a5dc258d573a7eee93a80e551",
+    "runs/nmc_linear_stratified_r12_seed42/settings.json": "93932452ee80d68a843da0e46da70eef5b8ec9cfedcb17e5501681bc7c749470",
+    "runs/nmc_linear_stratified_r12_seed42/sources.json": "73b69429b5ff04ae8ef784f614ae74cd1d8a1b026239536e9b2272533468bd2b",
+    "runs/nmc_linear_stratified_r12_seed42/result.json": "c4e126a22878d8d4fb53f604eafeb30bdd56d608a399d3c805142dd0c0c04cb8",
+    "runs/nmc_linear_stratified_r12_seed42/history.json": "15074c2954a81358419da43e04184bd0e42f96404cff73e73afb8a7c381762c7",
+    "runs/nmc_linear_stratified_r12_seed42/best.pt": "60ee5e4d61a23bc7cf229f185886ec8b7a1a36384313b757dcd748be7d0186e6",
+    "runs/nmc_linear_stratified_r12_seed42/feature_spectrum.json": "8a2d4a544adf86bba671e82c38fae5c544d2bb91ccbf8a930f2e4638b7d0d097",
+    "runs/nmc_linear_stratified_r16_seed42/settings.json": "853a23deeb28265a991a3d868ab973a7d62e18cef920c055776bf4748c9a330b",
+    "runs/nmc_linear_stratified_r16_seed42/sources.json": "fa605a4a68a7002b644d07ff3578236dce776212ac88eee2d351bae36cab6d96",
+    "runs/nmc_linear_stratified_r16_seed42/result.json": "dfc3b082f768641f959c8eb2780b24ae4951e100bd92fa081a38ec6cef8b81aa",
+    "runs/nmc_linear_stratified_r16_seed42/history.json": "a530558142f14578357c0b1953435ed90e05e206f6e4562a7599c1a61ff884e1",
+    "runs/nmc_linear_stratified_r16_seed42/best.pt": "955d6df6bb56c24f17ecfdff436eb3ebd2105cbc2b4e44d553f9ee1ffe7763ae",
+    "runs/nmc_linear_stratified_r16_seed42/feature_spectrum.json": "5a449c3ea05b31553ae2cfc8d34baf1309781af0dec60ea9c88b6cfcf8865611"
+  }
+}

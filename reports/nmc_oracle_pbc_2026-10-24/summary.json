@@ -1,0 +1,112 @@
+{
+  "input_directory": "runs\\nmc_oracle_pbc_sweep",
+  "sample_ids": [
+    1
+  ],
+  "num_samples": 1,
+  "metric": "macro mean of per-structure full-grid NMAE, stored as ratios",
+  "interpretation": "per-structure fitted densities; not generalization scores or certified lower bounds",
+  "variants": {
+    "current": {
+      "mean_nmae": 0.0029182229369189927,
+      "min_nmae": 0.0029182229369189927,
+      "max_nmae": 0.0029182229369189927,
+      "coefficients_min": 12300,
+      "coefficients_max": 12300,
+      "mean_absolute_charge_error": 1.5807959531138738e-05,
+      "maximum_negative_fraction": 0.0,
+      "maximum_stored_matrix_vs_float64_eval_difference": 9.67925862724317e-10,
+      "largest_final_polish_improvement": 5.965291494207381e-07,
+      "maximum_numerical_dual_feasibility_residual": 1.6736432864594697e-07,
+      "maximum_numerical_primal_dual_gap": 0.00044920313085835325,
+      "mean_radial_error_contributions": [
+        1.3599881167650142e-09,
+        5.9842105952284266e-05,
+        0.0003079057911867257,
+        0.0017084699893447455,
+        0.0008418210787075549,
+        1.8261173956572002e-07
+      ]
+    },
+    "regular": {
+      "mean_nmae": 0.0029551684743098256,
+      "min_nmae": 0.0029551684743098256,
+      "max_nmae": 0.0029551684743098256,
+      "coefficients_min": 12300,
+      "coefficients_max": 12300,
+      "mean_absolute_charge_error": 5.841322873645724e-06,
+      "maximum_negative_fraction": 0.0,
+      "maximum_stored_matrix_vs_float64_eval_difference": 5.758466871310514e-09,
+      "largest_final_polish_improvement": 1.755956511818521e-07,
+      "maximum_numerical_dual_feasibility_residual": 9.063597670166956e-07,
+      "maximum_numerical_primal_dual_gap": 0.00042122198253664563,
+      "mean_radial_error_contributions": [
+        4.780271308375347e-05,
+        7.227369469801692e-05,
+        0.00031974752527445734,
+        0.0016733466687604468,
+        0.0008418712497818444,
+        1.266227113063014e-07
+      ]
+    },
+    "regular_bonds": {
+      "mean_nmae": 0.0025460105160724582,
+      "min_nmae": 0.0025460105160724582,
+      "max_nmae": 0.0025460105160724582,
+      "coefficients_min": 15972,
+      "coefficients_max": 15972,
+      "mean_absolute_charge_error": 2.2123824747831774e-05,
+      "maximum_negative_fraction": 0.0,
+      "maximum_stored_matrix_vs_float64_eval_difference": 3.8839704872423164e-09,
+      "largest_final_polish_improvement": 7.115225368180961e-07,
+      "maximum_numerical_dual_feasibility_residual": 4.959625309398138e-06,
+      "maximum_numerical_primal_dual_gap": 0.0006824004274643314,
+      "mean_radial_error_contributions": [
+        3.270554445204462e-05,
+        5.6826176464117395e-05,
+        0.00024797382665886123,
+        0.0013332548181593984,
+        0.0008750383009755848,
+        2.118493624516398e-07
+      ]
+    },
+    "regular_capacity": {
+      "mean_nmae": 0.0015148394552689105,
+      "min_nmae": 0.0015148394552689105,
+      "max_nmae": 0.0015148394552689105,
+      "coefficients_min": 16400,
+      "coefficients_max": 16400,
+      "mean_absolute_charge_error": 0.00010647377581003718,
+      "maximum_negative_fraction": 0.0,
+      "maximum_stored_matrix_vs_float64_eval_difference": 1.2211007615952826e-07,
+      "largest_final_polish_improvement": 5.574856710864953e-06,
+      "maximum_numerical_dual_feasibility_residual": 1.3376858495235677e-05,
+      "maximum_numerical_primal_dual_gap": 0.0006099549120283672,
+      "mean_radial_error_contributions": [
+        4.9972531963773e-06,
+        1.2455053549758418e-05,
+        8.260492379838413e-05,
+        0.0007087732251358218,
+        0.0007057592039072213,
+        2.4979568134744823e-07
+      ]
+    }
+  },
+  "gnn_controls": {
+    "gnn_old_graph_old_decoder": {
+      "mean_nmae": 0.009844973093101471,
+      "min_nmae": 0.009844973093101471,
+      "max_nmae": 0.009844973093101471
+    },
+    "gnn_old_graph_corrected_decoder": {
+      "mean_nmae": 0.010031712458779452,
+      "min_nmae": 0.010031712458779452,
+      "max_nmae": 0.010031712458779452
+    },
+    "gnn_corrected_graph_corrected_decoder": {
+      "mean_nmae": 0.25125914815389283,
+      "min_nmae": 0.25125914815389283,
+      "max_nmae": 0.25125914815389283
+    }
+  }
+}

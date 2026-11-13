@@ -1,6 +1,5 @@
-"""Density-supervised atom representation learning."""
+"""Equivariant atom-centred electron-density coefficients."""
 
 __all__ = ["__version__"]
 
 __version__ = "0.1.0"
-

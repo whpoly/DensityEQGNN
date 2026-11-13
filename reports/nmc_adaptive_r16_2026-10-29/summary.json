@@ -1,0 +1,62 @@
+{
+  "eden": {
+    "test_macro_nmae": 0.00284790591996329,
+    "validation_macro_nmae": 0.0028392920393981247,
+    "train_macro_nmae": 0.0028476709886706697,
+    "fresh_seconds": 1.2589504624920664,
+    "stages": {
+      "atom_graph": 0.003457437487668358,
+      "sad": 0.12906658746942412,
+      "grid_geometry": 0.05298206250881776,
+      "network": 0.22240691247861832,
+      "decoder": 0.8647587625018787
+    },
+    "speedup_vs_eden": 1.0,
+    "relative_error_vs_eden": 1.0
+  },
+  "baseline": {
+    "test_macro_nmae": 0.003456255791520301,
+    "validation_macro_nmae": 0.003458066270686443,
+    "train_macro_nmae": 0.0034446783768186146,
+    "fresh_seconds": 0.6714210124919191,
+    "stages": {
+      "atom_graph": 0.0034293374774279073,
+      "sad": 0.1292331749718869,
+      "grid_geometry": 0.05485323749599047,
+      "network": 0.20421146250737365,
+      "decoder": 0.2724106624809792
+    },
+    "speedup_vs_eden": 1.875053713048962,
+    "relative_error_vs_eden": 1.2136130506603438
+  },
+  "continued": {
+    "test_macro_nmae": 0.003314051143544636,
+    "validation_macro_nmae": 0.003316805829435166,
+    "train_macro_nmae": 0.00330249161639329,
+    "fresh_seconds": 0.6652566375269089,
+    "stages": {
+      "atom_graph": 0.0033097499690484256,
+      "sad": 0.12525783746968955,
+      "grid_geometry": 0.05510646248876583,
+      "network": 0.20425141252053436,
+      "decoder": 0.2762835250032367
+    },
+    "speedup_vs_eden": 1.892428262230068,
+    "relative_error_vs_eden": 1.1636799938908637
+  },
+  "adaptive": {
+    "test_macro_nmae": 0.0030610699103044,
+    "validation_macro_nmae": 0.003063263001350953,
+    "train_macro_nmae": 0.0030512919767565197,
+    "fresh_seconds": 0.6706035999959568,
+    "stages": {
+      "atom_graph": 0.003390487501746975,
+      "sad": 0.1273838625056669,
+      "grid_geometry": 0.05520570001681335,
+      "network": 0.2126422500150511,
+      "decoder": 0.27404429999296553
+    },
+    "speedup_vs_eden": 1.8773392545158674,
+    "relative_error_vs_eden": 1.074849379274389
+  }
+}

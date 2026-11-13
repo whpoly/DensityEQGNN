@@ -1,0 +1,31 @@
+{
+  "count": 500,
+  "summary": {
+    "deep_42": {
+      "density_nmae": 0.0027861161679899817,
+      "density_mae": 0.0019277909821687666,
+      "occupation_mae": 0.001829368621173397,
+      "occupation_relative_l1": 0.006787696425687105
+    },
+    "deep_43": {
+      "density_nmae": 0.0026350263454121272,
+      "density_mae": 0.0018230393362398969,
+      "occupation_mae": 0.0018405969086984176,
+      "occupation_relative_l1": 0.006825385097414267
+    },
+    "deep_mean_seconds": 0.5576450979989022,
+    "eden_42": {
+      "density_nmae": 0.004322718293130314,
+      "density_mae": 0.002994962896502752,
+      "occupation_mae": 0.0031278717480584693,
+      "occupation_relative_l1": 0.011604765254482398
+    },
+    "eden_43": {
+      "density_nmae": 0.004211040918791557,
+      "density_mae": 0.002917562045752236,
+      "occupation_mae": 0.0032457623081450083,
+      "occupation_relative_l1": 0.012031054633876801
+    },
+    "eden_mean_seconds": 1.2439491459960117
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "models": {
+    "teacher": {
+      "train_macro_nmae": 0.0016652700398776966,
+      "validation_macro_nmae": 0.0017842396292937933,
+      "test_macro_nmae": 0.0017810191308260345,
+      "full_grid_macro_nmae": 0.001688785315009384
+    },
+    "coefficient_mse_pretrain": {
+      "train_macro_nmae": 1.4540192493352455,
+      "validation_macro_nmae": 1.45729543385336,
+      "test_macro_nmae": 1.4528242329947219,
+      "full_grid_macro_nmae": 1.4542220335524636
+    },
+    "coefficient_mse_finetune": {
+      "train_macro_nmae": 0.06147140481646871,
+      "validation_macro_nmae": 0.06082833612719721,
+      "test_macro_nmae": 0.061672129864734936,
+      "full_grid_macro_nmae": 0.06142653970587821
+    },
+    "density_metric_pretrain": {
+      "train_macro_nmae": 0.03149458462445164,
+      "validation_macro_nmae": 0.031322152351634915,
+      "test_macro_nmae": 0.0313932565441965,
+      "full_grid_macro_nmae": 0.031466891258586205
+    },
+    "density_metric_finetune": {
+      "train_macro_nmae": 0.0242293829999314,
+      "validation_macro_nmae": 0.023944321802603863,
+      "test_macro_nmae": 0.0241130513205826,
+      "full_grid_macro_nmae": 0.024189152815887772
+    }
+  },
+  "original_r16_test_nmae": 0.020606891543074456,
+  "eden_test_nmae": 0.0028479058306520606
+}

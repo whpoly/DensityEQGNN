@@ -1,0 +1,36 @@
+basis:
+  num_radial: 4
+  cutoff: 3.5
+  lmax: 1
+  radial_width: null
+  pbc: true
+
+model:
+  num_radial: 4
+  lmax: 1
+  hidden_dim: 96
+  num_interactions: 3
+  edge_basis: 16
+  cutoff: 5.0
+  num_species: 119
+  pbc: true
+
+data:
+  root: data/nmc_subset
+  dataset_name: nmc_subset
+  train_split: train.txt
+  val_split: val.txt
+  test_split: test.txt
+  num_workers: 0
+  augment_rotations: true
+
+training:
+  output_dir: runs/nmc_small
+  device: auto
+  seed: 7
+  epochs: 40
+  batch_size: 2
+  lr: 0.001
+  weight_decay: 0.000001
+  grad_clip: 5.0
+  density_weight: 0.1

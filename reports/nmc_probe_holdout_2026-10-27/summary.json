@@ -1,0 +1,4650 @@
+{
+  "deepdft_one": {
+    "settings": {
+      "model": "deepdft",
+      "samples": [
+        1
+      ],
+      "output_dir": "runs\\nmc_probe_holdout_2026-10-26\\deepdft_one",
+      "root": "runs\\nmc_probe_holdout_2026-10-26",
+      "cache": "data\\nmc_cache",
+      "steps": 4000,
+      "probes": 1024,
+      "eval_every": 500,
+      "chunk": 2048,
+      "seed": 42,
+      "lr": 0.001,
+      "min_lr": 1e-05,
+      "loss": "l1",
+      "model_config": {
+        "repository": "https://github.com/peterbjorgensen/DeepDFT",
+        "commit": "a6bab4deb5cf05d9b46ae397b72253d04ea3c694",
+        "class": "densitymodel.PainnDensityModel",
+        "num_interactions": 3,
+        "hidden_state_size": 128,
+        "cutoff": 4.0,
+        "distance_embedding_size": 30,
+        "sources": {
+          "densitymodel.py": "6cac612ca2f7547b099b333ac096ccd0bebfc9268a9b9071d27ba542927fa51e",
+          "layer.py": "f32369a18be57947929d678f835d9f5f1976a8695370ebc45dcfbb266fe9ce1f"
+        }
+      },
+      "basis_config": null,
+      "initial_state_sha256": "d5765ac12c6e97a8153f9f2727134260f0fb5b6d0fa738fb435e654f36cf7f7e",
+      "parameter_count": 1487233,
+      "initialization": "from scratch; no pretrained weights, no oracle labels",
+      "objective": "training-only normalized density loss; uniform training-partition samples",
+      "selection": "fixed 8192-point subset of validation partition; never test or full-grid",
+      "optimizer": "Adam; cosine LR; no weight decay; gradient norm clip 5",
+      "note": "Official architecture is unmodified; local paired training protocol differs from published full-data runner",
+      "torch_version": "2.11.0+cu128",
+      "device": "cuda",
+      "source_hashes": {
+        "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\train_nmc_probe_holdout.py": "5407689c931c0697ae8398178c58477d5e14d4863788db70bc86cf70a79e6189",
+        "scripts\\nmc_probe_holdout.py": "fa75daa0a730c664f0c7091adb44596d0d2934b41f274e0562e9492558637a3b"
+      }
+    },
+    "history": [
+      {
+        "step": 1,
+        "elapsed_seconds": 6.873900500009768,
+        "learning_rate": 0.0009999998473295647,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.8675984425256495
+          }
+        ],
+        "selection_macro_nmae": 0.8675984425256495
+      },
+      {
+        "step": 500,
+        "elapsed_seconds": 31.495526099985,
+        "learning_rate": 0.0009623203685930793,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.012444809277205435
+          }
+        ],
+        "selection_macro_nmae": 0.012444809277205435
+      },
+      {
+        "step": 1000,
+        "elapsed_seconds": 54.677879100025166,
+        "learning_rate": 0.0008550178566873347,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.014424668434612996
+          }
+        ],
+        "selection_macro_nmae": 0.014424668434612996
+      },
+      {
+        "step": 1500,
+        "elapsed_seconds": 79.29877789999591,
+        "learning_rate": 0.0006944282990207144,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.01347299644639482
+          }
+        ],
+        "selection_macro_nmae": 0.01347299644639482
+      },
+      {
+        "step": 2000,
+        "elapsed_seconds": 102.07804160000524,
+        "learning_rate": 0.0005049999999999966,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.005548593220677669
+          }
+        ],
+        "selection_macro_nmae": 0.005548593220677669
+      },
+      {
+        "step": 2500,
+        "elapsed_seconds": 127.09260430000722,
+        "learning_rate": 0.00031557170097927805,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.00597153120686996
+          }
+        ],
+        "selection_macro_nmae": 0.00597153120686996
+      },
+      {
+        "step": 3000,
+        "elapsed_seconds": 149.42724879999878,
+        "learning_rate": 0.00015498214331265844,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.003999109441683813
+          }
+        ],
+        "selection_macro_nmae": 0.003999109441683813
+      },
+      {
+        "step": 3500,
+        "elapsed_seconds": 174.88167239999166,
+        "learning_rate": 4.767963140691319e-05,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.0028753941021327487
+          }
+        ],
+        "selection_macro_nmae": 0.0028753941021327487
+      },
+      {
+        "step": 4000,
+        "elapsed_seconds": 197.1892066000146,
+        "learning_rate": 1e-05,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.002648889811679538
+          }
+        ],
+        "selection_macro_nmae": 0.002648889811679538
+      }
+    ],
+    "sources": [
+      {
+        "sample_id": 1,
+        "source": "data\\nmc_cache\\1.CHGCAR.lz4",
+        "sha256": "c9b8d31ef80b47153da4c79b2331d7429b7b2da0edf8b468750bcf99aef66953",
+        "formula": "Li5 Co10 Ni2 O24",
+        "atoms": 41,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 366.6281992162823,
+        "split": {
+          "sample_id": 1,
+          "source_sha256": "c9b8d31ef80b47153da4c79b2331d7429b7b2da0edf8b468750bcf99aef66953",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "5af2caa3118b6d84941fa09ffa744daee25a76151e0fcbe9111c7ae2544ab361",
+            "validation": "a0d140b1ad52621b57e82e273564b82d2fd03ec8dc78596ea1054d09ae174ca5",
+            "test": "4a5a9ca1cff56fc5a4c273501e47a2bd29189dc2c3baae4a33c6eaf93801608d",
+            "selection": "6376150626924471346f60c6fd83cda660af547371aa2707f800000b0337e7f5"
+          }
+        },
+        "training_normalizer": 0.7070607583523894
+      }
+    ],
+    "result": {
+      "records": [
+        {
+          "sample_id": 1,
+          "formula": "Li5 Co10 Ni2 O24",
+          "train_nmae": 0.002528062818801394,
+          "train_charge_error": 0.00012511979876759504,
+          "train_negative_fraction": 6.854954912595565e-08,
+          "validation_nmae": 0.0025902570144959573,
+          "validation_charge_error": 0.0001217423027945118,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.0025608706640811037,
+          "test_charge_error": 5.190343983751834e-05,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.0025375155080642376
+        }
+      ],
+      "train_macro_nmae": 0.002528062818801394,
+      "validation_macro_nmae": 0.0025902570144959573,
+      "test_macro_nmae": 0.0025608706640811037,
+      "full_grid_macro_nmae": 0.0025375155080642376,
+      "model_name": "deepdft",
+      "best_step": 4000,
+      "seed": 42,
+      "parameter_count": 1487233,
+      "sampling_audit": [
+        {
+          "sample_id": 1,
+          "unique_training_points": 351232,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        }
+      ],
+      "elapsed_seconds": 202.921771000023,
+      "interpretation": "unseen spatial grid points in seen structures; not unseen-structure generalization",
+      "checkpoint_sha256": "f3423d3b813c3b5ae85fa21fbf826b091f78baa477ab98f277532c8c20c01ffd"
+    }
+  },
+  "r16_one": {
+    "settings": {
+      "model": "r16",
+      "samples": [
+        1
+      ],
+      "output_dir": "runs\\nmc_probe_holdout_2026-10-26\\r16_one",
+      "root": "runs\\nmc_probe_holdout_2026-10-26",
+      "cache": "data\\nmc_cache",
+      "steps": 4000,
+      "probes": 1024,
+      "eval_every": 500,
+      "chunk": 2048,
+      "seed": 42,
+      "lr": 0.001,
+      "min_lr": 1e-05,
+      "loss": "l1",
+      "model_config": {
+        "architecture": "mace_like",
+        "num_radial": 16,
+        "lmax": 2,
+        "hidden_lmax": 2,
+        "density_lmax": 4,
+        "readout_edge_lmax": 2,
+        "scalar_channels": 24,
+        "vector_channels": 12,
+        "tensor_channels": 6,
+        "octupole_channels": 0,
+        "num_interactions": 3,
+        "edge_basis": 16,
+        "radial_hidden": 64,
+        "cutoff": 6.0,
+        "num_species": 119,
+        "pbc": true,
+        "learnable_atomic_baseline": true
+      },
+      "basis_config": {
+        "num_radial": 16,
+        "lmax": 4,
+        "cutoff": 3.0,
+        "pbc": true,
+        "regular_radial": true,
+        "radial_whitening": true,
+        "radial_minimum": 0.09375
+      },
+      "initial_state_sha256": "fdffc23198e09114aae293ca22ba54afc8f60af3583e4083adcb8690f396a747",
+      "parameter_count": 521472,
+      "initialization": "from scratch; no pretrained weights, no oracle labels",
+      "objective": "training-only normalized density loss; uniform training-partition samples",
+      "selection": "fixed 8192-point subset of validation partition; never test or full-grid",
+      "optimizer": "Adam; cosine LR; no weight decay; gradient norm clip 5",
+      "note": "Official architecture is unmodified; local paired training protocol differs from published full-data runner",
+      "torch_version": "2.11.0+cu128",
+      "device": "cuda",
+      "source_hashes": {
+        "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\train_nmc_probe_holdout.py": "5407689c931c0697ae8398178c58477d5e14d4863788db70bc86cf70a79e6189",
+        "scripts\\nmc_probe_holdout.py": "fa75daa0a730c664f0c7091adb44596d0d2934b41f274e0562e9492558637a3b"
+      }
+    },
+    "history": [
+      {
+        "step": 1,
+        "elapsed_seconds": 4.364128899993375,
+        "learning_rate": 0.0009999998473295647,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 1.2372070859292272
+          }
+        ],
+        "selection_macro_nmae": 1.2372070859292272
+      },
+      {
+        "step": 500,
+        "elapsed_seconds": 48.9736658000038,
+        "learning_rate": 0.0009623203685930793,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.05680943131166007
+          }
+        ],
+        "selection_macro_nmae": 0.05680943131166007
+      },
+      {
+        "step": 1000,
+        "elapsed_seconds": 98.23445679998258,
+        "learning_rate": 0.0008550178566873347,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.03502360598242739
+          }
+        ],
+        "selection_macro_nmae": 0.03502360598242739
+      },
+      {
+        "step": 1500,
+        "elapsed_seconds": 162.65205039997818,
+        "learning_rate": 0.0006944282990207144,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.02625220390595232
+          }
+        ],
+        "selection_macro_nmae": 0.02625220390595232
+      },
+      {
+        "step": 2000,
+        "elapsed_seconds": 232.59180829999968,
+        "learning_rate": 0.0005049999999999966,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.025201621561451656
+          }
+        ],
+        "selection_macro_nmae": 0.025201621561451656
+      },
+      {
+        "step": 2500,
+        "elapsed_seconds": 303.40614839998307,
+        "learning_rate": 0.00031557170097927805,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.023288527311954237
+          }
+        ],
+        "selection_macro_nmae": 0.023288527311954237
+      },
+      {
+        "step": 3000,
+        "elapsed_seconds": 373.68665769998915,
+        "learning_rate": 0.00015498214331265844,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.022768490018680945
+          }
+        ],
+        "selection_macro_nmae": 0.022768490018680945
+      },
+      {
+        "step": 3500,
+        "elapsed_seconds": 444.50272970000515,
+        "learning_rate": 4.767963140691319e-05,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.02223272540079164
+          }
+        ],
+        "selection_macro_nmae": 0.02223272540079164
+      },
+      {
+        "step": 4000,
+        "elapsed_seconds": 515.5587075999938,
+        "learning_rate": 1e-05,
+        "records": [
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.022092816960099744
+          }
+        ],
+        "selection_macro_nmae": 0.022092816960099744
+      }
+    ],
+    "sources": [
+      {
+        "sample_id": 1,
+        "source": "data\\nmc_cache\\1.CHGCAR.lz4",
+        "sha256": "c9b8d31ef80b47153da4c79b2331d7429b7b2da0edf8b468750bcf99aef66953",
+        "formula": "Li5 Co10 Ni2 O24",
+        "atoms": 41,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 366.6281992162823,
+        "split": {
+          "sample_id": 1,
+          "source_sha256": "c9b8d31ef80b47153da4c79b2331d7429b7b2da0edf8b468750bcf99aef66953",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "5af2caa3118b6d84941fa09ffa744daee25a76151e0fcbe9111c7ae2544ab361",
+            "validation": "a0d140b1ad52621b57e82e273564b82d2fd03ec8dc78596ea1054d09ae174ca5",
+            "test": "4a5a9ca1cff56fc5a4c273501e47a2bd29189dc2c3baae4a33c6eaf93801608d",
+            "selection": "6376150626924471346f60c6fd83cda660af547371aa2707f800000b0337e7f5"
+          }
+        },
+        "training_normalizer": 0.7070607583523894
+      }
+    ],
+    "result": {
+      "records": [
+        {
+          "sample_id": 1,
+          "formula": "Li5 Co10 Ni2 O24",
+          "train_nmae": 0.02168455321979214,
+          "train_charge_error": 0.0021247417497746984,
+          "train_negative_fraction": 6.773635782727325e-07,
+          "validation_nmae": 0.021324293280077445,
+          "validation_charge_error": 0.0018864470345435957,
+          "validation_negative_fraction": 4.975675868514329e-07,
+          "test_nmae": 0.021317997173605285,
+          "test_charge_error": 0.0015168771382364807,
+          "test_negative_fraction": 2.7602692405936027e-06,
+          "full_grid_nmae": 0.021612125006825193
+        }
+      ],
+      "train_macro_nmae": 0.02168455321979214,
+      "validation_macro_nmae": 0.021324293280077445,
+      "test_macro_nmae": 0.021317997173605285,
+      "full_grid_macro_nmae": 0.021612125006825193,
+      "model_name": "r16",
+      "best_step": 4000,
+      "seed": 42,
+      "parameter_count": 521472,
+      "sampling_audit": [
+        {
+          "sample_id": 1,
+          "unique_training_points": 351232,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        }
+      ],
+      "elapsed_seconds": 528.6495061999885,
+      "interpretation": "unseen spatial grid points in seen structures; not unseen-structure generalization",
+      "checkpoint_sha256": "282a296e89d008935b62185e5846d9e024612ad7d49c2ee152753e49f284e6bf"
+    }
+  },
+  "deepdft_eight": {
+    "settings": {
+      "model": "deepdft",
+      "samples": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "output_dir": "runs\\nmc_probe_holdout_2026-10-26\\deepdft_eight",
+      "root": "runs\\nmc_probe_holdout_2026-10-26",
+      "cache": "data\\nmc_cache",
+      "steps": 16000,
+      "probes": 1024,
+      "eval_every": 500,
+      "chunk": 2048,
+      "seed": 42,
+      "lr": 0.001,
+      "min_lr": 1e-05,
+      "loss": "l1",
+      "model_config": {
+        "repository": "https://github.com/peterbjorgensen/DeepDFT",
+        "commit": "a6bab4deb5cf05d9b46ae397b72253d04ea3c694",
+        "class": "densitymodel.PainnDensityModel",
+        "num_interactions": 3,
+        "hidden_state_size": 128,
+        "cutoff": 4.0,
+        "distance_embedding_size": 30,
+        "sources": {
+          "densitymodel.py": "6cac612ca2f7547b099b333ac096ccd0bebfc9268a9b9071d27ba542927fa51e",
+          "layer.py": "f32369a18be57947929d678f835d9f5f1976a8695370ebc45dcfbb266fe9ce1f"
+        }
+      },
+      "basis_config": null,
+      "initial_state_sha256": "d5765ac12c6e97a8153f9f2727134260f0fb5b6d0fa738fb435e654f36cf7f7e",
+      "parameter_count": 1487233,
+      "initialization": "from scratch; no pretrained weights, no oracle labels",
+      "objective": "training-only normalized density loss; uniform training-partition samples",
+      "selection": "fixed 8192-point subset of validation partition; never test or full-grid",
+      "optimizer": "Adam; cosine LR; no weight decay; gradient norm clip 5",
+      "note": "Official architecture is unmodified; local paired training protocol differs from published full-data runner",
+      "torch_version": "2.11.0+cu128",
+      "device": "cuda",
+      "source_hashes": {
+        "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\train_nmc_probe_holdout.py": "5407689c931c0697ae8398178c58477d5e14d4863788db70bc86cf70a79e6189",
+        "scripts\\nmc_probe_holdout.py": "fa75daa0a730c664f0c7091adb44596d0d2934b41f274e0562e9492558637a3b"
+      }
+    },
+    "history": [
+      {
+        "step": 1,
+        "elapsed_seconds": 79.26606270001503,
+        "learning_rate": 0.0009999999904580974,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.8572136189493497
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.8736621177361463
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.8634828855696669
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.8508084414528455
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.8731633226309079
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.857949647455771
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.8815251664234458
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.8725410260461463
+          }
+        ],
+        "selection_macro_nmae": 0.8662932782830349
+      },
+      {
+        "step": 500,
+        "elapsed_seconds": 113.79692120000254,
+        "learning_rate": 0.000997616439702738,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.04341020174161278
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.035594087344686755
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.03924068329174809
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.05009133307150388
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.03680991737798787
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.0445821833001004
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.03685780911764438
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.03777168399966448
+          }
+        ],
+        "selection_macro_nmae": 0.04054473740561858
+      },
+      {
+        "step": 1000,
+        "elapsed_seconds": 149.0735206999816,
+        "learning_rate": 0.0009904887137995983,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.017445403098660335
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.0160369012298239
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.01860841278366549
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.019439714387088716
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.021853018906948504
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.019356655094304155
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.01868038422748983
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.019608199966052044
+          }
+        ],
+        "selection_macro_nmae": 0.01887858621175412
+      },
+      {
+        "step": 1500,
+        "elapsed_seconds": 183.9338967000367,
+        "learning_rate": 0.0009786854661874226,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.020477675016621937
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.01695285378054643
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.018934124648653815
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.02099633406015823
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.019320779825121853
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.019497306332406154
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.017321450182360625
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.01865227693331155
+          }
+        ],
+        "selection_macro_nmae": 0.019019100097397573
+      },
+      {
+        "step": 2000,
+        "elapsed_seconds": 218.13500190002378,
+        "learning_rate": 0.0009623203685930604,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.016596565789793037
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.013938296122540208
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.015475502509845125
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.017568286224363426
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.014499790203019836
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.016736928399155387
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.013805781068150185
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.01492238901238137
+          }
+        ],
+        "selection_macro_nmae": 0.015442942416156073
+      },
+      {
+        "step": 2500,
+        "elapsed_seconds": 253.73536380002042,
+        "learning_rate": 0.0009415510258524121,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.011828268687191945
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.010863802360467016
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.011734215341858877
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.011218142174908574
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.010060373740668725
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.01225583679021985
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.010421655058819987
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.009722079330412336
+          }
+        ],
+        "selection_macro_nmae": 0.011013046685568413
+      },
+      {
+        "step": 3000,
+        "elapsed_seconds": 290.0298957999912,
+        "learning_rate": 0.0009165774580897375,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.020015257855880646
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.01899000513996437
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.01726826857933513
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.018083766709597396
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.014826748891574083
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.019130501468104858
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.01673326371263557
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.01674924733636895
+          }
+        ],
+        "selection_macro_nmae": 0.017724632461682627
+      },
+      {
+        "step": 3500,
+        "elapsed_seconds": 324.2954642000259,
+        "learning_rate": 0.0008876401744145328,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.025105326160689372
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.024391274797873414
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.024034342355465158
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.0215380621690837
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.02398681623853668
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.02247222535672196
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.022645010624625476
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.025058149128356716
+          }
+        ],
+        "selection_macro_nmae": 0.02365390085391906
+      },
+      {
+        "step": 4000,
+        "elapsed_seconds": 357.5334945000359,
+        "learning_rate": 0.0008550178566873189,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.007979993123201311
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.005979330420768539
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.008736338553491992
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.008108466270411303
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.008130266672819964
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.009093078267458511
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.007246969539655578
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.006996820167065821
+          }
+        ],
+        "selection_macro_nmae": 0.007783907876859128
+      },
+      {
+        "step": 4500,
+        "elapsed_seconds": 394.4979980000062,
+        "learning_rate": 0.0008190246756609821,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.01168062219377807
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.008789097480923054
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.00957809401805066
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.00900443334044632
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.008133679589680202
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.009673416491845842
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.00825583374115045
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.009007525432627493
+          }
+        ],
+        "selection_macro_nmae": 0.009265337786062762
+      },
+      {
+        "step": 5000,
+        "elapsed_seconds": 432.46663580002496,
+        "learning_rate": 0.0007800072653446824,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.008806913435577246
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.0071937616503708985
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.009914503811075946
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.01113387451643504
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.008965632814384684
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.01095689130345423
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.007731295203487029
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.007711123544381594
+          }
+        ],
+        "selection_macro_nmae": 0.009051749534895834
+      },
+      {
+        "step": 5500,
+        "elapsed_seconds": 481.1205025999807,
+        "learning_rate": 0.0007383413847288495,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.009332132057448884
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.008926839311066859
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.010567179721666764
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.011224367334225587
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.009431312478230381
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.011255298907236212
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.009115829754337829
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.008834713467531959
+          }
+        ],
+        "selection_macro_nmae": 0.00983595912896806
+      },
+      {
+        "step": 6000,
+        "elapsed_seconds": 531.1491799000069,
+        "learning_rate": 0.0006944282990207018,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.009532583114734568
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.00750219407221336
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.010181677986451065
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.009447530120902664
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.01030975245654759
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.0100216864180678
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.008790928225894723
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.0094059381958255
+          }
+        ],
+        "selection_macro_nmae": 0.009399036323829657
+      },
+      {
+        "step": 6500,
+        "elapsed_seconds": 580.9647280999925,
+        "learning_rate": 0.0006486909152409415,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.006571632520556554
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.006038418252076991
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.00740471079905193
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.006706198410346614
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.006408365041001895
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.00800047182227819
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.006342246570168825
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.0060382207962339715
+          }
+        ],
+        "selection_macro_nmae": 0.006688783026464371
+      },
+      {
+        "step": 7000,
+        "elapsed_seconds": 630.8851227000123,
+        "learning_rate": 0.0006015697093979668,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.00796640244725277
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.0057957316040382805
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.00769936939153066
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.0073501466087447865
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.0069553090326561675
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.007936020209714793
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.006332067276429414
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.007087906608610279
+          }
+        ],
+        "selection_macro_nmae": 0.007140369147372144
+      },
+      {
+        "step": 7500,
+        "elapsed_seconds": 680.7323522000224,
+        "learning_rate": 0.0005535184844631179,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.007081249974722982
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.00664255050805068
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.008256029544100488
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.007584222103633246
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.0076207376212924696
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.00844303809052314
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.007173011956963581
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.006550104801084987
+          }
+        ],
+        "selection_macro_nmae": 0.007418868075046447
+      },
+      {
+        "step": 8000,
+        "elapsed_seconds": 730.0220012000063,
+        "learning_rate": 0.0005049999999999864,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.006552771294180223
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.006477870705385221
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.00826357627805682
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.007986597617226093
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.008148995736341662
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.008723511024408787
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.007394012781643677
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.006976647715658332
+          }
+        ],
+        "selection_macro_nmae": 0.0075654978941126026
+      },
+      {
+        "step": 8500,
+        "elapsed_seconds": 779.9003157999832,
+        "learning_rate": 0.0004564815155368529,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.005440767177658214
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.005278926249385644
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.005498295633071228
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.0056782905068709635
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.004632534234065819
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.0060643919008681576
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.004688259367759005
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.0047842787883703875
+          }
+        ],
+        "selection_macro_nmae": 0.005258217982256177
+      },
+      {
+        "step": 9000,
+        "elapsed_seconds": 829.2349816000205,
+        "learning_rate": 0.0004084302906020028,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.005206314272591636
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.004316500782013668
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.005567344317417968
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.005250626516966811
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.005543108664024326
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.0057786457651330305
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.005123244593368749
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.005176302610528207
+          }
+        ],
+        "selection_macro_nmae": 0.0052452609402555495
+      },
+      {
+        "step": 9500,
+        "elapsed_seconds": 879.5534798000008,
+        "learning_rate": 0.0003613090847590295,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.0046488895127958394
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.004486111519892553
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.005258304599385805
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.0047638532673134094
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.0049979436484758315
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.0053458144905565875
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.00469263646569023
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.004633504523397134
+          }
+        ],
+        "selection_macro_nmae": 0.004853382253438424
+      },
+      {
+        "step": 10000,
+        "elapsed_seconds": 928.2804992999882,
+        "learning_rate": 0.0003155717009792716,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.004169759829047679
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.0033281915243975504
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.004754470993706658
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.00397603693964641
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.004409451248035883
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.004650395937827004
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.0038036346051215602
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.004035561774156821
+          }
+        ],
+        "selection_macro_nmae": 0.0041409378564924455
+      },
+      {
+        "step": 10500,
+        "elapsed_seconds": 974.855216099997,
+        "learning_rate": 0.0002716586152711235,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.005916861564009247
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.007376987780516366
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.0063655395968082356
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.0054139324900911
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.006641425218116833
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.005996110562181186
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.0074778122150545665
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.006357188538973677
+          }
+        ],
+        "selection_macro_nmae": 0.006443232245718901
+      },
+      {
+        "step": 11000,
+        "elapsed_seconds": 1024.1406471999944,
+        "learning_rate": 0.0002299927346552926,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.003823732920392217
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.0035785899711283085
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.004499251902151512
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.00364406034471094
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.004046713004730814
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.004502633039073533
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.004018468635981546
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.0039397047761384855
+          }
+        ],
+        "selection_macro_nmae": 0.004006644324288419
+      },
+      {
+        "step": 11500,
+        "elapsed_seconds": 1074.1831690000254,
+        "learning_rate": 0.00019097532433899196,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.0027474939555086433
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.0023905628187719744
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.003521606513494796
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.0028954029076472872
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.0030156233463020095
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.003621234120795127
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.0027043088504073937
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.0027117612581301492
+          }
+        ],
+        "selection_macro_nmae": 0.0029509992213821727
+      },
+      {
+        "step": 12000,
+        "elapsed_seconds": 1123.2643774999888,
+        "learning_rate": 0.00015498214331265622,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.002908282205948489
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.0025750494119579958
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.003737720922340253
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.00355066885369081
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.003262151154640103
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.0038519704677575243
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.002957289458118862
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.0029649644466177884
+          }
+        ],
+        "selection_macro_nmae": 0.003226012115133978
+      },
+      {
+        "step": 12500,
+        "elapsed_seconds": 1171.706083099998,
+        "learning_rate": 0.00012235982558544392,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.0027431979140704397
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.002152764395571464
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.0033424702931544826
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.0030794700901428792
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.002881715136480695
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.0035693477008893956
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.0024237718591768377
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.0026341300247887355
+          }
+        ],
+        "selection_macro_nmae": 0.002853358426784366
+      },
+      {
+        "step": 13000,
+        "elapsed_seconds": 1221.3479801000212,
+        "learning_rate": 9.342254191023892e-05,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.0029077602846939526
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.002544674625131111
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.0033645983599991467
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.002813764875030007
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.0031351861090155755
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.0033229084410226943
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.0028450944647696067
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.002743546827828007
+          }
+        ],
+        "selection_macro_nmae": 0.0029596917484362626
+      },
+      {
+        "step": 13500,
+        "elapsed_seconds": 1271.1830366000067,
+        "learning_rate": 6.844897414756355e-05,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.0024553757452915347
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.0021393620663333283
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.003129701705960677
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.0026275762096578887
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.00262424098728774
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.003183863625256033
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.0023896459670800095
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.0024191930027146645
+          }
+        ],
+        "selection_macro_nmae": 0.0026211199136977345
+      },
+      {
+        "step": 14000,
+        "elapsed_seconds": 1320.729520199995,
+        "learning_rate": 4.767963140691283e-05,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.002222082546070594
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.0017795285455793797
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.002905864514977918
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.002379486508678933
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.0024194184380511015
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.0030045547053930387
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.002080109527365665
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.0021083947875981442
+          }
+        ],
+        "selection_macro_nmae": 0.0023624299467143468
+      },
+      {
+        "step": 14500,
+        "elapsed_seconds": 1370.1298559000134,
+        "learning_rate": 3.13145338125569e-05,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.0021407795657509975
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.0016979202528626127
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.0028853543995140045
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.0023051316688672283
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.002344591801063838
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.002911014223295272
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.001997832032074816
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.0020599081047612522
+          }
+        ],
+        "selection_macro_nmae": 0.002292816506023753
+      },
+      {
+        "step": 15000,
+        "elapsed_seconds": 1412.9550069000106,
+        "learning_rate": 1.951128620040129e-05,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.0020964698114517197
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.0016236829264845562
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.0027848292752334527
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.0022456155145655424
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.00229411259075982
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.0028629605477786357
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.0019055412158140424
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.001969784464170169
+          }
+        ],
+        "selection_macro_nmae": 0.0022228745432822422
+      },
+      {
+        "step": 15500,
+        "elapsed_seconds": 1462.34507510002,
+        "learning_rate": 1.2383560297262655e-05,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.0019951358732775175
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.0015367729876632984
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.002733823893543315
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.00213580388348812
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.0022420198537554826
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.002774791792566464
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.0018417104001072508
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.0019181301995047396
+          }
+        ],
+        "selection_macro_nmae": 0.0021472736104882735
+      },
+      {
+        "step": 16000,
+        "elapsed_seconds": 1511.755970099999,
+        "learning_rate": 1e-05,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.0019843883317191007
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.0015432667757608412
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.0027353579644323685
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.0021343096348453577
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.002226967920050191
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.002782266183202102
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.0018357997435056413
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.0018928922225753876
+          }
+        ],
+        "selection_macro_nmae": 0.0021419060970113736
+      }
+    ],
+    "sources": [
+      {
+        "sample_id": 0,
+        "source": "data\\nmc_cache\\0.CHGCAR.lz4",
+        "sha256": "37671903b0d93ec276e15d14d0acd07ebe02efac038b5c5f1b1d2085f805c128",
+        "formula": "Li11 Mn2 Co5 Ni5 O24",
+        "atoms": 47,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 376.17629003278256,
+        "split": {
+          "sample_id": 0,
+          "source_sha256": "37671903b0d93ec276e15d14d0acd07ebe02efac038b5c5f1b1d2085f805c128",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "f37714a0af4b9e163e35905e2aefd2aa06ffbf76384dce1bbd12f0e4d070a609",
+            "validation": "0afdd71425b5a0068997d1f86d7576fe081206d94cf951aab89619adfdf46fbb",
+            "test": "41947446c38c5394ca660756c9b6754ba4e1c386a68257079efd997edf90fdfc",
+            "selection": "4da7958ae4c127623c6b949cf71927dc7fbca9cfff0a546ebddf4a6525651dff"
+          }
+        },
+        "training_normalizer": 0.7003603833382752
+      },
+      {
+        "sample_id": 1,
+        "source": "data\\nmc_cache\\1.CHGCAR.lz4",
+        "sha256": "c9b8d31ef80b47153da4c79b2331d7429b7b2da0edf8b468750bcf99aef66953",
+        "formula": "Li5 Co10 Ni2 O24",
+        "atoms": 41,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 366.6281992162823,
+        "split": {
+          "sample_id": 1,
+          "source_sha256": "c9b8d31ef80b47153da4c79b2331d7429b7b2da0edf8b468750bcf99aef66953",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "5af2caa3118b6d84941fa09ffa744daee25a76151e0fcbe9111c7ae2544ab361",
+            "validation": "a0d140b1ad52621b57e82e273564b82d2fd03ec8dc78596ea1054d09ae174ca5",
+            "test": "4a5a9ca1cff56fc5a4c273501e47a2bd29189dc2c3baae4a33c6eaf93801608d",
+            "selection": "6376150626924471346f60c6fd83cda660af547371aa2707f800000b0337e7f5"
+          }
+        },
+        "training_normalizer": 0.7070607583523894
+      },
+      {
+        "sample_id": 2,
+        "source": "data\\nmc_cache\\2.CHGCAR.lz4",
+        "sha256": "c76fe0a472a46db6f8443b0f53a58110bf88897da1f31c4c212241b8a210279a",
+        "formula": "Li6 Mn7 Co2 Ni3 O24",
+        "atoms": 42,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 366.35190954513325,
+        "split": {
+          "sample_id": 2,
+          "source_sha256": "c76fe0a472a46db6f8443b0f53a58110bf88897da1f31c4c212241b8a210279a",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "76e7b103cd4527d6c86dcdbdba5c2c6296b440998f4217b6917bd1df2805c80f",
+            "validation": "dc6e4c3f18ef67d4fd9c2078f71e30ac8bff999a0a93e48d1e1f76b85750a9b7",
+            "test": "f8ed150cdd857cc75d23f00a5d1d83dee97993fb09ed336cbdfe5c7db97a8e38",
+            "selection": "5e9ed6e94ffed7f885891bc322cb12f2488d2a8e372ac5769776278b134200fa"
+          }
+        },
+        "training_normalizer": 0.6738534805234823
+      },
+      {
+        "sample_id": 3,
+        "source": "data\\nmc_cache\\3.CHGCAR.lz4",
+        "sha256": "275303397bdf5801f50eeca5ae925400b4af6b433ec1ef26f52c9e46f538db29",
+        "formula": "Li10 Mn12 O24",
+        "atoms": 46,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 365.6761140762095,
+        "split": {
+          "sample_id": 3,
+          "source_sha256": "275303397bdf5801f50eeca5ae925400b4af6b433ec1ef26f52c9e46f538db29",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "b3439559ec37ffb0dad515d120f6c51db275c274ba5f46011eaba8c98bb17232",
+            "validation": "edda2697875c3474b2b8e2a3b48da073e9f2a8f12928b7cac509b5b4ee78010f",
+            "test": "46fc9e1640e62af78a5425c73dd888c77b95cf659b13b6b28d5c20a840f3a572",
+            "selection": "c29e0a6fb9669e5c1f21f79cfa698ae58621309177122d45daa4fd7f64f9155c"
+          }
+        },
+        "training_normalizer": 0.6498426815000866
+      },
+      {
+        "sample_id": 4,
+        "source": "data\\nmc_cache\\4.CHGCAR.lz4",
+        "sha256": "67a678c0932f1baa7826ebce76223c7c481c7644055511bfce0f63388f11388d",
+        "formula": "Li2 Mn6 Ni6 O24",
+        "atoms": 38,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 360.3876174470032,
+        "split": {
+          "sample_id": 4,
+          "source_sha256": "67a678c0932f1baa7826ebce76223c7c481c7644055511bfce0f63388f11388d",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "09cc21c9f60f941b18a6f705ae608e253b4f736dbf76276e24ead0085c741943",
+            "validation": "d8727fce961ed64f726ddb911e36a2cfd858fd5a6d30453ad42629962494196e",
+            "test": "8084a8400e235e25a9607831a793576a1cc4a2fac635d88b2f1a62778f59134d",
+            "selection": "39482be49d9d9ca0bc65dc907a97d3e578f2eaef962e6b3f0c6b4cc0f49ba436"
+          }
+        },
+        "training_normalizer": 0.6880315036446922
+      },
+      {
+        "sample_id": 5,
+        "source": "data\\nmc_cache\\5.CHGCAR.lz4",
+        "sha256": "12a8a0ec694fecb76e6fdf39773da402457f117a0d6ce59d340236642290c850",
+        "formula": "Li7 Mn10 Co2 O24",
+        "atoms": 43,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 360.3501812827718,
+        "split": {
+          "sample_id": 5,
+          "source_sha256": "12a8a0ec694fecb76e6fdf39773da402457f117a0d6ce59d340236642290c850",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "1646f0e7480973b8ec6afc767ef86288bbf874d7afc0ba99690502592bf1b9ea",
+            "validation": "5ec8fc2f63160abd2a5e2772306880ea742f88bfe1d2d86127dec97870bcb241",
+            "test": "e1d3ba61ff3b9f1b96280836aed362c8245a43c79940bb768a69b52234efb548",
+            "selection": "19607c0464d43b6074a244b2532aa999e51239e47a2bc5168f054c69c2d27c5c"
+          }
+        },
+        "training_normalizer": 0.6615715584604527
+      },
+      {
+        "sample_id": 6,
+        "source": "data\\nmc_cache\\6.CHGCAR.lz4",
+        "sha256": "9c87420a5122a9f5bc9ab99fa1e3abd7be346f3ab1a553f429da00bf45ce78d7",
+        "formula": "Li2 Mn2 Co6 Ni4 O24",
+        "atoms": 38,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 359.390996966833,
+        "split": {
+          "sample_id": 6,
+          "source_sha256": "9c87420a5122a9f5bc9ab99fa1e3abd7be346f3ab1a553f429da00bf45ce78d7",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "7fbf53c3514df83ece28bbb56c0b931641f3406f4f4646b0782a251748ee175a",
+            "validation": "1c0089967e22db0f390622e68b70be68ebf4c7fd2c25a2d8c229fd323556532e",
+            "test": "a675facdc317ebdeb56ef5a5e0b8668d3a29886ec527fd9e0870ed3b5d5b7f06",
+            "selection": "dc15a3e5a552a492994619186cb6972459f8f8320d0037c16fc2e47952a620f7"
+          }
+        },
+        "training_normalizer": 0.7066184786267984
+      },
+      {
+        "sample_id": 7,
+        "source": "data\\nmc_cache\\7.CHGCAR.lz4",
+        "sha256": "c27f7980b24101798fc6f9f1ec10022a3f7c01172e51ef87bd38567b91498232",
+        "formula": "Li6 Mn2 Co3 Ni7 O24",
+        "atoms": 42,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 370.6777832089952,
+        "split": {
+          "sample_id": 7,
+          "source_sha256": "c27f7980b24101798fc6f9f1ec10022a3f7c01172e51ef87bd38567b91498232",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "f0968979d18bded02b4f9cdbf8969796bd76eea9be09097724e7ec493ea00bd7",
+            "validation": "9187e0042a2333b608cff37e741253793ac24a5881f580c69b2356c91f640618",
+            "test": "b259de77249a537b48a549fde479ab52e67b0a5b1a652957624328bfeb7d4c64",
+            "selection": "588f750cc745574331ef2bc359e15e7d52850091b4d1c0a2af6471335e2e24b4"
+          }
+        },
+        "training_normalizer": 0.7044185487672121
+      }
+    ],
+    "result": {
+      "records": [
+        {
+          "sample_id": 0,
+          "formula": "Li11 Mn2 Co5 Ni5 O24",
+          "train_nmae": 0.0019283867906434936,
+          "train_charge_error": -2.844156104710274e-06,
+          "train_negative_fraction": 0.0,
+          "validation_nmae": 0.001969868848358319,
+          "validation_charge_error": 1.220768422881456e-05,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.001948134825221746,
+          "test_charge_error": -2.492862371281168e-05,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.0019345578119799262
+        },
+        {
+          "sample_id": 1,
+          "formula": "Li5 Co10 Ni2 O24",
+          "train_nmae": 0.001507425893229766,
+          "train_charge_error": 0.00018359765415828158,
+          "train_negative_fraction": 0.0,
+          "validation_nmae": 0.001518666098948676,
+          "validation_charge_error": 0.00021388973747662007,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.0015228055052978805,
+          "test_charge_error": 0.00015145783648002562,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.001510080457255807
+        },
+        {
+          "sample_id": 2,
+          "formula": "Li6 Mn7 Co2 Ni3 O24",
+          "train_nmae": 0.002631391992469746,
+          "train_charge_error": 0.00012997167101475043,
+          "train_negative_fraction": 0.0,
+          "validation_nmae": 0.0026735472131694912,
+          "validation_charge_error": 8.792890222327712e-05,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.0026956493602387386,
+          "test_charge_error": 0.00011884284550895759,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.0026420749323437186
+        },
+        {
+          "sample_id": 3,
+          "formula": "Li10 Mn12 O24",
+          "train_nmae": 0.0020900630651872272,
+          "train_charge_error": 0.00010791624528092873,
+          "train_negative_fraction": 0.0,
+          "validation_nmae": 0.002100498405441035,
+          "validation_charge_error": 9.380171943910901e-05,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.0021109362053005104,
+          "test_charge_error": 0.00010827469019244526,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.002093202570273732
+        },
+        {
+          "sample_id": 4,
+          "formula": "Li2 Mn6 Ni6 O24",
+          "train_nmae": 0.0021912431325715525,
+          "train_charge_error": 0.00014574146811603477,
+          "train_negative_fraction": 0.0,
+          "validation_nmae": 0.0022476673399401655,
+          "validation_charge_error": 0.00015760437869486466,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.0022011932464330287,
+          "test_charge_error": 0.0001241064797145018,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.002197833617270477
+        },
+        {
+          "sample_id": 5,
+          "formula": "Li7 Mn10 Co2 O24",
+          "train_nmae": 0.0028056611277851133,
+          "train_charge_error": 0.0001278271606447993,
+          "train_negative_fraction": 0.0,
+          "validation_nmae": 0.0028388107705436174,
+          "validation_charge_error": 9.674003711126758e-05,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.002838696964211648,
+          "test_charge_error": 0.00012877879277691702,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.0028123463946876258
+        },
+        {
+          "sample_id": 6,
+          "formula": "Li2 Mn2 Co6 Ni4 O24",
+          "train_nmae": 0.0018155402286026549,
+          "train_charge_error": 0.0001694189567626153,
+          "train_negative_fraction": 0.0,
+          "validation_nmae": 0.0018449245137520545,
+          "validation_charge_error": 0.00017408445651523032,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.001846722133895002,
+          "test_charge_error": 0.000189795999218212,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.0018216005330204353
+        },
+        {
+          "sample_id": 7,
+          "formula": "Li6 Mn2 Co3 Ni7 O24",
+          "train_nmae": 0.001933137469459949,
+          "train_charge_error": 5.3518676348496426e-05,
+          "train_negative_fraction": 0.0,
+          "validation_nmae": 0.0019363918090046987,
+          "validation_charge_error": 5.9577809826439905e-05,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.0019630644543743737,
+          "test_charge_error": 3.78046436545372e-05,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.0019364663440927423
+        }
+      ],
+      "train_macro_nmae": 0.0021128562124936878,
+      "validation_macro_nmae": 0.0021412968748947573,
+      "test_macro_nmae": 0.002140900336871616,
+      "full_grid_macro_nmae": 0.002118520332615558,
+      "model_name": "deepdft",
+      "best_step": 16000,
+      "seed": 42,
+      "parameter_count": 1487233,
+      "sampling_audit": [
+        {
+          "sample_id": 0,
+          "unique_training_points": 350184,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 1,
+          "unique_training_points": 350223,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 2,
+          "unique_training_points": 350219,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 3,
+          "unique_training_points": 350213,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 4,
+          "unique_training_points": 350257,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 5,
+          "unique_training_points": 350157,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 6,
+          "unique_training_points": 350223,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 7,
+          "unique_training_points": 350246,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        }
+      ],
+      "elapsed_seconds": 1564.1547508999938,
+      "interpretation": "unseen spatial grid points in seen structures; not unseen-structure generalization",
+      "checkpoint_sha256": "2603f37a00247fd4db8fa9d18ba56c1d429828380dee1501664d1cca975a883b"
+    }
+  },
+  "r16_eight": {
+    "settings": {
+      "model": "r16",
+      "samples": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "output_dir": "runs\\nmc_probe_holdout_2026-10-26\\r16_eight",
+      "root": "runs\\nmc_probe_holdout_2026-10-26",
+      "cache": "data\\nmc_cache",
+      "steps": 16000,
+      "probes": 1024,
+      "eval_every": 500,
+      "chunk": 2048,
+      "seed": 42,
+      "lr": 0.001,
+      "min_lr": 1e-05,
+      "loss": "l1",
+      "model_config": {
+        "architecture": "mace_like",
+        "num_radial": 16,
+        "lmax": 2,
+        "hidden_lmax": 2,
+        "density_lmax": 4,
+        "readout_edge_lmax": 2,
+        "scalar_channels": 24,
+        "vector_channels": 12,
+        "tensor_channels": 6,
+        "octupole_channels": 0,
+        "num_interactions": 3,
+        "edge_basis": 16,
+        "radial_hidden": 64,
+        "cutoff": 6.0,
+        "num_species": 119,
+        "pbc": true,
+        "learnable_atomic_baseline": true
+      },
+      "basis_config": {
+        "num_radial": 16,
+        "lmax": 4,
+        "cutoff": 3.0,
+        "pbc": true,
+        "regular_radial": true,
+        "radial_whitening": true,
+        "radial_minimum": 0.09375
+      },
+      "initial_state_sha256": "fdffc23198e09114aae293ca22ba54afc8f60af3583e4083adcb8690f396a747",
+      "parameter_count": 521472,
+      "initialization": "from scratch; no pretrained weights, no oracle labels",
+      "objective": "training-only normalized density loss; uniform training-partition samples",
+      "selection": "fixed 8192-point subset of validation partition; never test or full-grid",
+      "optimizer": "Adam; cosine LR; no weight decay; gradient norm clip 5",
+      "note": "Official architecture is unmodified; local paired training protocol differs from published full-data runner",
+      "torch_version": "2.11.0+cu128",
+      "device": "cuda",
+      "source_hashes": {
+        "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\train_nmc_probe_holdout.py": "5407689c931c0697ae8398178c58477d5e14d4863788db70bc86cf70a79e6189",
+        "scripts\\nmc_probe_holdout.py": "fa75daa0a730c664f0c7091adb44596d0d2934b41f274e0562e9492558637a3b"
+      }
+    },
+    "history": [
+      {
+        "step": 1,
+        "elapsed_seconds": 66.04935340001248,
+        "learning_rate": 0.0009999999904580974,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 1.3039962116198682
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 1.2542612353829028
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 1.331115244447384
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 1.39552163886794
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 1.3793434458609395
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 1.3659668543260473
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 1.2925183427386542
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 1.3150924044815262
+          }
+        ],
+        "selection_macro_nmae": 1.3297269222156576
+      },
+      {
+        "step": 500,
+        "elapsed_seconds": 139.4865087000071,
+        "learning_rate": 0.000997616439702738,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.10693327509744079
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.08048601143933569
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.07585235362248606
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.08275042557046347
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.06481101321637202
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.06671858683080414
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.06759861591214211
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.0846105832170184
+          }
+        ],
+        "selection_macro_nmae": 0.07872010811325783
+      },
+      {
+        "step": 1000,
+        "elapsed_seconds": 177.80850619997364,
+        "learning_rate": 0.0009904887137995983,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.042465692454437876
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.038234739602728246
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.03969727203079727
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.043838091779195794
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.0367176896169304
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.040714467187164365
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.03734424527923038
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.03393127897532629
+          }
+        ],
+        "selection_macro_nmae": 0.039117934615726324
+      },
+      {
+        "step": 1500,
+        "elapsed_seconds": 215.4879805999808,
+        "learning_rate": 0.0009786854661874226,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.039246041479123896
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.03794034637613493
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.0386770510054204
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.04153438329291121
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.03582158088466093
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.041896677329655664
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.03624687108337115
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.032448587758310256
+          }
+        ],
+        "selection_macro_nmae": 0.03797644240119855
+      },
+      {
+        "step": 2000,
+        "elapsed_seconds": 252.85035510000307,
+        "learning_rate": 0.0009623203685930604,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.04021655125362652
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.03927234354949451
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.033350849941377415
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.03600856879854601
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.034683406994525726
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.03340429668330417
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.03576557903871764
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.03585864098545136
+          }
+        ],
+        "selection_macro_nmae": 0.036070029655630415
+      },
+      {
+        "step": 2500,
+        "elapsed_seconds": 289.0536308999872,
+        "learning_rate": 0.0009415510258524121,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.03248361585513884
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.03330468009897431
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.03354933342199644
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.03302944914826212
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.03666175879983389
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.03313447091092148
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.033529721520167914
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.032227863816524434
+          }
+        ],
+        "selection_macro_nmae": 0.033490111696477434
+      },
+      {
+        "step": 3000,
+        "elapsed_seconds": 325.99558859999524,
+        "learning_rate": 0.0009165774580897375,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.035989472022854914
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.035339051271134424
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.034251462676608176
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.03576616820397721
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.02946422157199071
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.03589394596706566
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.03154164721148985
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.03119736304290434
+          }
+        ],
+        "selection_macro_nmae": 0.03368041649600316
+      },
+      {
+        "step": 3500,
+        "elapsed_seconds": 363.6346230999916,
+        "learning_rate": 0.0008876401744145328,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.04565469574675493
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.046069533195773275
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.03913753229742677
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.03679524756323969
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.04556525604619719
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.03518604014024855
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.045569195453002954
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.046914792971309814
+          }
+        ],
+        "selection_macro_nmae": 0.04261153667674415
+      },
+      {
+        "step": 4000,
+        "elapsed_seconds": 401.481157000002,
+        "learning_rate": 0.0008550178566873189,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.029297623830170115
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.025522129752109737
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.02578659522405608
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.029656938526076697
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.027683743419855043
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.02635999023124827
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.02556169341290175
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.027442331164869188
+          }
+        ],
+        "selection_macro_nmae": 0.02716388069516086
+      },
+      {
+        "step": 4500,
+        "elapsed_seconds": 439.22498329996597,
+        "learning_rate": 0.0008190246756609821,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.029314986964353796
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.027807655103477547
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.027317892694481198
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.027632743304293834
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.028690000163987848
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.027068445707918255
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.026040785554324083
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.027103277486894006
+          }
+        ],
+        "selection_macro_nmae": 0.027621973372466323
+      },
+      {
+        "step": 5000,
+        "elapsed_seconds": 477.22328480001306,
+        "learning_rate": 0.0007800072653446824,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.026987132502079056
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.024531236980147458
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.02447448143583708
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.0284533624256463
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.023153285079394157
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.02690976898316921
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.023545292035844826
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.023953609230698922
+          }
+        ],
+        "selection_macro_nmae": 0.025251021084102127
+      },
+      {
+        "step": 5500,
+        "elapsed_seconds": 514.5631465999759,
+        "learning_rate": 0.0007383413847288495,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.031918182313169716
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.027536610001755488
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.026838641641979848
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.029825598073282056
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.02983410155904449
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.026909656947518897
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.027638939023767812
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.030787530164062795
+          }
+        ],
+        "selection_macro_nmae": 0.02891115746557264
+      },
+      {
+        "step": 6000,
+        "elapsed_seconds": 551.6560278999968,
+        "learning_rate": 0.0006944282990207018,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.03760801692131688
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.031207370365815026
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.027846484896068394
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.03137166914716855
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.023985357967458723
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.029340944337400914
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.02534824714395407
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.028381441087308685
+          }
+        ],
+        "selection_macro_nmae": 0.029386191483311407
+      },
+      {
+        "step": 6500,
+        "elapsed_seconds": 588.6425426999922,
+        "learning_rate": 0.0006486909152409415,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.026446851821884505
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.02524624181350641
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.024711166566002415
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.029086308911934627
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.024636258430528447
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.026055253611849894
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.02420675947997426
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.02318827537476293
+          }
+        ],
+        "selection_macro_nmae": 0.025447139501305435
+      },
+      {
+        "step": 7000,
+        "elapsed_seconds": 626.5908460000064,
+        "learning_rate": 0.0006015697093979668,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.025925239565667117
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.02483159408840836
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.02262860182739094
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.025478445194298302
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.02192227420099012
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.023961919254581902
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.022860775340389463
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.022402549836253047
+          }
+        ],
+        "selection_macro_nmae": 0.023751424913497406
+      },
+      {
+        "step": 7500,
+        "elapsed_seconds": 664.1006360999891,
+        "learning_rate": 0.0005535184844631179,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.027342347287265065
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.024961379014253444
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.02463921469696382
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.02753860811154145
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.025282519038308603
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.025269099982765737
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.024202685396308533
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.02483286951456441
+          }
+        ],
+        "selection_macro_nmae": 0.02550859038024638
+      },
+      {
+        "step": 8000,
+        "elapsed_seconds": 702.5803836999694,
+        "learning_rate": 0.0005049999999999864,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.02536158299546061
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.022306843924051495
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.023308298331321076
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.025630992384249297
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.021707269761878516
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.023995045340065933
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.021568127018006103
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.022472150082404305
+          }
+        ],
+        "selection_macro_nmae": 0.023293788729679667
+      },
+      {
+        "step": 8500,
+        "elapsed_seconds": 741.0123163000098,
+        "learning_rate": 0.0004564815155368529,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.025132506950461302
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.022580990204990825
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.02334181841889757
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.02759348966056351
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.024294654988859302
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.02495634420846418
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.022735854710852745
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.022442418312901925
+          }
+        ],
+        "selection_macro_nmae": 0.02413475968199892
+      },
+      {
+        "step": 9000,
+        "elapsed_seconds": 777.8991278000176,
+        "learning_rate": 0.0004084302906020028,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.024349267161594534
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.023554537765634487
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.021835667416120454
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.023670420914619038
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.021011902312988107
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.02264400687912661
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.02227437971416567
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.02184335991572529
+          }
+        ],
+        "selection_macro_nmae": 0.022647942759996775
+      },
+      {
+        "step": 9500,
+        "elapsed_seconds": 814.3314554999815,
+        "learning_rate": 0.0003613090847590295,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.024709518979769488
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.022057148919864985
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.021988241155719856
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.02382690816771091
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.020545268994457647
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.022768411289169607
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.02099589337855903
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.02185489156035913
+          }
+        ],
+        "selection_macro_nmae": 0.02234328530570133
+      },
+      {
+        "step": 10000,
+        "elapsed_seconds": 851.4123194999993,
+        "learning_rate": 0.0003155717009792716,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.025025774937493448
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.02323422096279967
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.022396413924367076
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.024723499307385575
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.020692296852382348
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.023453949050988934
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.02152268876684044
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.021627481061960236
+          }
+        ],
+        "selection_macro_nmae": 0.022834540608027216
+      },
+      {
+        "step": 10500,
+        "elapsed_seconds": 889.5062494999729,
+        "learning_rate": 0.0002716586152711235,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.023644491034216744
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.021795063771231797
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.02117469729217915
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.023669672760870838
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.020073830687582506
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.02236902613421706
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.020741210276010422
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.020581869301533107
+          }
+        ],
+        "selection_macro_nmae": 0.021756232657230205
+      },
+      {
+        "step": 11000,
+        "elapsed_seconds": 927.0908963999827,
+        "learning_rate": 0.0002299927346552926,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.02348652296259314
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.02130595797556701
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.02115271179384362
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.023073670258446217
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.02001362169368598
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.021974929291840455
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.020276062483100602
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.020614166932685196
+          }
+        ],
+        "selection_macro_nmae": 0.021487205423970278
+      },
+      {
+        "step": 11500,
+        "elapsed_seconds": 965.3579985999968,
+        "learning_rate": 0.00019097532433899196,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.02318755933988044
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.021479944111471142
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.02064975162400828
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.022759709792493466
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.01956802198846348
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.021581609450195244
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.019907624197476374
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.020158718049195903
+          }
+        ],
+        "selection_macro_nmae": 0.021161617319148042
+      },
+      {
+        "step": 12000,
+        "elapsed_seconds": 1002.2950894999667,
+        "learning_rate": 0.00015498214331265622,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.023215445290059696
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.02124806366616342
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.020604978813850164
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.022870429613241268
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.019497900300239564
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.021581576015683158
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.01974878434255346
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.020055011058171757
+          }
+        ],
+        "selection_macro_nmae": 0.021102773637495312
+      },
+      {
+        "step": 12500,
+        "elapsed_seconds": 1038.3318664999679,
+        "learning_rate": 0.00012235982558544392,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.02269241042585946
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.020850147686994974
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.02041258494246014
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.02270206707314057
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.019298651778582233
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.0214683102029321
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.019612760044070355
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.019891886749546596
+          }
+        ],
+        "selection_macro_nmae": 0.0208661023629483
+      },
+      {
+        "step": 13000,
+        "elapsed_seconds": 1075.8594759000116,
+        "learning_rate": 9.342254191023892e-05,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.022640044421095046
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.021025044701690893
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.020330470648581928
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.02244389169712025
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.019198196708236307
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.021230196987468218
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.019570944789674586
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.019613726970847498
+          }
+        ],
+        "selection_macro_nmae": 0.02075656461558934
+      },
+      {
+        "step": 13500,
+        "elapsed_seconds": 1113.9760547999758,
+        "learning_rate": 6.844897414756355e-05,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.022603837349435933
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.020680476474820648
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.02018199487094625
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.022462704802361348
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.019040625121294355
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.021244490014615532
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.019362159734856433
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.019656657713818852
+          }
+        ],
+        "selection_macro_nmae": 0.02065411826026867
+      },
+      {
+        "step": 14000,
+        "elapsed_seconds": 1152.2580369999632,
+        "learning_rate": 4.767963140691283e-05,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.022604406930319225
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.020751889091014695
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.020030364713674774
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.022461296986352613
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.01902708576038719
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.02110164872904903
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.019327854626237838
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.019565595365763584
+          }
+        ],
+        "selection_macro_nmae": 0.020608767775349868
+      },
+      {
+        "step": 14500,
+        "elapsed_seconds": 1190.2131698000012,
+        "learning_rate": 3.13145338125569e-05,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.0223861667197241
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.020565767442234192
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.0199463629107313
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.022317049503262604
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.01891059903885732
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.021029026282517082
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.01919987306773765
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.019395416708630216
+          }
+        ],
+        "selection_macro_nmae": 0.02046878270921181
+      },
+      {
+        "step": 15000,
+        "elapsed_seconds": 1227.5054800999933,
+        "learning_rate": 1.951128620040129e-05,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.022415681118633957
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.02059932484457209
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.020009270975441817
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.022351951747157355
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.018896270174054517
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.021098558436506404
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.019186482952487927
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.019389317402576073
+          }
+        ],
+        "selection_macro_nmae": 0.020493357206428767
+      },
+      {
+        "step": 15500,
+        "elapsed_seconds": 1264.0525249000057,
+        "learning_rate": 1.2383560297262655e-05,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.022377147506838724
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.020552694329657232
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.020038386514665604
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.022302501632920007
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.018842517964753176
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.02109540960364661
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.019153386600435883
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.01942717880402459
+          }
+        ],
+        "selection_macro_nmae": 0.020473652869617727
+      },
+      {
+        "step": 16000,
+        "elapsed_seconds": 1300.8548909999663,
+        "learning_rate": 1e-05,
+        "records": [
+          {
+            "sample_id": 0,
+            "formula": "Li11 Mn2 Co5 Ni5 O24",
+            "selection_nmae": 0.022355764559356176
+          },
+          {
+            "sample_id": 1,
+            "formula": "Li5 Co10 Ni2 O24",
+            "selection_nmae": 0.02056304384721333
+          },
+          {
+            "sample_id": 2,
+            "formula": "Li6 Mn7 Co2 Ni3 O24",
+            "selection_nmae": 0.019968820798355463
+          },
+          {
+            "sample_id": 3,
+            "formula": "Li10 Mn12 O24",
+            "selection_nmae": 0.022281747234246065
+          },
+          {
+            "sample_id": 4,
+            "formula": "Li2 Mn6 Ni6 O24",
+            "selection_nmae": 0.018904846697290825
+          },
+          {
+            "sample_id": 5,
+            "formula": "Li7 Mn10 Co2 O24",
+            "selection_nmae": 0.02103807816423226
+          },
+          {
+            "sample_id": 6,
+            "formula": "Li2 Mn2 Co6 Ni4 O24",
+            "selection_nmae": 0.019146834013236667
+          },
+          {
+            "sample_id": 7,
+            "formula": "Li6 Mn2 Co3 Ni7 O24",
+            "selection_nmae": 0.01936860365540874
+          }
+        ],
+        "selection_macro_nmae": 0.02045346737116744
+      }
+    ],
+    "sources": [
+      {
+        "sample_id": 0,
+        "source": "data\\nmc_cache\\0.CHGCAR.lz4",
+        "sha256": "37671903b0d93ec276e15d14d0acd07ebe02efac038b5c5f1b1d2085f805c128",
+        "formula": "Li11 Mn2 Co5 Ni5 O24",
+        "atoms": 47,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 376.17629003278256,
+        "split": {
+          "sample_id": 0,
+          "source_sha256": "37671903b0d93ec276e15d14d0acd07ebe02efac038b5c5f1b1d2085f805c128",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "f37714a0af4b9e163e35905e2aefd2aa06ffbf76384dce1bbd12f0e4d070a609",
+            "validation": "0afdd71425b5a0068997d1f86d7576fe081206d94cf951aab89619adfdf46fbb",
+            "test": "41947446c38c5394ca660756c9b6754ba4e1c386a68257079efd997edf90fdfc",
+            "selection": "4da7958ae4c127623c6b949cf71927dc7fbca9cfff0a546ebddf4a6525651dff"
+          }
+        },
+        "training_normalizer": 0.7003603833382752
+      },
+      {
+        "sample_id": 1,
+        "source": "data\\nmc_cache\\1.CHGCAR.lz4",
+        "sha256": "c9b8d31ef80b47153da4c79b2331d7429b7b2da0edf8b468750bcf99aef66953",
+        "formula": "Li5 Co10 Ni2 O24",
+        "atoms": 41,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 366.6281992162823,
+        "split": {
+          "sample_id": 1,
+          "source_sha256": "c9b8d31ef80b47153da4c79b2331d7429b7b2da0edf8b468750bcf99aef66953",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "5af2caa3118b6d84941fa09ffa744daee25a76151e0fcbe9111c7ae2544ab361",
+            "validation": "a0d140b1ad52621b57e82e273564b82d2fd03ec8dc78596ea1054d09ae174ca5",
+            "test": "4a5a9ca1cff56fc5a4c273501e47a2bd29189dc2c3baae4a33c6eaf93801608d",
+            "selection": "6376150626924471346f60c6fd83cda660af547371aa2707f800000b0337e7f5"
+          }
+        },
+        "training_normalizer": 0.7070607583523894
+      },
+      {
+        "sample_id": 2,
+        "source": "data\\nmc_cache\\2.CHGCAR.lz4",
+        "sha256": "c76fe0a472a46db6f8443b0f53a58110bf88897da1f31c4c212241b8a210279a",
+        "formula": "Li6 Mn7 Co2 Ni3 O24",
+        "atoms": 42,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 366.35190954513325,
+        "split": {
+          "sample_id": 2,
+          "source_sha256": "c76fe0a472a46db6f8443b0f53a58110bf88897da1f31c4c212241b8a210279a",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "76e7b103cd4527d6c86dcdbdba5c2c6296b440998f4217b6917bd1df2805c80f",
+            "validation": "dc6e4c3f18ef67d4fd9c2078f71e30ac8bff999a0a93e48d1e1f76b85750a9b7",
+            "test": "f8ed150cdd857cc75d23f00a5d1d83dee97993fb09ed336cbdfe5c7db97a8e38",
+            "selection": "5e9ed6e94ffed7f885891bc322cb12f2488d2a8e372ac5769776278b134200fa"
+          }
+        },
+        "training_normalizer": 0.6738534805234823
+      },
+      {
+        "sample_id": 3,
+        "source": "data\\nmc_cache\\3.CHGCAR.lz4",
+        "sha256": "275303397bdf5801f50eeca5ae925400b4af6b433ec1ef26f52c9e46f538db29",
+        "formula": "Li10 Mn12 O24",
+        "atoms": 46,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 365.6761140762095,
+        "split": {
+          "sample_id": 3,
+          "source_sha256": "275303397bdf5801f50eeca5ae925400b4af6b433ec1ef26f52c9e46f538db29",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "b3439559ec37ffb0dad515d120f6c51db275c274ba5f46011eaba8c98bb17232",
+            "validation": "edda2697875c3474b2b8e2a3b48da073e9f2a8f12928b7cac509b5b4ee78010f",
+            "test": "46fc9e1640e62af78a5425c73dd888c77b95cf659b13b6b28d5c20a840f3a572",
+            "selection": "c29e0a6fb9669e5c1f21f79cfa698ae58621309177122d45daa4fd7f64f9155c"
+          }
+        },
+        "training_normalizer": 0.6498426815000866
+      },
+      {
+        "sample_id": 4,
+        "source": "data\\nmc_cache\\4.CHGCAR.lz4",
+        "sha256": "67a678c0932f1baa7826ebce76223c7c481c7644055511bfce0f63388f11388d",
+        "formula": "Li2 Mn6 Ni6 O24",
+        "atoms": 38,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 360.3876174470032,
+        "split": {
+          "sample_id": 4,
+          "source_sha256": "67a678c0932f1baa7826ebce76223c7c481c7644055511bfce0f63388f11388d",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "09cc21c9f60f941b18a6f705ae608e253b4f736dbf76276e24ead0085c741943",
+            "validation": "d8727fce961ed64f726ddb911e36a2cfd858fd5a6d30453ad42629962494196e",
+            "test": "8084a8400e235e25a9607831a793576a1cc4a2fac635d88b2f1a62778f59134d",
+            "selection": "39482be49d9d9ca0bc65dc907a97d3e578f2eaef962e6b3f0c6b4cc0f49ba436"
+          }
+        },
+        "training_normalizer": 0.6880315036446922
+      },
+      {
+        "sample_id": 5,
+        "source": "data\\nmc_cache\\5.CHGCAR.lz4",
+        "sha256": "12a8a0ec694fecb76e6fdf39773da402457f117a0d6ce59d340236642290c850",
+        "formula": "Li7 Mn10 Co2 O24",
+        "atoms": 43,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 360.3501812827718,
+        "split": {
+          "sample_id": 5,
+          "source_sha256": "12a8a0ec694fecb76e6fdf39773da402457f117a0d6ce59d340236642290c850",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "1646f0e7480973b8ec6afc767ef86288bbf874d7afc0ba99690502592bf1b9ea",
+            "validation": "5ec8fc2f63160abd2a5e2772306880ea742f88bfe1d2d86127dec97870bcb241",
+            "test": "e1d3ba61ff3b9f1b96280836aed362c8245a43c79940bb768a69b52234efb548",
+            "selection": "19607c0464d43b6074a244b2532aa999e51239e47a2bc5168f054c69c2d27c5c"
+          }
+        },
+        "training_normalizer": 0.6615715584604527
+      },
+      {
+        "sample_id": 6,
+        "source": "data\\nmc_cache\\6.CHGCAR.lz4",
+        "sha256": "9c87420a5122a9f5bc9ab99fa1e3abd7be346f3ab1a553f429da00bf45ce78d7",
+        "formula": "Li2 Mn2 Co6 Ni4 O24",
+        "atoms": 38,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 359.390996966833,
+        "split": {
+          "sample_id": 6,
+          "source_sha256": "9c87420a5122a9f5bc9ab99fa1e3abd7be346f3ab1a553f429da00bf45ce78d7",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "7fbf53c3514df83ece28bbb56c0b931641f3406f4f4646b0782a251748ee175a",
+            "validation": "1c0089967e22db0f390622e68b70be68ebf4c7fd2c25a2d8c229fd323556532e",
+            "test": "a675facdc317ebdeb56ef5a5e0b8668d3a29886ec527fd9e0870ed3b5d5b7f06",
+            "selection": "dc15a3e5a552a492994619186cb6972459f8f8320d0037c16fc2e47952a620f7"
+          }
+        },
+        "training_normalizer": 0.7066184786267984
+      },
+      {
+        "sample_id": 7,
+        "source": "data\\nmc_cache\\7.CHGCAR.lz4",
+        "sha256": "c27f7980b24101798fc6f9f1ec10022a3f7c01172e51ef87bd38567b91498232",
+        "formula": "Li6 Mn2 Co3 Ni7 O24",
+        "atoms": 42,
+        "grid_shape": [
+          56,
+          56,
+          140
+        ],
+        "volume": 370.6777832089952,
+        "split": {
+          "sample_id": 7,
+          "source_sha256": "c27f7980b24101798fc6f9f1ec10022a3f7c01172e51ef87bd38567b91498232",
+          "grid_points": 439040,
+          "seed": 20261026,
+          "counts": {
+            "train": 351232,
+            "validation": 43904,
+            "test": 43904,
+            "selection": 8192
+          },
+          "indices_sha256": {
+            "train": "f0968979d18bded02b4f9cdbf8969796bd76eea9be09097724e7ec493ea00bd7",
+            "validation": "9187e0042a2333b608cff37e741253793ac24a5881f580c69b2356c91f640618",
+            "test": "b259de77249a537b48a549fde479ab52e67b0a5b1a652957624328bfeb7d4c64",
+            "selection": "588f750cc745574331ef2bc359e15e7d52850091b4d1c0a2af6471335e2e24b4"
+          }
+        },
+        "training_normalizer": 0.7044185487672121
+      }
+    ],
+    "result": {
+      "records": [
+        {
+          "sample_id": 0,
+          "formula": "Li11 Mn2 Co5 Ni5 O24",
+          "train_nmae": 0.021897454709462128,
+          "train_charge_error": 0.0036037033243025264,
+          "train_negative_fraction": 1.4078864906065912e-05,
+          "validation_nmae": 0.02223119716928404,
+          "validation_charge_error": 0.003388915980824136,
+          "validation_negative_fraction": 1.3014112524415652e-05,
+          "test_nmae": 0.02158300820099541,
+          "test_charge_error": 0.002898828440576018,
+          "test_negative_fraction": 1.220489153989593e-05,
+          "full_grid_nmae": 0.021899335095624597
+        },
+        {
+          "sample_id": 1,
+          "formula": "Li5 Co10 Ni2 O24",
+          "train_nmae": 0.02023099540593191,
+          "train_charge_error": 0.0035521030613025425,
+          "train_negative_fraction": 3.080888707274321e-08,
+          "validation_nmae": 0.019764177716822963,
+          "validation_charge_error": 0.003226649983637087,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.019775424970089245,
+          "test_charge_error": 0.0029110765220181746,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.020139087326970274
+        },
+        {
+          "sample_id": 2,
+          "formula": "Li6 Mn7 Co2 Ni3 O24",
+          "train_nmae": 0.0204857425353708,
+          "train_charge_error": 0.0022216681944328747,
+          "train_negative_fraction": 1.4440029717009768e-05,
+          "validation_nmae": 0.020134936532006865,
+          "validation_charge_error": 0.002046650981939537,
+          "validation_negative_fraction": 1.7582443489964156e-05,
+          "test_nmae": 0.020789749681037566,
+          "test_charge_error": 0.0025338935803329386,
+          "test_negative_fraction": 1.634096189599035e-05,
+          "full_grid_nmae": 0.020481611160692605
+        },
+        {
+          "sample_id": 3,
+          "formula": "Li10 Mn12 O24",
+          "train_nmae": 0.022626840932051168,
+          "train_charge_error": 0.0011303385729567184,
+          "train_negative_fraction": 4.444889913924468e-06,
+          "validation_nmae": 0.02193048429432156,
+          "validation_charge_error": 0.0010642146038610917,
+          "validation_negative_fraction": 5.378599320144778e-06,
+          "test_nmae": 0.022628510812021062,
+          "test_charge_error": 0.0015630382549950775,
+          "test_negative_fraction": 4.69104050591064e-06,
+          "full_grid_nmae": 0.022556226350740765
+        },
+        {
+          "sample_id": 4,
+          "formula": "Li2 Mn6 Ni6 O24",
+          "train_nmae": 0.019406765837664097,
+          "train_charge_error": 0.003210422451517182,
+          "train_negative_fraction": 2.025101022432376e-06,
+          "validation_nmae": 0.01906987644946963,
+          "validation_charge_error": 0.003238157588292768,
+          "validation_negative_fraction": 2.7072678542041463e-06,
+          "test_nmae": 0.019231074078319522,
+          "test_charge_error": 0.0032914530706870193,
+          "test_negative_fraction": 1.6077799720930178e-06,
+          "full_grid_nmae": 0.019355651445899298
+        },
+        {
+          "sample_id": 5,
+          "formula": "Li7 Mn10 Co2 O24",
+          "train_nmae": 0.02112385745693713,
+          "train_charge_error": 0.002214319748377295,
+          "train_negative_fraction": 1.672341115322656e-06,
+          "validation_nmae": 0.020864000212096105,
+          "validation_charge_error": 0.0016874492197640162,
+          "validation_negative_fraction": 1.399615342973394e-06,
+          "test_nmae": 0.02098469286651481,
+          "test_charge_error": 0.0020843706589812145,
+          "test_negative_fraction": 3.413437196950357e-06,
+          "full_grid_nmae": 0.021083582565762822
+        },
+        {
+          "sample_id": 6,
+          "formula": "Li2 Mn2 Co6 Ni4 O24",
+          "train_nmae": 0.019699526896144223,
+          "train_charge_error": 0.00311752577795245,
+          "train_negative_fraction": 1.040334766955652e-06,
+          "validation_nmae": 0.019110036263395636,
+          "validation_charge_error": 0.002858136665814817,
+          "validation_negative_fraction": 3.4066772547304455e-07,
+          "test_nmae": 0.01928274644059204,
+          "test_charge_error": 0.003029110609171205,
+          "test_negative_fraction": 9.024688363089631e-07,
+          "full_grid_nmae": 0.019598741609521474
+        },
+        {
+          "sample_id": 7,
+          "formula": "Li6 Mn2 Co3 Ni7 O24",
+          "train_nmae": 0.02024320703607148,
+          "train_charge_error": 0.00406546230152681,
+          "train_negative_fraction": 2.4654693768284747e-07,
+          "validation_nmae": 0.02006096283863624,
+          "validation_charge_error": 0.004045417537916485,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.020579925295026,
+          "test_charge_error": 0.004136260091677179,
+          "test_negative_fraction": 2.0271605657451033e-07,
+          "full_grid_nmae": 0.020258947972932834
+        }
+      ],
+      "train_macro_nmae": 0.020714298851204117,
+      "validation_macro_nmae": 0.020395708934504132,
+      "test_macro_nmae": 0.020606891543074456,
+      "full_grid_macro_nmae": 0.020671647941018084,
+      "model_name": "r16",
+      "best_step": 16000,
+      "seed": 42,
+      "parameter_count": 521472,
+      "sampling_audit": [
+        {
+          "sample_id": 0,
+          "unique_training_points": 350184,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 1,
+          "unique_training_points": 350223,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 2,
+          "unique_training_points": 350219,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 3,
+          "unique_training_points": 350213,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 4,
+          "unique_training_points": 350257,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 5,
+          "unique_training_points": 350157,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 6,
+          "unique_training_points": 350223,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 7,
+          "unique_training_points": 350246,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        }
+      ],
+      "elapsed_seconds": 1348.713253199996,
+      "interpretation": "unseen spatial grid points in seen structures; not unseen-structure generalization",
+      "checkpoint_sha256": "d9553ed92cc1f545b4794df96f6772a3144d80fcd97e20533cb52c2d65002b72"
+    }
+  }
+}

@@ -1,6 +1,5 @@
-"""Dataset and preprocessing utilities."""
+"""Datasets for fitted per-atom density coefficients."""
 
-from .npz_dataset import DensityNPZDataset, collate_density_samples
+from .dataset import CoefficientDataset, collate_coefficients
 
-__all__ = ["DensityNPZDataset", "collate_density_samples"]
-
+__all__ = ["CoefficientDataset", "collate_coefficients"]

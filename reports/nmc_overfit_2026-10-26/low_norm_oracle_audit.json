@@ -1,0 +1,22 @@
+[
+  {
+    "variant": "current",
+    "sample_id": 1,
+    "source": "runs\\nmc_oracle_pbc_full_pilot\\sample_0001_current.json",
+    "npz_sha256": "c88cb9cb91fe7536d67066aef85c631c013a3a45d276ab73d0fdb61126b3e73e",
+    "coefficient_rms": 0.14745249852765815,
+    "reported_nmae": 0.003320448919903929,
+    "production_decoder_nmae": 0.00332044891990393,
+    "interpretation": "Previously fitted low-norm feasible solution rechecked on the full grid; not a norm-constrained optimum"
+  },
+  {
+    "variant": "regular_capacity",
+    "sample_id": 1,
+    "source": "runs\\nmc_oracle_pbc_full_pilot\\sample_0001_regular_capacity.json",
+    "npz_sha256": "2ba51627ab8e9ccf786272a96f38c0a2647796675287491ee467d537e9f31598",
+    "coefficient_rms": 0.12449362008843504,
+    "reported_nmae": 0.0018518567143055306,
+    "production_decoder_nmae": 0.0018518567142988347,
+    "interpretation": "Previously fitted low-norm feasible solution rechecked on the full grid; not a norm-constrained optimum"
+  }
+]

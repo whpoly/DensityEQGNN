@@ -1,0 +1,1065 @@
+{
+  "checkpoint_step": 3255000,
+  "checkpoint_sha256": "bc00907ceece6f457d660c5a0a5924686d0ac8b8f029f02a1dbfcfdae06c9e0f",
+  "validation_ids": [
+    43,
+    67,
+    74,
+    107,
+    179,
+    231,
+    341,
+    381,
+    404,
+    425,
+    432,
+    450,
+    452,
+    476,
+    599,
+    674,
+    749,
+    784,
+    791,
+    916,
+    945,
+    948,
+    960,
+    995,
+    1030,
+    1031,
+    1052,
+    1181,
+    1184,
+    1189,
+    1190,
+    1222,
+    1228,
+    1306,
+    1320,
+    1419,
+    1527,
+    1691,
+    1727,
+    1732,
+    1778,
+    1779,
+    1785,
+    1814,
+    1838,
+    1863,
+    1887,
+    1899,
+    1918,
+    1959
+  ],
+  "timing_ids": [
+    43,
+    67,
+    74
+  ],
+  "device": "NVIDIA GeForce RTX 5060 Ti",
+  "timing": "warm, shared GPU; same joint-output driver with new geometry graph and atom encoding for every call; first call per arm and structure excluded, 3 synchronized alternating runs, median per structure; FP32 TF32 off",
+  "rows": [
+    {
+      "id": 43,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.052569463282079364,
+          "paw_rel_l1_pct": 0.1854182631178551,
+          "density_mae": 0.0003744498189906461,
+          "paw_mae": 0.0005239521741787992
+        },
+        "joint_reference": {
+          "density_nmae_pct": 0.05256908920430741,
+          "paw_rel_l1_pct": 0.18541834297928741,
+          "density_mae": 0.0003744471544522382,
+          "paw_mae": 0.0005239523998500486
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.050233308631971556,
+          "paw_rel_l1_pct": 0.5903897753447556,
+          "density_mae": 0.0003578094990928922,
+          "paw_mae": 0.001668314658994503
+        }
+      },
+      "times": {
+        "joint_fast": [
+          2.2813260999973863,
+          0.6152142998762429,
+          0.5585148001555353
+        ],
+        "joint_reference": [
+          8.611456600017846,
+          8.749207499902695,
+          10.43080610013567
+        ],
+        "official_frozen_fast": [
+          2.2520596999675035,
+          2.2392852001357824,
+          2.1691999998874962
+        ]
+      },
+      "agreement": {
+        "relative_l1": 1.417677462030396e-07,
+        "pointwise_pass": true
+      }
+    },
+    {
+      "id": 67,
+      "scores": {
+        "joint_reference": {
+          "density_nmae_pct": 0.08855041207373718,
+          "paw_rel_l1_pct": 0.41978425209572134,
+          "density_mae": 0.0005984028440005988,
+          "paw_mae": 0.0011473946599866226
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.08444221512826651,
+          "paw_rel_l1_pct": 1.3275751235517452,
+          "density_mae": 0.0005706406159283329,
+          "paw_mae": 0.0036286559104818754
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.08855026236797617,
+          "paw_rel_l1_pct": 0.41978478444937506,
+          "density_mae": 0.0005984018323243,
+          "paw_mae": 0.0011473961150667892
+        }
+      },
+      "times": {
+        "joint_reference": [
+          10.07133510010317,
+          10.080856299959123,
+          10.41326169995591
+        ],
+        "official_frozen_fast": [
+          0.5811645998619497,
+          2.202662500087172,
+          0.6896720000077039
+        ],
+        "joint_fast": [
+          2.1993259000591934,
+          0.6517888000234962,
+          2.1702864000108093
+        ]
+      },
+      "agreement": {
+        "relative_l1": 1.4193444742398053e-07,
+        "pointwise_pass": true
+      }
+    },
+    {
+      "id": 74,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.061290211241549986,
+          "paw_rel_l1_pct": 0.9587663893160661,
+          "density_mae": 0.0004279346899140481,
+          "paw_mae": 0.0026451204150768496
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.06154853550695957,
+          "paw_rel_l1_pct": 0.27573706286745,
+          "density_mae": 0.0004297383370573032,
+          "paw_mae": 0.0007607251800976319
+        },
+        "joint_reference": {
+          "density_nmae_pct": 0.061548488414977814,
+          "paw_rel_l1_pct": 0.27573720986750105,
+          "density_mae": 0.0004297380082561423,
+          "paw_mae": 0.0007607255856529793
+        }
+      },
+      "times": {
+        "official_frozen_fast": [
+          0.6058507000561804,
+          0.5623312999960035,
+          0.5826508000027388
+        ],
+        "joint_fast": [
+          2.240603399928659,
+          0.5653848999645561,
+          2.2253972000908107
+        ],
+        "joint_reference": [
+          10.48102719988674,
+          10.045208299998194,
+          10.08214129996486
+        ]
+      },
+      "agreement": {
+        "relative_l1": 1.429050767492546e-07,
+        "pointwise_pass": true
+      }
+    },
+    {
+      "id": 107,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.06030815363186019,
+          "paw_rel_l1_pct": 0.814038764494051,
+          "density_mae": 0.00041899149581968497,
+          "paw_mae": 0.0021381565902001227
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.061500120936530574,
+          "paw_rel_l1_pct": 0.24498918107707154,
+          "density_mae": 0.0004272727004972588,
+          "paw_mae": 0.0006434892966961402
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 179,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.0790712195033899,
+          "paw_rel_l1_pct": 0.36433625067561765,
+          "density_mae": 0.0005308564392021319,
+          "paw_mae": 0.0009956314776545325
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.07894171671455547,
+          "paw_rel_l1_pct": 1.0377069182027059,
+          "density_mae": 0.0005299870028916872,
+          "paw_mae": 0.002835769623326241
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 231,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.048576563502932914,
+          "paw_rel_l1_pct": 0.6168245810208046,
+          "density_mae": 0.000348380637547251,
+          "paw_mae": 0.001690401374130855
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.050131035481037436,
+          "paw_rel_l1_pct": 0.22924891613623277,
+          "density_mae": 0.00035952897534081876,
+          "paw_mae": 0.0006282542797068368
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 341,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.09114483597724997,
+          "paw_rel_l1_pct": 0.4475734843453408,
+          "density_mae": 0.0006245707506643141,
+          "paw_mae": 0.001216599812747938
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.079608869757796,
+          "paw_rel_l1_pct": 0.9261301063440713,
+          "density_mae": 0.0005455204456846559,
+          "paw_mae": 0.002517418375680758
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 381,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.05636327359620779,
+          "paw_rel_l1_pct": 0.7137666704531641,
+          "density_mae": 0.0003945885332406135,
+          "paw_mae": 0.0020461062467961567
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.06368522214465605,
+          "paw_rel_l1_pct": 0.2176199081318391,
+          "density_mae": 0.0004458480991574843,
+          "paw_mae": 0.0006238361524685112
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 404,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.05282730391602242,
+          "paw_rel_l1_pct": 0.17400086898641423,
+          "density_mae": 0.0003782984398465105,
+          "paw_mae": 0.00046261119614977094
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.05161188618003083,
+          "paw_rel_l1_pct": 0.5540560294654131,
+          "density_mae": 0.00036959478474387074,
+          "paw_mae": 0.0014730531175967863
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 425,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.044237430118558116,
+          "paw_rel_l1_pct": 0.5004249302331152,
+          "density_mae": 0.00032459917989192575,
+          "paw_mae": 0.0014043896833555644
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.047234214667812566,
+          "paw_rel_l1_pct": 0.1521493452775037,
+          "density_mae": 0.00034658856319004614,
+          "paw_mae": 0.00042699105885370613
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 432,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.09413320765618893,
+          "paw_rel_l1_pct": 0.42294704207998524,
+          "density_mae": 0.0006332674961188046,
+          "paw_mae": 0.0011300166033425686
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.0885663073164957,
+          "paw_rel_l1_pct": 1.4630428636532957,
+          "density_mae": 0.0005958169818206374,
+          "paw_mae": 0.00390891190348466
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 450,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.04952841850581197,
+          "paw_rel_l1_pct": 0.5935084623041097,
+          "density_mae": 0.0003554664957501692,
+          "paw_mae": 0.0015245634149404549
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.05113404256888418,
+          "paw_rel_l1_pct": 0.20171757685641134,
+          "density_mae": 0.0003669900932404757,
+          "paw_mae": 0.0005181581348172037
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 452,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.0796527463229322,
+          "paw_rel_l1_pct": 0.2893718210495341,
+          "density_mae": 0.0005424725092602479,
+          "paw_mae": 0.0008047585011277664
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.07381848473634468,
+          "paw_rel_l1_pct": 1.1111291330311066,
+          "density_mae": 0.0005027384552738932,
+          "paw_mae": 0.003090109508293975
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 476,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.054382669483353886,
+          "paw_rel_l1_pct": 0.8061286487528225,
+          "density_mae": 0.00038882931167252686,
+          "paw_mae": 0.0021989763501185987
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.05566380800421596,
+          "paw_rel_l1_pct": 0.2275033059974135,
+          "density_mae": 0.00039798929248914414,
+          "paw_mae": 0.0006205887735612567
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 599,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.04473197954166113,
+          "paw_rel_l1_pct": 0.12343029571431341,
+          "density_mae": 0.00033384484216479555,
+          "paw_mae": 0.0003402981105957283
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.04212936976884565,
+          "paw_rel_l1_pct": 0.4204677155790881,
+          "density_mae": 0.0003144209790197961,
+          "paw_mae": 0.0011592321670300689
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 674,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.048312723351255554,
+          "paw_rel_l1_pct": 0.6321952694421801,
+          "density_mae": 0.0003522649172689418,
+          "paw_mae": 0.0017191837018355586
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.05324369167077244,
+          "paw_rel_l1_pct": 0.2083249418958752,
+          "density_mae": 0.00038821832719165627,
+          "paw_mae": 0.0005665161732533088
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 749,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.05178254663546717,
+          "paw_rel_l1_pct": 0.194986153484027,
+          "density_mae": 0.0003697688648850201,
+          "paw_mae": 0.0005081810458029384
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.049780379088778276,
+          "paw_rel_l1_pct": 0.6583829855880586,
+          "density_mae": 0.00035547178470739704,
+          "paw_mae": 0.0017159051972498586
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 784,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.04818133409477171,
+          "paw_rel_l1_pct": 0.5752182779553822,
+          "density_mae": 0.00034243933224221404,
+          "paw_mae": 0.0015562004751510572
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.05022676479697507,
+          "paw_rel_l1_pct": 0.16943026723211452,
+          "density_mae": 0.0003569768276638331,
+          "paw_mae": 0.00045837810180301514
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 791,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.10729363161999803,
+          "paw_rel_l1_pct": 0.4753916611460637,
+          "density_mae": 0.0007179344428505317,
+          "paw_mae": 0.001135256243658339
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.0852385245551039,
+          "paw_rel_l1_pct": 1.0504962061737761,
+          "density_mae": 0.0005703569886850942,
+          "paw_mae": 0.0025086312497007747
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 916,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.04983656590444173,
+          "paw_rel_l1_pct": 0.7137443459407703,
+          "density_mae": 0.0003494325217976895,
+          "paw_mae": 0.0020427932059810783
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.05301175555280508,
+          "paw_rel_l1_pct": 0.17569688443878465,
+          "density_mae": 0.00037169558318400056,
+          "paw_mae": 0.0005028584869145514
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 945,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.07138101035503129,
+          "paw_rel_l1_pct": 0.25620855756986444,
+          "density_mae": 0.000478082971146168,
+          "paw_mae": 0.0006972459405468712
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.06758437918887983,
+          "paw_rel_l1_pct": 0.881524479842506,
+          "density_mae": 0.00045265457360413325,
+          "paw_mae": 0.002398980623023398
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 948,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.061930332947480876,
+          "paw_rel_l1_pct": 0.8241343261711468,
+          "density_mae": 0.0004159161479143784,
+          "paw_mae": 0.0020675519985298516
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.0632131166017517,
+          "paw_rel_l1_pct": 0.19949684097992612,
+          "density_mae": 0.00042453115788928527,
+          "paw_mae": 0.0005004889120257092
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 960,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.04787438654081054,
+          "paw_rel_l1_pct": 0.1430015858645804,
+          "density_mae": 0.00034325786673381745,
+          "paw_mae": 0.00035082627059305577
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.046260877367139526,
+          "paw_rel_l1_pct": 0.44191471511490193,
+          "density_mae": 0.0003316890559995509,
+          "paw_mae": 0.0010841508538987044
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 995,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.042860028442767525,
+          "paw_rel_l1_pct": 0.45376420762176056,
+          "density_mae": 0.00030617289200666803,
+          "paw_mae": 0.0011384258977405655
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.04413632146974121,
+          "paw_rel_l1_pct": 0.1220213101158062,
+          "density_mae": 0.00031529015910410546,
+          "paw_mae": 0.00030613304702925846
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1030,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.06859049720490826,
+          "paw_rel_l1_pct": 0.29076278004118183,
+          "density_mae": 0.00047199678241238594,
+          "paw_mae": 0.000834832607208472
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.06264527518576528,
+          "paw_rel_l1_pct": 0.9230002295542098,
+          "density_mae": 0.00043108549326719,
+          "paw_mae": 0.002650100841598856
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1031,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.05709899151460247,
+          "paw_rel_l1_pct": 0.7868531186646458,
+          "density_mae": 0.0003993920345927124,
+          "paw_mae": 0.002058862578815528
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.0569652942873962,
+          "paw_rel_l1_pct": 0.20251209027678457,
+          "density_mae": 0.00039845685857336604,
+          "paw_mae": 0.0005298886851159373
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1052,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.048544532175520225,
+          "paw_rel_l1_pct": 0.19727731465982445,
+          "density_mae": 0.00034819328773733836,
+          "paw_mae": 0.0005463959716724746
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.04631402919016686,
+          "paw_rel_l1_pct": 0.5042349505880239,
+          "density_mae": 0.00033219465446243,
+          "paw_mae": 0.0013965718575034596
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1181,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.0504616537376163,
+          "paw_rel_l1_pct": 0.5962931262628791,
+          "density_mae": 0.00036968423644862745,
+          "paw_mae": 0.001646170187509314
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.05208268079175188,
+          "paw_rel_l1_pct": 0.20705912835244938,
+          "density_mae": 0.0003815599500724154,
+          "paw_mae": 0.0005716224942616548
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1184,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.05286582345399087,
+          "paw_rel_l1_pct": 0.20751323259768478,
+          "density_mae": 0.000372628285753223,
+          "paw_mae": 0.0005597755991452631
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.05164272799794588,
+          "paw_rel_l1_pct": 0.695834407480586,
+          "density_mae": 0.0003640072157817082,
+          "paw_mae": 0.001877042333529144
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1189,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.04491492650154158,
+          "paw_rel_l1_pct": 0.5666286478851035,
+          "density_mae": 0.0003234178273917044,
+          "paw_mae": 0.0015986999252744175
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.04664715366059404,
+          "paw_rel_l1_pct": 0.14871664603825327,
+          "density_mae": 0.00033589103369452276,
+          "paw_mae": 0.0004195927823201542
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1190,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.05412596578103259,
+          "paw_rel_l1_pct": 0.1555242693399678,
+          "density_mae": 0.0003921280015645543,
+          "paw_mae": 0.00044525381488671285
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.049272963556636414,
+          "paw_rel_l1_pct": 0.671039136652349,
+          "density_mae": 0.00035696931134294394,
+          "paw_mae": 0.0019211325460698448
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1222,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.062422343796838926,
+          "paw_rel_l1_pct": 0.9884729759560691,
+          "density_mae": 0.00042876133523591585,
+          "paw_mae": 0.002826298712151617
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.06790612834305687,
+          "paw_rel_l1_pct": 0.2399880968618055,
+          "density_mae": 0.0004664278924519484,
+          "paw_mae": 0.0006861877518059566
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1228,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.05470526334680907,
+          "paw_rel_l1_pct": 0.22324862829421313,
+          "density_mae": 0.0004039708725508518,
+          "paw_mae": 0.0006017263868408402
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.051073962259449344,
+          "paw_rel_l1_pct": 0.5126809678373468,
+          "density_mae": 0.0003771555392719356,
+          "paw_mae": 0.0013818390228686043
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1306,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.06017209589447994,
+          "paw_rel_l1_pct": 0.8892934569192709,
+          "density_mae": 0.00043095915468042083,
+          "paw_mae": 0.002453067851470078
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.06613327201194154,
+          "paw_rel_l1_pct": 0.3134408320816191,
+          "density_mae": 0.0004736537522724259,
+          "paw_mae": 0.000864609564519994
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1320,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.06963918260237359,
+          "paw_rel_l1_pct": 0.24545789410815325,
+          "density_mae": 0.00047212283555888326,
+          "paw_mae": 0.0006949039666988976
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.06452476958703583,
+          "paw_rel_l1_pct": 0.882106388034967,
+          "density_mae": 0.00043744937896753294,
+          "paw_mae": 0.002497288711463668
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1419,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.07064889069373792,
+          "paw_rel_l1_pct": 1.1646558903742565,
+          "density_mae": 0.0004811268428197326,
+          "paw_mae": 0.0031487378741582796
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.07134587802597722,
+          "paw_rel_l1_pct": 0.31025700657527483,
+          "density_mae": 0.0004858734044621416,
+          "paw_mae": 0.0008388039724013369
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1527,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.05809489940337717,
+          "paw_rel_l1_pct": 0.1906625872156767,
+          "density_mae": 0.0004036002211105051,
+          "paw_mae": 0.0005337650312186714
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.05668983461500484,
+          "paw_rel_l1_pct": 0.659514491387843,
+          "density_mae": 0.0003938388743298841,
+          "paw_mae": 0.0018463285232072728
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1691,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.0480910497780252,
+          "paw_rel_l1_pct": 0.5771600268836021,
+          "density_mae": 0.000334184992213838,
+          "paw_mae": 0.0014267024528905469
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.049473766466981976,
+          "paw_rel_l1_pct": 0.14542923057428309,
+          "density_mae": 0.0003437934987460475,
+          "paw_mae": 0.00035949170129233267
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1727,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.05382918366150091,
+          "paw_rel_l1_pct": 0.15477615284315674,
+          "density_mae": 0.0003716069220703736,
+          "paw_mae": 0.00038586943523853976
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.051824914616542594,
+          "paw_rel_l1_pct": 0.6421724298663793,
+          "density_mae": 0.00035777055673588356,
+          "paw_mae": 0.0016009876734008547
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1732,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.05253227572076553,
+          "paw_rel_l1_pct": 0.7302900546836516,
+          "density_mae": 0.0003745635183205293,
+          "paw_mae": 0.0019042341833582313
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.052733181946497176,
+          "paw_rel_l1_pct": 0.20547871568673398,
+          "density_mae": 0.0003759960118062969,
+          "paw_mae": 0.0005357865574832746
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1778,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.04883996843607807,
+          "paw_rel_l1_pct": 0.20041877755098286,
+          "density_mae": 0.0003528582011946849,
+          "paw_mae": 0.0005378574639014007
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.04767705050203706,
+          "paw_rel_l1_pct": 0.4864996995852201,
+          "density_mae": 0.0003444563708192249,
+          "paw_mae": 0.0013056036854687252
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1779,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.05790630757272286,
+          "paw_rel_l1_pct": 0.8902079901203883,
+          "density_mae": 0.00040599549099352923,
+          "paw_mae": 0.0021805384125173446
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.0591075592972378,
+          "paw_rel_l1_pct": 0.1991192143866439,
+          "density_mae": 0.00041441776490710547,
+          "paw_mae": 0.00048773668677320624
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1785,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.057485759359570086,
+          "paw_rel_l1_pct": 0.20454290617850196,
+          "density_mae": 0.00040428466069603367,
+          "paw_mae": 0.0005739393781277095
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.05346526855876555,
+          "paw_rel_l1_pct": 0.7500643389128872,
+          "density_mae": 0.00037600943606052245,
+          "paw_mae": 0.002104651137868109
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1814,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.050123419268971986,
+          "paw_rel_l1_pct": 0.5617633954711087,
+          "density_mae": 0.000360677563926017,
+          "paw_mae": 0.0014323539303867372
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.05108278824627669,
+          "paw_rel_l1_pct": 0.20067178229020036,
+          "density_mae": 0.0003675809809451878,
+          "paw_mae": 0.0005116620598606852
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1838,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.06960582850227769,
+          "paw_rel_l1_pct": 0.3073890123259823,
+          "density_mae": 0.00048098880311429405,
+          "paw_mae": 0.0008703282347110465
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.06381919252667581,
+          "paw_rel_l1_pct": 0.8299897213323456,
+          "density_mae": 0.0004410021070020311,
+          "paw_mae": 0.0023499977553831236
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1863,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.06047340572039382,
+          "paw_rel_l1_pct": 0.7298346432117852,
+          "density_mae": 0.0004190361370461003,
+          "paw_mae": 0.0018888205650993452
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.06141473554526962,
+          "paw_rel_l1_pct": 0.25134472019136744,
+          "density_mae": 0.00042555885903940144,
+          "paw_mae": 0.0006504830660509394
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1887,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.061848945127059234,
+          "paw_rel_l1_pct": 0.1752532027393255,
+          "density_mae": 0.0004273184021594954,
+          "paw_mae": 0.00045952616542916877
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.05727724467025853,
+          "paw_rel_l1_pct": 0.6854839529278486,
+          "density_mae": 0.00039573222505754816,
+          "paw_mae": 0.001797386908932535
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1899,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.07950750771067266,
+          "paw_rel_l1_pct": 0.9976206292136219,
+          "density_mae": 0.0005267014524902987,
+          "paw_mae": 0.0026649566292313086
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.08226979519248888,
+          "paw_rel_l1_pct": 0.4093297182231158,
+          "density_mae": 0.0005450003637599456,
+          "paw_mae": 0.0010934476635471534
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1918,
+      "scores": {
+        "joint_fast": {
+          "density_nmae_pct": 0.04491755591679075,
+          "paw_rel_l1_pct": 0.13391850995888496,
+          "density_mae": 0.00031852566360654824,
+          "paw_mae": 0.00033010398380333404
+        },
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.04452717131276997,
+          "paw_rel_l1_pct": 0.5076561889198097,
+          "density_mae": 0.00031575731362580014,
+          "paw_mae": 0.0012513530087535814
+        }
+      },
+      "times": {}
+    },
+    {
+      "id": 1959,
+      "scores": {
+        "official_frozen_fast": {
+          "density_nmae_pct": 0.05808770016528118,
+          "paw_rel_l1_pct": 0.8531017731378033,
+          "density_mae": 0.0004128064085896067,
+          "paw_mae": 0.0024039735717567862
+        },
+        "joint_fast": {
+          "density_nmae_pct": 0.06189471157375085,
+          "paw_rel_l1_pct": 0.25887487405277,
+          "density_mae": 0.00043986133936700633,
+          "paw_mae": 0.0007294889955810695
+        }
+      },
+      "times": {}
+    }
+  ],
+  "mean_validation_scores": {
+    "joint_fast": {
+      "density_nmae_pct": 0.06075783146962917,
+      "paw_rel_l1_pct": 0.23398707265868474,
+      "density_mae": 0.00042460338079639367,
+      "paw_mae": 0.0006304454221717691
+    },
+    "official_frozen_fast": {
+      "density_nmae_pct": 0.057544379918198094,
+      "paw_rel_l1_pct": 0.754955671149216,
+      "density_mae": 0.00040224905587983443,
+      "paw_mae": 0.0020354940684657124
+    }
+  },
+  "wins_on_density": 1,
+  "wins_on_paw": 50,
+  "timing_means": {
+    "joint_fast": 1.670299299992621,
+    "joint_reference": 9.637401699942226,
+    "official_frozen_fast": 1.1705360000487417
+  },
+  "paired_median_speedup": 4.644942851740173
+}

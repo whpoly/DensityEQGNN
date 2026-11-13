@@ -1,0 +1,507 @@
+{
+  "rows": [
+    {
+      "name": "element_mean",
+      "train_mae": 0.03769755616146091,
+      "validation_mae": 0.04676805002688024,
+      "test_mae": 0.0442326487006289,
+      "relative_l1_percent": 17.28495337198104,
+      "pooled_mae": 0.04384915289430591,
+      "pooled_relative_l1_percent": 17.209692120676102,
+      "by_l": {
+        "0": {
+          "macro_mae": 0.10378699167605081,
+          "macro_relative_l1": 0.06803309880809591,
+          "pooled_mae": 0.10201093436861161,
+          "pooled_relative_l1": 0.06675477190573201
+        },
+        "1": {
+          "macro_mae": 0.012724085842298338,
+          "macro_relative_l1": 1.0,
+          "pooled_mae": 0.012525583722264704,
+          "pooled_relative_l1": 1.0
+        },
+        "2": {
+          "macro_mae": 0.04716804216658198,
+          "macro_relative_l1": 1.0,
+          "pooled_mae": 0.04693726036718617,
+          "pooled_relative_l1": 1.0
+        }
+      },
+      "anisotropic": {
+        "macro_mae": 0.034003952007828284,
+        "macro_relative_l1": 1.0,
+        "pooled_mae": 0.03375287340713566,
+        "pooled_relative_l1": 1.0
+      },
+      "per_structure": {
+        "scf_361": 0.02920853091585087,
+        "scf_796": 0.027778456421177333,
+        "scf_825": 0.046342285151943156,
+        "scf_1056": 0.06201562255819787,
+        "scf_1749": 0.055818348455975275
+      },
+      "baseline_mae_reduction_percent": 0.0
+    },
+    {
+      "name": "DeepDFT_frozen_42",
+      "train_mae": 0.0039944072284119215,
+      "validation_mae": 0.02251976911268655,
+      "test_mae": 0.014981878605610326,
+      "relative_l1_percent": 5.824318616246084,
+      "pooled_mae": 0.014727698910549104,
+      "pooled_relative_l1_percent": 5.780252232181211,
+      "by_l": {
+        "0": {
+          "macro_mae": 0.06231005342011218,
+          "macro_relative_l1": 0.04068350311330808,
+          "pooled_mae": 0.06002156372631102,
+          "pooled_relative_l1": 0.03927741492394471
+        },
+        "1": {
+          "macro_mae": 0.0027526923073350343,
+          "macro_relative_l1": 0.19589780124237705,
+          "pooled_mae": 0.0026908926758059744,
+          "pooled_relative_l1": 0.21483171846297347
+        },
+        "2": {
+          "macro_mae": 0.009528109182453266,
+          "macro_relative_l1": 0.18508657972010273,
+          "pooled_mae": 0.009457813588597262,
+          "pooled_relative_l1": 0.20149905458072317
+        }
+      },
+      "anisotropic": {
+        "macro_mae": 0.00694131877916188,
+        "macro_relative_l1": 0.1863961195071642,
+        "pooled_mae": 0.0068651557311236,
+        "pooled_relative_l1": 0.20339470504671892
+      },
+      "per_structure": {
+        "scf_361": 0.0024061592089898286,
+        "scf_796": 0.003304150457134599,
+        "scf_825": 0.021393933470018063,
+        "scf_1056": 0.025435878020159893,
+        "scf_1749": 0.022369271871749252
+      },
+      "selection": {
+        "seed": 42,
+        "step": 1200,
+        "validation_mae": 0.02251976919110924,
+        "best_checkpoint_sha256": "0dd90d5bc7d7af481d4c98f8b18e4df48a9fb0b7f8cc75e439cd9289373abdc4",
+        "training_seconds": 152.93583930004388,
+        "parameters": 49899,
+        "source_hashes_match": true
+      },
+      "timing_ms": {
+        "head": 4.563389997929335,
+        "encoder_graph_and_head": 16.290850017685443
+      },
+      "baseline_mae_reduction_percent": 66.12936587404201
+    },
+    {
+      "name": "DeepDFT_frozen_43",
+      "train_mae": 0.003305634189025209,
+      "validation_mae": 0.020233056053479,
+      "test_mae": 0.014274637604161861,
+      "relative_l1_percent": 5.550243766985242,
+      "pooled_mae": 0.014037349233958194,
+      "pooled_relative_l1_percent": 5.5093073083790305,
+      "by_l": {
+        "0": {
+          "macro_mae": 0.06070580437754074,
+          "macro_relative_l1": 0.03963165142775359,
+          "pooled_mae": 0.058621944574115334,
+          "pooled_relative_l1": 0.03836152038932445
+        },
+        "1": {
+          "macro_mae": 0.002478921791555684,
+          "macro_relative_l1": 0.17386843013153222,
+          "pooled_mae": 0.0024255685930774005,
+          "pooled_relative_l1": 0.19364914616840245
+        },
+        "2": {
+          "macro_mae": 0.008775355294286923,
+          "macro_relative_l1": 0.17002081695755267,
+          "pooled_mae": 0.00870307158654144,
+          "pooled_relative_l1": 0.18541924940778512
+        }
+      },
+      "anisotropic": {
+        "macro_mae": 0.006373560292501223,
+        "macro_relative_l1": 0.17049590871582013,
+        "pooled_mae": 0.006297927848190061,
+        "pooled_relative_l1": 0.18658938373106398
+      },
+      "per_structure": {
+        "scf_361": 0.002730738941895483,
+        "scf_796": 0.003556003208068696,
+        "scf_825": 0.020082921563967106,
+        "scf_1056": 0.0242623433302032,
+        "scf_1749": 0.02074118097667483
+      },
+      "selection": {
+        "seed": 43,
+        "step": 1600,
+        "validation_mae": 0.020233056311869592,
+        "best_checkpoint_sha256": "3e4b0b1cefd13510c4604a215728f6390b72a2d609356049eb1b8b64fe274d86",
+        "training_seconds": 154.5903313999297,
+        "parameters": 49899,
+        "source_hashes_match": true
+      },
+      "timing_ms": {
+        "head": 4.310909996274859,
+        "encoder_graph_and_head": 16.15650998428464
+      },
+      "baseline_mae_reduction_percent": 67.72827758795529
+    },
+    {
+      "name": "EdenGNN_frozen_42",
+      "train_mae": 0.017173852025148588,
+      "validation_mae": 0.02963603750810205,
+      "test_mae": 0.028165748803195473,
+      "relative_l1_percent": 10.995211813269753,
+      "pooled_mae": 0.02782275929348048,
+      "pooled_relative_l1_percent": 10.91973481318169,
+      "by_l": {
+        "0": {
+          "macro_mae": 0.09928948965704135,
+          "macro_relative_l1": 0.06500363709942693,
+          "pooled_mae": 0.09708778235389867,
+          "pooled_relative_l1": 0.06353311834640013
+        },
+        "1": {
+          "macro_mae": 0.004637464484666334,
+          "macro_relative_l1": 0.366196683923379,
+          "pooled_mae": 0.004561871490198778,
+          "pooled_relative_l1": 0.3642043030768998
+        },
+        "2": {
+          "macro_mae": 0.022962502345284484,
+          "macro_relative_l1": 0.4669129407352289,
+          "pooled_mae": 0.022778560505049318,
+          "pooled_relative_l1": 0.48529804097756424
+        }
+      },
+      "anisotropic": {
+        "macro_mae": 0.015976184358526387,
+        "macro_relative_l1": 0.4515202042184215,
+        "pooled_mae": 0.015799072711386804,
+        "pooled_relative_l1": 0.46808082147005414
+      },
+      "per_structure": {
+        "scf_361": 0.017236027521385307,
+        "scf_796": 0.011979806249174371,
+        "scf_825": 0.028288793028213476,
+        "scf_1056": 0.04525513442440721,
+        "scf_1749": 0.03806898279279699
+      },
+      "selection": {
+        "arm": "frozen",
+        "seed": 42,
+        "step": 1600,
+        "validation_mae": 0.02963603779850283,
+        "best_checkpoint_sha256": "5944612ba85ab41590820f8bb51bbd5908be7b051da5f3d9b435a701ea97d1db",
+        "training_seconds": 139.1316361000063,
+        "trainable_parameters": 946,
+        "frozen_encoder_unchanged": true,
+        "source_hashes_match": true
+      },
+      "timing_ms": {
+        "head": 3.1678600003942847,
+        "encoder_graph_and_head": 194.91851999191567
+      },
+      "baseline_mae_reduction_percent": 36.32362150902573
+    },
+    {
+      "name": "EdenGNN_frozen_43",
+      "train_mae": 0.016926970055948523,
+      "validation_mae": 0.02959816223811384,
+      "test_mae": 0.02797415359619241,
+      "relative_l1_percent": 10.918955852877932,
+      "pooled_mae": 0.02762753377909117,
+      "pooled_relative_l1_percent": 10.84311369794968,
+      "by_l": {
+        "0": {
+          "macro_mae": 0.09874602479465815,
+          "macro_relative_l1": 0.06464115687785427,
+          "pooled_mae": 0.09650501826205332,
+          "pooled_relative_l1": 0.0631517642860068
+        },
+        "1": {
+          "macro_mae": 0.004600332378372888,
+          "macro_relative_l1": 0.3642579121646084,
+          "pooled_mae": 0.004525776757527921,
+          "pooled_relative_l1": 0.36132262239269375
+        },
+        "2": {
+          "macro_mae": 0.022778310930791572,
+          "macro_relative_l1": 0.46291666507351803,
+          "pooled_mae": 0.022593554064615478,
+          "pooled_relative_l1": 0.48135647219006905
+        }
+      },
+      "anisotropic": {
+        "macro_mae": 0.01584863570514912,
+        "macro_relative_l1": 0.4477300512368586,
+        "pooled_mae": 0.01567111985768423,
+        "pooled_relative_l1": 0.46428994855209016
+      },
+      "per_structure": {
+        "scf_361": 0.016957026055123572,
+        "scf_796": 0.011766933686166551,
+        "scf_825": 0.028084990752887166,
+        "scf_1056": 0.04534321258415527,
+        "scf_1749": 0.037718604902629474
+      },
+      "selection": {
+        "arm": "frozen",
+        "seed": 43,
+        "step": 1800,
+        "validation_mae": 0.029598163615192755,
+        "best_checkpoint_sha256": "c05b25f23eec7243150e5b9f4eeb3e30b8de02b0bd34be23410469247291da3c",
+        "training_seconds": 140.10444660007488,
+        "trainable_parameters": 946,
+        "frozen_encoder_unchanged": true,
+        "source_hashes_match": true
+      },
+      "timing_ms": {
+        "head": 3.5285299993120134,
+        "encoder_graph_and_head": 195.04264000570402
+      },
+      "baseline_mae_reduction_percent": 36.75677487567081
+    },
+    {
+      "name": "EdenGNN_finetuned_42",
+      "train_mae": 0.0016832075944950608,
+      "validation_mae": 0.014580424743162703,
+      "test_mae": 0.011027081172399119,
+      "relative_l1_percent": 4.291744546816982,
+      "pooled_mae": 0.010846689409985493,
+      "pooled_relative_l1_percent": 4.257053396775843,
+      "by_l": {
+        "0": {
+          "macro_mae": 0.044322074103378864,
+          "macro_relative_l1": 0.0289531824786871,
+          "pooled_mae": 0.04268960104534927,
+          "pooled_relative_l1": 0.02793557963337155
+        },
+        "1": {
+          "macro_mae": 0.0015129021336335916,
+          "macro_relative_l1": 0.10834130396640622,
+          "pooled_mae": 0.0014846152113853295,
+          "pooled_relative_l1": 0.11852662872280907
+        },
+        "2": {
+          "macro_mae": 0.007754797203161083,
+          "macro_relative_l1": 0.15143522616571073,
+          "pooled_mae": 0.007700706090219712,
+          "pooled_relative_l1": 0.16406381689041385
+        }
+      },
+      "anisotropic": {
+        "macro_mae": 0.005372685452845679,
+        "macro_relative_l1": 0.14526659401919884,
+        "pooled_mae": 0.005319091605954585,
+        "pooled_relative_l1": 0.15758929741460417
+      },
+      "per_structure": {
+        "scf_361": 0.0027210414519495954,
+        "scf_796": 0.0025856571353255306,
+        "scf_825": 0.013492719841415379,
+        "scf_1056": 0.01829340933691759,
+        "scf_1749": 0.018042578096387492
+      },
+      "selection": {
+        "arm": "finetuned",
+        "seed": 42,
+        "step": 5000,
+        "validation_mae": 0.014580425726075428,
+        "best_checkpoint_sha256": "4a1cf6b7860bbcc9a6cdda678ca756de1943e2f09dc93e54e84f0d849fef454b",
+        "training_seconds": 2282.014862000011,
+        "trainable_parameters": 6191024,
+        "frozen_encoder_unchanged": false,
+        "source_hashes_match": true
+      },
+      "timing_ms": {
+        "head": 3.8616099976934493,
+        "encoder_graph_and_head": 203.02034999476746
+      },
+      "baseline_mae_reduction_percent": 75.07026710737688
+    },
+    {
+      "name": "EdenGNN_finetuned_43",
+      "train_mae": 0.0016997855300385839,
+      "validation_mae": 0.014494449902996996,
+      "test_mae": 0.010901925424942685,
+      "relative_l1_percent": 4.243821140412354,
+      "pooled_mae": 0.010724430482769961,
+      "pooled_relative_l1_percent": 4.209069835919947,
+      "by_l": {
+        "0": {
+          "macro_mae": 0.04231961840707281,
+          "macro_relative_l1": 0.027617727518292896,
+          "pooled_mae": 0.04071518933054384,
+          "pooled_relative_l1": 0.026643547514602958
+        },
+        "1": {
+          "macro_mae": 0.0016413046073115493,
+          "macro_relative_l1": 0.11477747441686763,
+          "pooled_mae": 0.0016082610036374444,
+          "pooled_relative_l1": 0.1283980882087514
+        },
+        "2": {
+          "macro_mae": 0.00799871620860372,
+          "macro_relative_l1": 0.15585528350514816,
+          "pooled_mae": 0.007946923207118919,
+          "pooled_relative_l1": 0.16930948131507503
+        }
+      },
+      "anisotropic": {
+        "macro_mae": 0.005571250320605235,
+        "macro_relative_l1": 0.15017331761071664,
+        "pooled_mae": 0.005518347111798677,
+        "pooled_relative_l1": 0.16349266165386822
+      },
+      "per_structure": {
+        "scf_361": 0.002780928951175052,
+        "scf_796": 0.0023696989598426116,
+        "scf_825": 0.013423557186368226,
+        "scf_1056": 0.018021911057598147,
+        "scf_1749": 0.017913530969729394
+      },
+      "selection": {
+        "arm": "finetuned",
+        "seed": 43,
+        "step": 4400,
+        "validation_mae": 0.014494450029935107,
+        "best_checkpoint_sha256": "6465c372d5722ead7da28ae20099e35426670a248aaa236ac4e371f6cbc67847",
+        "training_seconds": 2258.9406397999264,
+        "trainable_parameters": 6191024,
+        "frozen_encoder_unchanged": false,
+        "source_hashes_match": true
+      },
+      "timing_ms": {
+        "head": 3.17407000111416,
+        "encoder_graph_and_head": 190.35472996765748
+      },
+      "baseline_mae_reduction_percent": 75.35321590455042
+    }
+  ],
+  "groups": {
+    "DeepDFT_frozen": {
+      "test_mae": {
+        "mean": 0.014628258104886094,
+        "minimum": 0.014274637604161861,
+        "maximum": 0.014981878605610326
+      },
+      "relative_l1_percent": {
+        "mean": 5.6872811916156625,
+        "minimum": 5.550243766985242,
+        "maximum": 5.824318616246084
+      },
+      "timing_ms": {
+        "head": 4.437149997102097,
+        "encoder_graph_and_head": 16.22368000098504
+      }
+    },
+    "EdenGNN_frozen": {
+      "test_mae": {
+        "mean": 0.02806995119969394,
+        "minimum": 0.02797415359619241,
+        "maximum": 0.028165748803195473
+      },
+      "relative_l1_percent": {
+        "mean": 10.957083833073842,
+        "minimum": 10.918955852877932,
+        "maximum": 10.995211813269753
+      },
+      "timing_ms": {
+        "head": 3.348194999853149,
+        "encoder_graph_and_head": 194.98057999880984
+      }
+    },
+    "EdenGNN_finetuned": {
+      "test_mae": {
+        "mean": 0.010964503298670901,
+        "minimum": 0.010901925424942685,
+        "maximum": 0.011027081172399119
+      },
+      "relative_l1_percent": {
+        "mean": 4.267782843614668,
+        "minimum": 4.243821140412354,
+        "maximum": 4.291744546816982
+      },
+      "timing_ms": {
+        "head": 3.5178399994038045,
+        "encoder_graph_and_head": 196.68753998121247
+      }
+    }
+  },
+  "audit": {
+    "source_hashes_match": true,
+    "original_eden_checkpoint_unchanged": true,
+    "deepdft_dataset_unchanged": true,
+    "deepdft_results_unchanged": true
+  },
+  "settings": {
+    "base_dataset_sha256": "598e5bb22d359544bf3da3ac12c325b8cdbf6a26d8dcc1acf78b77fc84c95d14",
+    "base_settings_sha256": "01930e92f32b29cae23ed9419e696a69927d21ca4a195eea73a53570ebbdf247",
+    "base_results_sha256": "3d78bec9d89171b13980e4e0d04d839791d302d01a2f83835cedd17c85f1eb71",
+    "eden_checkpoint_sha256": "7896cc55e46af27ad811a9cb3154016b4678c0771f8b6b8562f5f1d506cc7ac9",
+    "source_hashes": {
+      "scripts/edengnn_paw.py": "704a06522d67cf74aa2f0ec7288da5a4765108e7dd3edf9b6ab053b41d281f5d",
+      "scripts/benchmark_edengnn_paw.py": "1726904eec91494ab8989bb3df0f7203658e246daf98152d84e81f7eba124d96",
+      "scripts/deepdft_paw.py": "b7d86dbede7d774e7f750d38a6a86bab56b887a80cb35b9c8402128ac749b279",
+      "scripts/train_deepdft_paw.py": "515302e69a98139f5ce00c6eb64a97c62ae32ab1618342f323164e83f92f8fab",
+      "scripts/nmc_edengnn.py": "5a3594c693d48e6e43152ce8cadc2b92c7384a1d416dce315c17356cd9aba6c2"
+    },
+    "encoder_config": {
+      "l_max": 6,
+      "num_types": 100,
+      "edge": {
+        "n_radial_basis": 8,
+        "radial_type": "Bessel",
+        "cutoff": 4.0
+      },
+      "conv": {
+        "num_conv_layers": 3,
+        "num_radial_filter_neurons": 64,
+        "num_radial_filter_layers": 2,
+        "irreps_node_features": "64x0e+64x0o+20x1o+20x1e+16x2o+16x2e+8x3o+8x3e+6x4o+6x4e+5x5e+5x5o+4x6e+4x6o"
+      }
+    },
+    "provenance": {
+      "repository": "https://github.com/rubenlee11/EdenGNN",
+      "commit": "3be8c06265c02ecf1ef0587500ee9b8e091186ef",
+      "model_source_sha256": "9b0fe0978c629bb1f6e79626c95174f5f1ba9335e2e960e41d58fe0c2dbf97ba",
+      "classes": [
+        "DensityLayer",
+        "Encoder"
+      ],
+      "loading": "unchanged official class ASTs; omit unrelated PAW/Fortran imports"
+    },
+    "initial_encoder_state": "9c77adb98afa103c071925a4e57b1e30ee5599c62e304c22461a12b60c1b3ecb",
+    "arms": [
+      "frozen",
+      "finetuned"
+    ],
+    "seeds": [
+      42,
+      43
+    ],
+    "steps": 6000,
+    "batch": 2,
+    "eval_every": 200,
+    "lr": 0.001,
+    "min_lr": 1e-05,
+    "selection": "Validation macro raw MAE. All arm/seed selections frozen before new test metrics.",
+    "pretrained_density_encoder": "Same eight training structures, 16000 density updates; no occupation labels in source checkpoint.",
+    "caveats": "Known small test set from DeepDFT pilot; only L<=2; not equal parameter count/FLOPs; finetuned arm has dedicated occupation encoder.",
+    "feature_conditioning": "Divide each initial encoder irrep channel by training-only RMS, shared across m, floor 1e-4. Fixed in both arms. Preliminary unscaled frozen seed 42 failed to learn at matched LR; preserved separately, no test evaluation.",
+    "torch": "2.11.0+cu128",
+    "device": "NVIDIA GeForce RTX 5060 Ti",
+    "head_parameters": 946,
+    "encoder_parameters": 6190078
+  }
+}

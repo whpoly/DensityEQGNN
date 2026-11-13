@@ -1,0 +1,52 @@
+basis:
+  num_radial: 12
+  lmax: 4
+  cutoff: 3.0
+  pbc: true
+
+model:
+  architecture: mace_like
+  num_radial: 12
+  # The message-passing trunk stays small at l<=2.  The final local
+  # tensor-product readout uses 2 x 2 -> l<=4, the exact CG ceiling.
+  lmax: 2
+  hidden_lmax: 2
+  density_lmax: 4
+  readout_edge_lmax: 2
+  scalar_channels: 24
+  vector_channels: 12
+  tensor_channels: 6
+  octupole_channels: 0
+  num_interactions: 3
+  edge_basis: 16
+  radial_hidden: 64
+  cutoff: 6.0
+  num_species: 119
+  pbc: true
+  learnable_atomic_baseline: true
+
+data:
+  root: data/nmc_full_probes
+  dataset_name: nmc_full_probes
+  train_split: train.txt
+  val_split: val.txt
+  test_split: test.txt
+  num_workers: 0
+  augment_rotations: true
+
+training:
+  output_dir: runs/nmc_full_l2_to_l4_mace_pbc
+  device: auto
+  seed: 42
+  epochs: 300
+  resume: true
+  batch_size: 2
+  lr: 0.001
+  weight_decay: 0.000001
+  lr_patience: 12
+  early_stopping_patience: 40
+  loss_mode: density
+  density_loss: l1
+  train_probes: 2048
+  coefficient_weight: 0.0
+

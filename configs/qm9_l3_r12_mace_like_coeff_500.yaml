@@ -1,0 +1,40 @@
+basis:
+  num_radial: 12
+  lmax: 3
+  cutoff: 5.0
+  pbc: false
+
+model:
+  architecture: mace_like
+  num_radial: 12
+  lmax: 3
+  scalar_channels: 24
+  vector_channels: 12
+  tensor_channels: 12
+  octupole_channels: 12
+  num_interactions: 2
+  edge_basis: 16
+  radial_hidden: 64
+  cutoff: 5.0
+  num_species: 119
+  pbc: false
+
+data:
+  root: data/qm9_atoms_le12_500_l3r12_coeff
+  dataset_name: qm9_atoms_le12_500_l3r12_coeff
+  train_split: train.txt
+  val_split: val.txt
+  test_split: test.txt
+  num_workers: 0
+  augment_rotations: false
+
+training:
+  output_dir: runs/qm9_l3_r12_mace_like_coeff_500
+  device: auto
+  seed: 42
+  epochs: 250
+  batch_size: 16
+  lr: 0.001
+  weight_decay: 0.000001
+  lr_patience: 12
+  early_stopping_patience: 40

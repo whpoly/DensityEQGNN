@@ -1,0 +1,210 @@
+{
+  "sample_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "initial_backbone_identical": true,
+  "interpretation": "Full-grid training-set overfit, not generalization; finite-budget GNN and oracle fits",
+  "adam_results": {
+    "r12": {
+      "macro_nmae": 0.026367445802333342,
+      "p90_nmae": 0.028019349744009242,
+      "oracle_macro_nmae": 0.002667540625704815,
+      "macro_excess_nmae": 0.023699905176628528,
+      "ratio_to_oracle_macro": 9.884552665572453,
+      "variant": "r12",
+      "best_step": 4000,
+      "completed_steps": 4000,
+      "seed": 42,
+      "interpretation": "full-grid training-set overfit; no generalization claim",
+      "initialization": {
+        "trunk_sha256": "57bd4a4808a11449cdaf8312f0080edba3e7a6866c0544e251af70ec4d60e93c",
+        "full_state_sha256": "d81fb5724f831409490af4728ec934a06edea84bc971f70d0fa1ef077eeb03cf",
+        "parameter_count": 477148,
+        "source": "random initialization; no pretrained weights or oracle coefficient targets"
+      },
+      "basis_config": {
+        "num_radial": 12,
+        "lmax": 4,
+        "cutoff": 3.0,
+        "pbc": true,
+        "regular_radial": false,
+        "radial_whitening": true,
+        "radial_minimum": 0.09375
+      },
+      "model_config": {
+        "architecture": "mace_like",
+        "num_radial": 12,
+        "lmax": 2,
+        "hidden_lmax": 2,
+        "density_lmax": 4,
+        "readout_edge_lmax": 2,
+        "scalar_channels": 24,
+        "vector_channels": 12,
+        "tensor_channels": 6,
+        "octupole_channels": 0,
+        "num_interactions": 3,
+        "edge_basis": 16,
+        "radial_hidden": 64,
+        "cutoff": 6.0,
+        "num_species": 119,
+        "pbc": true,
+        "learnable_atomic_baseline": true
+      },
+      "independent_final": true,
+      "elapsed_seconds": 1346.2681981999776
+    },
+    "r16": {
+      "macro_nmae": 0.02502157289970005,
+      "p90_nmae": 0.026676023407475002,
+      "oracle_macro_nmae": 0.0014525799772318769,
+      "macro_excess_nmae": 0.02356899292246817,
+      "ratio_to_oracle_macro": 17.225607740637216,
+      "variant": "r16",
+      "best_step": 4000,
+      "completed_steps": 4000,
+      "seed": 42,
+      "interpretation": "full-grid training-set overfit; no generalization claim",
+      "initialization": {
+        "trunk_sha256": "57bd4a4808a11449cdaf8312f0080edba3e7a6866c0544e251af70ec4d60e93c",
+        "full_state_sha256": "fdffc23198e09114aae293ca22ba54afc8f60af3583e4083adcb8690f396a747",
+        "parameter_count": 521472,
+        "source": "random initialization; no pretrained weights or oracle coefficient targets"
+      },
+      "basis_config": {
+        "num_radial": 16,
+        "lmax": 4,
+        "cutoff": 3.0,
+        "pbc": true,
+        "regular_radial": true,
+        "radial_whitening": true,
+        "radial_minimum": 0.09375
+      },
+      "model_config": {
+        "architecture": "mace_like",
+        "num_radial": 16,
+        "lmax": 2,
+        "hidden_lmax": 2,
+        "density_lmax": 4,
+        "readout_edge_lmax": 2,
+        "scalar_channels": 24,
+        "vector_channels": 12,
+        "tensor_channels": 6,
+        "octupole_channels": 0,
+        "num_interactions": 3,
+        "edge_basis": 16,
+        "radial_hidden": 64,
+        "cutoff": 6.0,
+        "num_species": 119,
+        "pbc": true,
+        "learnable_atomic_baseline": true
+      },
+      "independent_final": true,
+      "elapsed_seconds": 1430.489327300049
+    }
+  },
+  "results": {
+    "r12": {
+      "macro_nmae": 0.025357708737053248,
+      "p90_nmae": 0.02669945804574654,
+      "oracle_macro_nmae": 0.002667540625704815,
+      "macro_excess_nmae": 0.022690168111348434,
+      "ratio_to_oracle_macro": 9.50602532261463,
+      "variant": "r12",
+      "seed": 42,
+      "best_round": 3,
+      "parent_adam_macro_nmae": 0.026367445802333342,
+      "initialization": {
+        "trunk_sha256": "57bd4a4808a11449cdaf8312f0080edba3e7a6866c0544e251af70ec4d60e93c",
+        "full_state_sha256": "d81fb5724f831409490af4728ec934a06edea84bc971f70d0fa1ef077eeb03cf",
+        "parameter_count": 477148,
+        "source": "random initialization; no pretrained weights or oracle coefficient targets"
+      },
+      "basis_config": {
+        "num_radial": 12,
+        "lmax": 4,
+        "cutoff": 3.0,
+        "pbc": true,
+        "regular_radial": false,
+        "radial_whitening": true,
+        "radial_minimum": 0.09375
+      },
+      "model_config": {
+        "architecture": "mace_like",
+        "num_radial": 12,
+        "lmax": 2,
+        "hidden_lmax": 2,
+        "density_lmax": 4,
+        "readout_edge_lmax": 2,
+        "scalar_channels": 24,
+        "vector_channels": 12,
+        "tensor_channels": 6,
+        "octupole_channels": 0,
+        "num_interactions": 3,
+        "edge_basis": 16,
+        "radial_hidden": 64,
+        "cutoff": 6.0,
+        "num_species": 119,
+        "pbc": true,
+        "learnable_atomic_baseline": true
+      },
+      "interpretation": "training-set overfit after matched Adam + full-batch sampled L-BFGS",
+      "elapsed_seconds": 389.47027170000365
+    },
+    "r16": {
+      "macro_nmae": 0.024385904487567195,
+      "p90_nmae": 0.02588583600502788,
+      "oracle_macro_nmae": 0.0014525799772318769,
+      "macro_excess_nmae": 0.022933324510335317,
+      "ratio_to_oracle_macro": 16.787994375386084,
+      "variant": "r16",
+      "seed": 42,
+      "best_round": 3,
+      "parent_adam_macro_nmae": 0.02502157289970005,
+      "initialization": {
+        "trunk_sha256": "57bd4a4808a11449cdaf8312f0080edba3e7a6866c0544e251af70ec4d60e93c",
+        "full_state_sha256": "fdffc23198e09114aae293ca22ba54afc8f60af3583e4083adcb8690f396a747",
+        "parameter_count": 521472,
+        "source": "random initialization; no pretrained weights or oracle coefficient targets"
+      },
+      "basis_config": {
+        "num_radial": 16,
+        "lmax": 4,
+        "cutoff": 3.0,
+        "pbc": true,
+        "regular_radial": true,
+        "radial_whitening": true,
+        "radial_minimum": 0.09375
+      },
+      "model_config": {
+        "architecture": "mace_like",
+        "num_radial": 16,
+        "lmax": 2,
+        "hidden_lmax": 2,
+        "density_lmax": 4,
+        "readout_edge_lmax": 2,
+        "scalar_channels": 24,
+        "vector_channels": 12,
+        "tensor_channels": 6,
+        "octupole_channels": 0,
+        "num_interactions": 3,
+        "edge_basis": 16,
+        "radial_hidden": 64,
+        "cutoff": 6.0,
+        "num_species": 119,
+        "pbc": true,
+        "learnable_atomic_baseline": true
+      },
+      "interpretation": "training-set overfit after matched Adam + full-batch sampled L-BFGS",
+      "elapsed_seconds": 387.2655467999866
+    }
+  },
+  "r16_better_sample_count": 8,
+  "r16_relative_macro_improvement": 0.03832381937828755
+}

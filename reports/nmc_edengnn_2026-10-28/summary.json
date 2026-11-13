@@ -1,0 +1,23 @@
+{
+  "eden": {
+    "test_macro_nmae": 0.0028479058306520606,
+    "fresh_mean_of_structure_medians_seconds": 1.1277068875206169,
+    "fresh_pooled_p90_seconds": 1.2046624699956738,
+    "warm_mean_of_structure_medians_seconds": 0.9737330499774544,
+    "fresh_peak_increment_mib": 2240.05615234375
+  },
+  "r16": {
+    "test_macro_nmae": 0.02060689154307445,
+    "fresh_mean_of_structure_medians_seconds": 5.300469349997002,
+    "fresh_pooled_p90_seconds": 5.604729210096411,
+    "warm_mean_of_structure_medians_seconds": 3.4063750125060324,
+    "fresh_peak_increment_mib": 1316.77880859375
+  },
+  "r16_algebraic_diagnostic": {
+    "decoder_seconds": 0.23461720001068898,
+    "fresh_seconds": 2.118393412514706,
+    "test_macro_nmae": 0.02060689154197027,
+    "max_abs_difference_from_original": 4.76837158203125e-07,
+    "max_relative_l1_difference_from_original": 2.2018525281843347e-11
+  }
+}

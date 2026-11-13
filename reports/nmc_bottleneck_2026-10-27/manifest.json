@@ -1,0 +1,579 @@
+{
+  "files": [
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\basis.py",
+      "sha256": "028b542bf449c759426579fad1997ecf299edb1819a4def8163d7499ccd8a08b",
+      "bytes": 20468
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\chgcar.py",
+      "sha256": "80914c2225aaed69bfd68da55f4414ebc7bfa07599c9750629f2e8ecb7052bc5",
+      "bytes": 4497
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\compact_basis.py",
+      "sha256": "dad698b9c45de126b5d425201272bd8b519662017d62b2a92a027e2ac647016a",
+      "bytes": 9315
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\fixed_grid.py",
+      "sha256": "1e6af12440b59945412ca22da67c73df7ae6642078d4652bd161cfed9ffaccfc",
+      "bytes": 2234
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\frozen_readout.py",
+      "sha256": "0ee702f364cb8a0bf7143ab3bea7015f4e4082e6ce10ddd58d9752089fe04517",
+      "bytes": 6866
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\oracle_basis.py",
+      "sha256": "be377ce698f03c0aa4d8aeffd17b0bcea4039107012241e84841beda432a33cb",
+      "bytes": 10491
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\periodic.py",
+      "sha256": "a55673fa940db95103489c732ecfbd18f62475d8bd5a5123d11b712740ba9f8e",
+      "bytes": 7075
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\radial_basis.py",
+      "sha256": "47505876e58597801e51fcac15e2ffa1ae52146a54db620a8695928f88bac633",
+      "bytes": 2862
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\__init__.py",
+      "sha256": "58ac3ef2af5b43732c2200f11635c481d1296c6b47dd3063912bef92aa4dad3e",
+      "bytes": 112
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\data\\dataset.py",
+      "sha256": "d2efc5f53607cd0c4e0f3d1056ce5857eb3b18f5d9ba2579e7f5ee8ffff5d1ea",
+      "bytes": 6313
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\data\\__init__.py",
+      "sha256": "39c80cd6fc25ad469b7f9a7cf809af4eaa017f95406a673611f226db8f1bb295",
+      "bytes": 178
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\models\\compact_model.py",
+      "sha256": "df476b140261c0fcc1726432aca7a025b39c698e5dd54d9807351ea32d622e8c",
+      "bytes": 5492
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\models\\mace_like_model.py",
+      "sha256": "39cb82252836b5182ecfe9ce6aa70f47d8dbb505d016c3ee9961874da26b44e2",
+      "bytes": 14673
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\models\\model.py",
+      "sha256": "1b85df13d7d2c42972d07877c3ba6df41d2f2bc448ea4c449e5530d14413e140",
+      "bytes": 8697
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\models\\paired_readout.py",
+      "sha256": "211eee0f4989c3d25dd981ae18821caed322c573587ef8acadefdfa519bddd7b",
+      "bytes": 5892
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\models\\__init__.py",
+      "sha256": "cc1c5e01ba1ef4df7d9cea0c95534c8f2c78140e3cf00c05be9c14300bfc94a6",
+      "bytes": 1484
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\training\\config.py",
+      "sha256": "b5d96ec36f0795312ba670baa3c2c1b750248f8852d1970c3aca6f126f2eebde",
+      "bytes": 756
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\training\\evaluate.py",
+      "sha256": "a19a8564dfbc65388d57c9342e731bf8babd2040073d2a29b66b3b3ac43c2613",
+      "bytes": 1692
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\training\\evaluate_compact_coefficients.py",
+      "sha256": "6a063b6d1cb4cd621a11e2ff65fb2d6365d605c2147f777a3d8b5828d62063dd",
+      "bytes": 1898
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\training\\losses.py",
+      "sha256": "b20fe183b26fd1129e62b09e6c357eec8a5ede109ba7a7a539da6d0f8f0dc491",
+      "bytes": 1080
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\training\\metrics.py",
+      "sha256": "0e405b0cc3c50dad3b9857940fb422e5687b3bf4fb1b4986508016511367cfd4",
+      "bytes": 809
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\training\\train.py",
+      "sha256": "696b3a5bd09b523b7a7be2c486d05084c486d181fd937edf9d1d0994a064a5eb",
+      "bytes": 12086
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\training\\train_compact_coefficients.py",
+      "sha256": "f50e26ba694c3d8dd8e171fea742c1c0034e7385d6036093912125def164857b",
+      "bytes": 15892
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\training\\__init__.py",
+      "sha256": "09def60e7c6f5f48cafea99f2b7a616cc01340b5f8e89281facdb07744744e5e",
+      "bytes": 27
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\fit_nmc_holdout_oracle.py",
+      "sha256": "5196488e756b0746255aeb26f519bedb550b8fa3921b3caf97ca8a1f3f0fe582",
+      "bytes": 9406
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\train_nmc_paired_readout.py",
+      "sha256": "0c67ed3152fd5d7ef38310306dad60e2e5926500d7592df6e51b667ad6e1b49c",
+      "bytes": 11375
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\audit_nmc_paired_control.py",
+      "sha256": "eace98f49dedc9313f4c944f9167576d22ceb0ba82276db543269e33b8b2fac2",
+      "bytes": 3286
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\summarize_nmc_bottleneck.py",
+      "sha256": "47129283c47b00c76a26a58657d4b7e55181eeae6d7952d2e081e92c80c049f6",
+      "bytes": 18872
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\run_nmc_bottleneck.ps1",
+      "sha256": "30392d8ffcab4e3ad889968617ce0105283460985b1fb39beb854eca2e51586f",
+      "bytes": 2153
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\nmc_probe_holdout.py",
+      "sha256": "fa75daa0a730c664f0c7091adb44596d0d2934b41f274e0562e9492558637a3b",
+      "bytes": 8350
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\finalize_nmc_bottleneck.py",
+      "sha256": "a33e0d0e674c827b9c062d69fb5ff759a2298fcb5c3dc6744f1715c5c81efd0b",
+      "bytes": 4465
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\run_nmc_bottleneck_refine.ps1",
+      "sha256": "7b2e9d3e06018b5d4538bc721ee2202d67698af4e64474821851599008df566a",
+      "bytes": 1193
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\train_nmc_probe_holdout.py",
+      "sha256": "5407689c931c0697ae8398178c58477d5e14d4863788db70bc86cf70a79e6189",
+      "bytes": 14390
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\compare_local_nmc_oracles.py",
+      "sha256": "14f6757e9b385ab3e80907c8c8faed3f36bd2837f04c4e8147fd66b8e5671e6c",
+      "bytes": 20104
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\train_local_nmc_overfit.py",
+      "sha256": "878f4102df3bb9d00269c1cefb9d0490ead95a85227b1bf0bf1121ed0ae8dddb",
+      "bytes": 16070
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\tests\\test_bottleneck.py",
+      "sha256": "066aaa53cd6cdc764369f6b341d6694cb7df07786d7e0e8e953ebe87a82aaf17",
+      "bytes": 5350
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\configs\\nmc_full_l2_to_l4_mace_pbc.yaml",
+      "sha256": "6afb53d53f3913963a0a3233fa5b6277edf9405ac0f596ec0548b081e12d6888",
+      "bytes": 1024
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\pyproject.toml",
+      "sha256": "02eba2b007be689610dc77b8aabacee4aa7004a192544377b213387cce8c2641",
+      "bytes": 749
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\reports\\nmc_bottleneck_protocol_2026-10-27.md",
+      "sha256": "64b1ba0f02f493271d437aae403ebb3734fe7606a384bcad4bb4e2550d3b5f95",
+      "bytes": 2330
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0000\\fit_complete.json",
+      "sha256": "fa1224d1a5406c048084616e3386e2aa2874febbdb8e67c6476d4fd12c032ae3",
+      "bytes": 466
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0000\\history.json",
+      "sha256": "48244d094dd321540089a26bdb849cc6b383554972a9f5643bc42c4bd053127c",
+      "bytes": 2464
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0000\\result.json",
+      "sha256": "37bde833d96744f079ced230ac83540aac702eb98daa86719720bc5cd5c6e6cb",
+      "bytes": 1038
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0000\\settings.json",
+      "sha256": "7d021609d6a980bf9e85f8cdae283b8b9573fc5d4ee390d4275be2ee4b88c822",
+      "bytes": 1784
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0001\\fit_complete.json",
+      "sha256": "0cc71b2a829702dc063caaaea8553d12a1d8c47990220060235a5e7a3952bd46",
+      "bytes": 467
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0001\\history.json",
+      "sha256": "753e988399b1a328057fd4802704057323eb334e9fd0d2a60ed03bff5a217ed1",
+      "bytes": 2468
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0001\\result.json",
+      "sha256": "de75aa6a5ba954434a92e03846925f86f199182f8363786f6be1d883f4f55e80",
+      "bytes": 1038
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0001\\settings.json",
+      "sha256": "0740e2d55e976d8566ec1ba53ee585eb93712dec4963e1500ac630931963268b",
+      "bytes": 1779
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0002\\fit_complete.json",
+      "sha256": "045cc2eb3bd6ec114454847760dbbe9eada5f0447f6a466467a583ecef44231f",
+      "bytes": 468
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0002\\history.json",
+      "sha256": "30fe117f2dd9e39092be14e2af07ce2f20d5533996bb60d3f7e8f181bc60ab66",
+      "bytes": 2462
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0002\\result.json",
+      "sha256": "7b4f5c4650074f268d7b27d3e7436062d2bfdf4ac8a43645d39b41451e6f3880",
+      "bytes": 1037
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0002\\settings.json",
+      "sha256": "3c5d0b103ec59ab58f1c6ab1a24c12dacec6fbc832d13431f38b74214866f8e4",
+      "bytes": 1783
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0003\\fit_complete.json",
+      "sha256": "567c9abf1fffd62d9beaa2239ae485ec6b180c73532ce3a9271a36d027c8fb4c",
+      "bytes": 467
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0003\\history.json",
+      "sha256": "b8e066fa2a49861c8f9dbfa859252ef8e9f94fed86b857d1faf04a52ce88c241",
+      "bytes": 2467
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0003\\result.json",
+      "sha256": "de21dedf7088aea690c7816bdc0fa380e5b43c8b39aa9cc134c707d2a6f6ea58",
+      "bytes": 1039
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0003\\settings.json",
+      "sha256": "35dacf2dc77dcd11737cc74631c1bfeac9544882e7625d282b2fbc38d76fe80b",
+      "bytes": 1776
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0004\\fit_complete.json",
+      "sha256": "dd36bc9bcbbfd3f00d48a39cbc9386174b167647cbb91f8fa50d1fae10597ea1",
+      "bytes": 467
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0004\\history.json",
+      "sha256": "f0e0b2d7bf80e1f8a3c0557f3531f44a4b0231152265e6f60fe5eb57b60d802d",
+      "bytes": 2456
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0004\\result.json",
+      "sha256": "b30408706218fe6d81439c6f7f44e2ae490fe40068f462c6e63ae31dde79567e",
+      "bytes": 1039
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0004\\settings.json",
+      "sha256": "fe315cba111665755599acc056bef8f48200b4f593c0a38e48c91d3efb9df4bf",
+      "bytes": 1778
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0005\\fit_complete.json",
+      "sha256": "6cf34fd7f68dad387b0d57c19578551fdc0e9702cd5a49e33f07e095e7576006",
+      "bytes": 468
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0005\\history.json",
+      "sha256": "ac2b8a77aba14780e696c2843c0be89ee6515a2070c5afcb73b09ec7dc6f71c3",
+      "bytes": 2459
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0005\\result.json",
+      "sha256": "5c0d6cfaff04a148d447f325d22471bc6e2659cff23480e4d5c68c20aaadf636",
+      "bytes": 1036
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0005\\settings.json",
+      "sha256": "8ad54274572c0dec0a2aa86e06f385576fca8e2fca9718da50c27fbddca181df",
+      "bytes": 1779
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0006\\fit_complete.json",
+      "sha256": "00d09751b0afd7c4b170012faa81d91497b5e93b16a49a1ae187205f7137549e",
+      "bytes": 467
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0006\\history.json",
+      "sha256": "ff67e967add99f4299f35131f8d6d2dfb037ddf69c9af4a3bb75b085691d790e",
+      "bytes": 2461
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0006\\result.json",
+      "sha256": "7c3facd866da2f7a4a31d6e8abe4905d49b3d94caf2143f07eb834528d38b803",
+      "bytes": 1038
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0006\\settings.json",
+      "sha256": "64cdac2cf3477ba36b9bbff08fb21e8c92bf3c1e544c94067fc00836655f19ae",
+      "bytes": 1781
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0007\\fit_complete.json",
+      "sha256": "68a0ea2f0bd6c88c8e6552ce8b93945bd1a23d90ef2c952ac804b218cdb065fb",
+      "bytes": 467
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0007\\history.json",
+      "sha256": "50e44bf302e623bdac31999e765224518413bef101f788f4bebc70862e452673",
+      "bytes": 2462
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0007\\result.json",
+      "sha256": "372d73dcd670ca1dca181ee8a078e1349836f7ec120edd6bdaebbfa8b8a4d7d2",
+      "bytes": 1039
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0007\\settings.json",
+      "sha256": "4d2aa29740ee5b779ae230dce34d803d308d067540aba66dc77764a5c218371f",
+      "bytes": 1782
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0000\\best.pt",
+      "sha256": "17217c2dc62a796b05cae09c5945813cec16cab0d3fc19c1090f09c9c531940c",
+      "bytes": 163981
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0001\\best.pt",
+      "sha256": "1d4e13d7a60eee3584800c9215b564f990571f22953f3eaab73797554580fdf0",
+      "bytes": 144781
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0002\\best.pt",
+      "sha256": "d2a474f52664d8a4e3b77cefa2e854df655fdeec0af36cfe6b41a3d560c6e6a6",
+      "bytes": 147981
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0003\\best.pt",
+      "sha256": "f2da247a5f45ae1da54130309b54b52837211e8978ba8a41d7b5b274b93586cd",
+      "bytes": 160781
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0004\\best.pt",
+      "sha256": "450b87667dee9b1ecc8699cc279da5f69be4f887b8e792e5b9d4d7054f1b1af1",
+      "bytes": 135181
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0005\\best.pt",
+      "sha256": "1ccce3bf0908cef0a6ef3807e7ba2952cff1fa8b8c9a7d29b7739befcf3cb279",
+      "bytes": 151181
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0006\\best.pt",
+      "sha256": "33df516c3a06e4b639407650eb582cd821e5809aee789a3ac4697dd26b424d7d",
+      "bytes": 135181
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle\\sample_0007\\best.pt",
+      "sha256": "5779905a56a1247a0b5d384c93c7b9372fa05adf4253e2835ddb8a86c8770039",
+      "bytes": 147981
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\query_eight\\best.pt",
+      "sha256": "921e27958b52c790edf47db9358e2907de905e4979d35706e288ae0a947c17d4",
+      "bytes": 9867593
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\query_eight\\settings.json",
+      "sha256": "90f68c8936be5996b2ee77437e2d69a5ff98d95c6146c0a10c212d54fc5f900c",
+      "bytes": 2602
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\query_eight\\sources.json",
+      "sha256": "c27e03e75ebf855d99ea0c23df360947e8503f0f5d9778b9273fd261ab61c480",
+      "bytes": 8629
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\query_eight\\history.json",
+      "sha256": "9f5ce0b3c490bffe18b72eb536570a1b824839dea64e6f3e2e54fc7923a8468c",
+      "bytes": 29100
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\query_eight\\result.json",
+      "sha256": "fc21395866bec4f63acd9416741f6799869b008782f233ebcb2014f3c2801ef2",
+      "bytes": 3467
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\query_eight\\sampling_audit.json",
+      "sha256": "3617fe9a995da895c66a43c0531cdaf66bc846909896f6356a6b868eaef0050f",
+      "bytes": 1283
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\query_eight_refine\\best.pt",
+      "sha256": "034dee192470e2fe72e2f3ca0062a7b07b3f836b602b8dbd8736a166c58ac49a",
+      "bytes": 9856585
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\query_eight_refine\\settings.json",
+      "sha256": "72eb8439be163b6b7384a2d6bbec8fe484cef834c7602114243f47863dc62a5a",
+      "bytes": 2723
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\query_eight_refine\\sources.json",
+      "sha256": "c27e03e75ebf855d99ea0c23df360947e8503f0f5d9778b9273fd261ab61c480",
+      "bytes": 8629
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\query_eight_refine\\history.json",
+      "sha256": "2fa3005f1ca84a4b309be7193ad7d45802f5c9608cb1893fec07349621729a4e",
+      "bytes": 7958
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\query_eight_refine\\result.json",
+      "sha256": "ab430c1420e3e0411d0002b581a204da411355b4c8d300fff5436aa0dfbf3d85",
+      "bytes": 3467
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\query_eight_refine\\sampling_audit.json",
+      "sha256": "0820571b5e4241ff9c064d63e6a7fdf4c3318f6e374d088ec59de6b1ec0ab2cd",
+      "bytes": 1283
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\refinement_decision.json",
+      "sha256": "74899a9f138995acc0abff2a740fd1f59e9f49236b272f2570cd1ea4fb36e59e",
+      "bytes": 1324
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\frozen_selection.json",
+      "sha256": "42c1e58728745d04439bd83466ac6709a3e61dcb68cfc11eef782d93c1ca727a",
+      "bytes": 1436
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\production_source_audit.json",
+      "sha256": "851be3007b70b33c9f52ace1af7722213ba17ff97b87e8985b53328277d3c68f",
+      "bytes": 4379
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\oracle_optimization_diagnostic.json",
+      "sha256": "02c475bd9d0b2e9a3e9d626fba11d2cd481ec4c6006ca3fbad50f118ad5f312e",
+      "bytes": 2367
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_probe_holdout_2026-10-26\\r16_eight\\best.pt",
+      "sha256": "d9553ed92cc1f545b4794df96f6772a3144d80fcd97e20533cb52c2d65002b72",
+      "bytes": 9870658
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_probe_holdout_2026-10-26\\r16_eight\\result.json",
+      "sha256": "aee93a231c1b7133f7563eaeb837fd11a05bb52a96fb2f474d16815f941feafb",
+      "bytes": 6601
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_probe_holdout_2026-10-26\\r16_eight\\settings.json",
+      "sha256": "a93703cab8af783c458c2adbac6dd73965fe4cbab2ea8f0203641a24206bc75a",
+      "bytes": 1988
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_probe_holdout_2026-10-26\\r16_eight\\sources.json",
+      "sha256": "c27e03e75ebf855d99ea0c23df360947e8503f0f5d9778b9273fd261ab61c480",
+      "bytes": 8629
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_probe_holdout_2026-10-26\\r16_eight\\history.json",
+      "sha256": "f8e3d1018fdde9e5a0ca498718e96191bf9094250c4d0fa34d3564b6ffc106f8",
+      "bytes": 41383
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_probe_holdout_2026-10-26\\r16_eight\\sampling_audit.json",
+      "sha256": "3617fe9a995da895c66a43c0531cdaf66bc846909896f6356a6b868eaef0050f",
+      "bytes": 1283
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_probe_holdout_2026-10-26\\deepdft_eight\\best.pt",
+      "sha256": "2603f37a00247fd4db8fa9d18ba56c1d429828380dee1501664d1cca975a883b",
+      "bytes": 21477132
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_probe_holdout_2026-10-26\\deepdft_eight\\result.json",
+      "sha256": "3babd361d6f3094dca44ffd0ab3f6ff524b2dbdfac0b92a394361a21cf10ce1f",
+      "bytes": 6286
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_probe_holdout_2026-10-26\\deepdft_eight\\settings.json",
+      "sha256": "064846cd7e6e3791132354c8012bafd773d42d85c868cd2289efebf53fa21d05",
+      "bytes": 1879
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_probe_holdout_2026-10-26\\deepdft_eight\\sources.json",
+      "sha256": "c27e03e75ebf855d99ea0c23df360947e8503f0f5d9778b9273fd261ab61c480",
+      "bytes": 8629
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_probe_holdout_2026-10-26\\deepdft_eight\\history.json",
+      "sha256": "5ca7f3dc8fa72f7538ae4ccda5b725415aa208b9e364245c65730922f702d61d",
+      "bytes": 41526
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_probe_holdout_2026-10-26\\deepdft_eight\\sampling_audit.json",
+      "sha256": "3617fe9a995da895c66a43c0531cdaf66bc846909896f6356a6b868eaef0050f",
+      "bytes": 1283
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\paired_control_audit.json",
+      "sha256": "c3c4cb5129669303422adf9885d1f0eca60c33953bb314f2b0bbcb326cb3af24",
+      "bytes": 739
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_bottleneck_2026-10-27\\pytest.log",
+      "sha256": "922fd41515ff07cca6b896953724baf3a9df261c3482db1f583a98bbbff8c5b3",
+      "bytes": 102
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\reports\\nmc_probe_holdout_2026-10-27\\source_snapshot.zip",
+      "sha256": "bd5209b254f38364ed9d83faf812e60c436553dbe0cfc741e816fd70a39220a0",
+      "bytes": 80457
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\reports\\nmc_bottleneck_2026-10-27\\report.md",
+      "sha256": "54a6ce9cd451cf1f6a37d3a0d5574bd6bd3293334484d92c6714fab5453eb95a",
+      "bytes": 8064
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\reports\\nmc_bottleneck_2026-10-27\\summary.json",
+      "sha256": "a63f86e7c630047ef09dfb541c9c98843126de737430cd130c80393444a98b1a",
+      "bytes": 48684
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\reports\\nmc_bottleneck_2026-10-27\\comparison.png",
+      "sha256": "74c2772a501f761c4f7fde70713958e46db79ecaaf11420cfb1968351ab004a8",
+      "bytes": 264093
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\reports\\nmc_bottleneck_2026-10-27\\comparison.pdf",
+      "sha256": "a2a25ee48333e4617ac2a59c579d12e2f0064f5e82e821e4e63cb5650e943513",
+      "bytes": 27391
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\reports\\nmc_bottleneck_2026-10-27\\source_snapshot.zip",
+      "sha256": "f36481776a6761e043d8d460dcdd02f1739e04d8602084c49557c1abd0d125a4",
+      "bytes": 88842
+    }
+  ]
+}

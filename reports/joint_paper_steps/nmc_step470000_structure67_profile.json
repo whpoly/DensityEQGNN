@@ -1,0 +1,201 @@
+{
+  "structure": 67,
+  "split": "NMC validation",
+  "step": 470000,
+  "device": "RTX 5060 Ti, shared with ongoing training",
+  "unit": "seconds",
+  "setup": {
+    "cuda_context": 0.12146340007893741,
+    "load_checkpoint_cpu": 0.021121500059962273,
+    "construct_model_and_apply_weights": 0.15210439986549318,
+    "reference_adapter": 0.0002055999357253313,
+    "build_radial_table_and_adapter": 0.5204505999572575,
+    "compile_load_kernel": 0.031985699897632
+  },
+  "input": {
+    "read_prepared_structure": 0.0008938999380916357,
+    "make_grid_and_transfer": 0.017049799906089902
+  },
+  "stage_runs": {
+    "reference": [
+      {
+        "atom_graph": 0.0035753000993281603,
+        "atom_encoder": 0.007005800027400255,
+        "paw_head": 0.015727699967101216,
+        "prepare_atom_states": 0.0007291000802069902,
+        "probe_graph": 0.22869069990701973,
+        "grid_messages_and_readout": 4.0215616000350565,
+        "optional_copy_outputs_cpu": 0.00046960008330643177
+      },
+      {
+        "atom_graph": 0.0030561001040041447,
+        "atom_encoder": 0.004697600146755576,
+        "paw_head": 0.006026700139045715,
+        "prepare_atom_states": 0.0004680999554693699,
+        "probe_graph": 0.22084800014272332,
+        "grid_messages_and_readout": 4.01402850006707,
+        "optional_copy_outputs_cpu": 0.0004859000910073519
+      },
+      {
+        "atom_graph": 0.003165900008752942,
+        "atom_encoder": 0.00460360012948513,
+        "paw_head": 0.00535729993134737,
+        "prepare_atom_states": 0.00048470008186995983,
+        "probe_graph": 0.20987690007314086,
+        "grid_messages_and_readout": 4.0314647001214325,
+        "optional_copy_outputs_cpu": 0.00043160002678632736
+      }
+    ],
+    "fused": [
+      {
+        "atom_graph": 0.0066667001228779554,
+        "atom_encoder": 0.015695299953222275,
+        "paw_head": 0.0066754999570548534,
+        "prepare_atom_states": 0.0006229998543858528,
+        "probe_graph": 0.22567590000107884,
+        "grid_messages_and_readout": 0.4237140000332147,
+        "optional_copy_outputs_cpu": 0.0003388000186532736
+      },
+      {
+        "atom_graph": 0.0033994000405073166,
+        "atom_encoder": 0.004672399954870343,
+        "paw_head": 0.005843800026923418,
+        "prepare_atom_states": 0.002953900024294853,
+        "probe_graph": 0.22250230005010962,
+        "grid_messages_and_readout": 0.42261150013655424,
+        "optional_copy_outputs_cpu": 0.00032490002922713757
+      },
+      {
+        "atom_graph": 0.003064599819481373,
+        "atom_encoder": 0.004493300104513764,
+        "paw_head": 0.006476299837231636,
+        "prepare_atom_states": 0.0007605000864714384,
+        "probe_graph": 0.21383759984746575,
+        "grid_messages_and_readout": 0.42441139998845756,
+        "optional_copy_outputs_cpu": 0.00034210016019642353
+      }
+    ]
+  },
+  "warm_runs": {
+    "reference": [
+      4.317238199990243,
+      4.249806999927387,
+      4.2486272000242025
+    ],
+    "fused": [
+      0.6921966001391411,
+      0.6660285000689328,
+      0.6699361999053508
+    ]
+  },
+  "checkpoint_sha256": "e0f2dc8873ade73dd5293882df29e164f8f32dd699f0a410a9db49ec098bd428",
+  "table_mib": 72.00439453125,
+  "atoms": 42,
+  "grid": [
+    56,
+    56,
+    140
+  ],
+  "points": 439040,
+  "density_nmae_pct": {
+    "reference": 0.16612423298543913,
+    "fused": 0.16612569472979194
+  },
+  "pointwise_pass": true,
+  "probe_edges": 13416326,
+  "stage_runs_median": {
+    "reference": {
+      "atom_graph": 0.003165900008752942,
+      "atom_encoder": 0.004697600146755576,
+      "paw_head": 0.006026700139045715,
+      "prepare_atom_states": 0.00048470008186995983,
+      "probe_graph": 0.22084800014272332,
+      "grid_messages_and_readout": 4.0215616000350565,
+      "optional_copy_outputs_cpu": 0.00046960008330643177
+    },
+    "fused": {
+      "atom_graph": 0.0033994000405073166,
+      "atom_encoder": 0.004672399954870343,
+      "paw_head": 0.006476299837231636,
+      "prepare_atom_states": 0.0007605000864714384,
+      "probe_graph": 0.22250230005010962,
+      "grid_messages_and_readout": 0.4237140000332147,
+      "optional_copy_outputs_cpu": 0.0003388000186532736
+    }
+  },
+  "warm_runs_median": {
+    "reference": 4.249806999927387,
+    "fused": 0.6699361999053508
+  },
+  "fresh_process": {
+    "reference": {
+      "launch_to_cpu_output": 11.961381899891421,
+      "stages": {
+        "imports": 6.298204200109467,
+        "cuda_setup": 0.08036489994265139,
+        "weights_model": 0.15217519993893802,
+        "adapter_setup": 0.00019110017456114292,
+        "prepared_input_and_grid": 0.012181599857285619,
+        "first_prediction_and_cpu_transfer": 5.3862052001059055
+      }
+    },
+    "fused": {
+      "launch_to_cpu_output": 8.303926800144836,
+      "stages": {
+        "imports": 6.5557190999388695,
+        "cuda_setup": 0.07098650000989437,
+        "weights_model": 0.13648109999485314,
+        "adapter_setup": 0.500153100118041,
+        "prepared_input_and_grid": 0.01192099996842444,
+        "first_prediction_and_cpu_transfer": 0.995618199929595
+      }
+    }
+  },
+  "grid_loop_cuda_event_seconds": {
+    "reference": [
+      {
+        "edge_displacements": 0.059040320202708246,
+        "edge_geometry_and_basis": 0.05298076802492142,
+        "radial_filter_and_message_aggregation": 3.6526075115203858,
+        "probe_gate": 0.051536736253649,
+        "probe_update": 0.11419836780428887,
+        "readout": 0.010886336028575897,
+        "other_in_loop": 0.07301534102484597,
+        "loop_total": 4.014265380859375
+      },
+      {
+        "edge_displacements": 0.05968291223049164,
+        "edge_geometry_and_basis": 0.055263263925909994,
+        "radial_filter_and_message_aggregation": 3.672381058573723,
+        "probe_gate": 0.05448976022005081,
+        "probe_update": 0.10902707159519195,
+        "readout": 0.012439904034137726,
+        "other_in_loop": 0.06876949621737038,
+        "loop_total": 4.032053466796875
+      }
+    ],
+    "fused": [
+      {
+        "edge_displacements": 0.05228985598683357,
+        "edge_geometry_and_basis": 0.014527840059250592,
+        "radial_filter_and_message_aggregation": 0.15856828820705413,
+        "probe_gate": 0.0369710401147604,
+        "probe_update": 0.11848928037285805,
+        "readout": 0.003468672003597021,
+        "other_in_loop": 0.04249315924197439,
+        "loop_total": 0.4268081359863281
+      },
+      {
+        "edge_displacements": 0.05771209606528282,
+        "edge_geometry_and_basis": 0.014861312054097653,
+        "radial_filter_and_message_aggregation": 0.166482656031847,
+        "probe_gate": 0.038340768188238145,
+        "probe_update": 0.11053852790594101,
+        "readout": 0.0035852479971945285,
+        "other_in_loop": 0.04221019620075822,
+        "loop_total": 0.4337308044433594
+      }
+    ]
+  },
+  "grid_loop_cuda_note": "Two additional instrumented grid loops per arm on the same validation structure with prebuilt graph/states. CUDA stream intervals; instrumentation introduces overhead. Separate from wall-time measurements."
+}

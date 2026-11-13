@@ -9,10 +9,14 @@ dependencies:
   - pytorch=2.5.1
   - pytorch-cuda=12.1
   - numpy
+  - ase
+  - pip
+  - lz4
   - pymatgen
-  - mp-api
+  - scipy
   - pyyaml
-  - tqdm
   - pytest
+  - pip:
+      - e3nn>=0.6
 variables:
   PYTHONPATH: src

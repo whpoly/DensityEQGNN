@@ -1,0 +1,383 @@
+{
+  "report_date": "2026-10-27",
+  "official_commit": "a6bab4deb5cf05d9b46ae397b72253d04ea3c694",
+  "paired_checks_passed": true,
+  "recorded_hashes_verified": true,
+  "files": [
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\configs\\nmc_full_l2_to_l4_mace_pbc.yaml",
+      "sha256": "6afb53d53f3913963a0a3233fa5b6277edf9405ac0f596ec0548b081e12d6888",
+      "bytes": 1024
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\pyproject.toml",
+      "sha256": "02eba2b007be689610dc77b8aabacee4aa7004a192544377b213387cce8c2641",
+      "bytes": 749
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_probe_holdout_2026-10-26\\DeepDFT\\densitymodel.py",
+      "sha256": "6cac612ca2f7547b099b333ac096ccd0bebfc9268a9b9071d27ba542927fa51e",
+      "bytes": 22993
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_probe_holdout_2026-10-26\\DeepDFT\\layer.py",
+      "sha256": "f32369a18be57947929d678f835d9f5f1976a8695370ebc45dcfbb266fe9ce1f",
+      "bytes": 21996
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_probe_holdout_2026-10-26\\DeepDFT\\LICENSE",
+      "sha256": "b0cebd237cd5387fe6a7e9e411e5b7b61c01fdaf87da8ba9abd1098411d1420f",
+      "bytes": 1101
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\compare_local_nmc_oracles.py",
+      "sha256": "14f6757e9b385ab3e80907c8c8faed3f36bd2837f04c4e8147fd66b8e5671e6c",
+      "bytes": 20104
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\nmc_probe_holdout.py",
+      "sha256": "fa75daa0a730c664f0c7091adb44596d0d2934b41f274e0562e9492558637a3b",
+      "bytes": 8350
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\run_nmc_probe_holdout.ps1",
+      "sha256": "410dfc73d333527385fbcaad083ef2273203161aec6296c0fba5a8598f0ec818",
+      "bytes": 1943
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\summarize_nmc_probe_holdout.py",
+      "sha256": "0aded2e739f44a6520f345d5dd795877c5cfdb12168f3be936c7d86cbb54cc83",
+      "bytes": 14541
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\train_local_nmc_overfit.py",
+      "sha256": "878f4102df3bb9d00269c1cefb9d0490ead95a85227b1bf0bf1121ed0ae8dddb",
+      "bytes": 16070
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\train_nmc_probe_holdout.py",
+      "sha256": "5407689c931c0697ae8398178c58477d5e14d4863788db70bc86cf70a79e6189",
+      "bytes": 14390
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\__init__.py",
+      "sha256": "58ac3ef2af5b43732c2200f11635c481d1296c6b47dd3063912bef92aa4dad3e",
+      "bytes": 112
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\basis.py",
+      "sha256": "028b542bf449c759426579fad1997ecf299edb1819a4def8163d7499ccd8a08b",
+      "bytes": 20468
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\chgcar.py",
+      "sha256": "80914c2225aaed69bfd68da55f4414ebc7bfa07599c9750629f2e8ecb7052bc5",
+      "bytes": 4497
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\compact_basis.py",
+      "sha256": "dad698b9c45de126b5d425201272bd8b519662017d62b2a92a027e2ac647016a",
+      "bytes": 9315
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\data\\__init__.py",
+      "sha256": "39c80cd6fc25ad469b7f9a7cf809af4eaa017f95406a673611f226db8f1bb295",
+      "bytes": 178
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\data\\dataset.py",
+      "sha256": "d2efc5f53607cd0c4e0f3d1056ce5857eb3b18f5d9ba2579e7f5ee8ffff5d1ea",
+      "bytes": 6313
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\fixed_grid.py",
+      "sha256": "1e6af12440b59945412ca22da67c73df7ae6642078d4652bd161cfed9ffaccfc",
+      "bytes": 2234
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\frozen_readout.py",
+      "sha256": "0ee702f364cb8a0bf7143ab3bea7015f4e4082e6ce10ddd58d9752089fe04517",
+      "bytes": 6866
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\models\\__init__.py",
+      "sha256": "cc1c5e01ba1ef4df7d9cea0c95534c8f2c78140e3cf00c05be9c14300bfc94a6",
+      "bytes": 1484
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\models\\compact_model.py",
+      "sha256": "df476b140261c0fcc1726432aca7a025b39c698e5dd54d9807351ea32d622e8c",
+      "bytes": 5492
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\models\\mace_like_model.py",
+      "sha256": "39cb82252836b5182ecfe9ce6aa70f47d8dbb505d016c3ee9961874da26b44e2",
+      "bytes": 14673
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\models\\model.py",
+      "sha256": "1b85df13d7d2c42972d07877c3ba6df41d2f2bc448ea4c449e5530d14413e140",
+      "bytes": 8697
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\oracle_basis.py",
+      "sha256": "be377ce698f03c0aa4d8aeffd17b0bcea4039107012241e84841beda432a33cb",
+      "bytes": 10491
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\periodic.py",
+      "sha256": "a55673fa940db95103489c732ecfbd18f62475d8bd5a5123d11b712740ba9f8e",
+      "bytes": 7075
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\radial_basis.py",
+      "sha256": "47505876e58597801e51fcac15e2ffa1ae52146a54db620a8695928f88bac633",
+      "bytes": 2862
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\training\\__init__.py",
+      "sha256": "09def60e7c6f5f48cafea99f2b7a616cc01340b5f8e89281facdb07744744e5e",
+      "bytes": 27
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\training\\config.py",
+      "sha256": "b5d96ec36f0795312ba670baa3c2c1b750248f8852d1970c3aca6f126f2eebde",
+      "bytes": 756
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\training\\evaluate.py",
+      "sha256": "a19a8564dfbc65388d57c9342e731bf8babd2040073d2a29b66b3b3ac43c2613",
+      "bytes": 1692
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\training\\evaluate_compact_coefficients.py",
+      "sha256": "6a063b6d1cb4cd621a11e2ff65fb2d6365d605c2147f777a3d8b5828d62063dd",
+      "bytes": 1898
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\training\\losses.py",
+      "sha256": "b20fe183b26fd1129e62b09e6c357eec8a5ede109ba7a7a539da6d0f8f0dc491",
+      "bytes": 1080
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\training\\metrics.py",
+      "sha256": "0e405b0cc3c50dad3b9857940fb422e5687b3bf4fb1b4986508016511367cfd4",
+      "bytes": 809
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\training\\train.py",
+      "sha256": "696b3a5bd09b523b7a7be2c486d05084c486d181fd937edf9d1d0994a064a5eb",
+      "bytes": 12086
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\training\\train_compact_coefficients.py",
+      "sha256": "f50e26ba694c3d8dd8e171fea742c1c0034e7385d6036093912125def164857b",
+      "bytes": 15892
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\density EQGNN\\tests\\test_probe_holdout.py",
+      "sha256": "b3c8ad34acda12eaa0c3c1a609491283bd29baadee2bdd44f74a227ece2d8587",
+      "bytes": 4528
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\deepdft_one\\best.pt",
+      "sha256": "f3423d3b813c3b5ae85fa21fbf826b091f78baa477ab98f277532c8c20c01ffd",
+      "bytes": 18385071
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\deepdft_one\\settings.json",
+      "sha256": "0e15b41009c3d9f92b5cd5f7eb02d006f34530280c80f800e081cb7d8509bcc4",
+      "bytes": 1820
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\deepdft_one\\sources.json",
+      "sha256": "e700aff860750261d2ca3510f9a2d3b6598f2097a672ae9612a9adbc86b76a51",
+      "bytes": 1080
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\deepdft_one\\history.json",
+      "sha256": "9d189fc7fab1f81c1591b18d2cd1e8924dee6db28a60f38fb65143bfd571c91b",
+      "bytes": 2907
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\deepdft_one\\result.json",
+      "sha256": "3ff83b630f613ff16c5defaa634781d384a7a65f343b4684527c26cb56567866",
+      "bytes": 1308
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\deepdft_one\\sampling_audit.json",
+      "sha256": "14d6aaed5efd0b7650037479813bce54d05eff42c05624de0d348e743ce099c1",
+      "bytes": 163
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\r16_one\\best.pt",
+      "sha256": "282a296e89d008935b62185e5846d9e024612ad7d49c2ee152753e49f284e6bf",
+      "bytes": 6778597
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\r16_one\\settings.json",
+      "sha256": "98b1afd234e9a9df7600c187f4551fef037cdf55b5da6a268d0be0f1ca2e73fa",
+      "bytes": 1929
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\r16_one\\sources.json",
+      "sha256": "e700aff860750261d2ca3510f9a2d3b6598f2097a672ae9612a9adbc86b76a51",
+      "bytes": 1080
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\r16_one\\history.json",
+      "sha256": "c323444708a2fb5b0548d73b6e90266e8e0f2f76ce40898d5fb138df374131d6",
+      "bytes": 2902
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\r16_one\\result.json",
+      "sha256": "6c0ddd19cb08a3653e74cd07a540d70158971152946c6abae35d180d03eb3379",
+      "bytes": 1332
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\r16_one\\sampling_audit.json",
+      "sha256": "14d6aaed5efd0b7650037479813bce54d05eff42c05624de0d348e743ce099c1",
+      "bytes": 163
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\deepdft_eight\\best.pt",
+      "sha256": "2603f37a00247fd4db8fa9d18ba56c1d429828380dee1501664d1cca975a883b",
+      "bytes": 21477132
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\deepdft_eight\\settings.json",
+      "sha256": "064846cd7e6e3791132354c8012bafd773d42d85c868cd2289efebf53fa21d05",
+      "bytes": 1879
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\deepdft_eight\\sources.json",
+      "sha256": "c27e03e75ebf855d99ea0c23df360947e8503f0f5d9778b9273fd261ab61c480",
+      "bytes": 8629
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\deepdft_eight\\history.json",
+      "sha256": "5ca7f3dc8fa72f7538ae4ccda5b725415aa208b9e364245c65730922f702d61d",
+      "bytes": 41526
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\deepdft_eight\\result.json",
+      "sha256": "3babd361d6f3094dca44ffd0ab3f6ff524b2dbdfac0b92a394361a21cf10ce1f",
+      "bytes": 6286
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\deepdft_eight\\sampling_audit.json",
+      "sha256": "3617fe9a995da895c66a43c0531cdaf66bc846909896f6356a6b868eaef0050f",
+      "bytes": 1283
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\r16_eight\\best.pt",
+      "sha256": "d9553ed92cc1f545b4794df96f6772a3144d80fcd97e20533cb52c2d65002b72",
+      "bytes": 9870658
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\r16_eight\\settings.json",
+      "sha256": "a93703cab8af783c458c2adbac6dd73965fe4cbab2ea8f0203641a24206bc75a",
+      "bytes": 1988
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\r16_eight\\sources.json",
+      "sha256": "c27e03e75ebf855d99ea0c23df360947e8503f0f5d9778b9273fd261ab61c480",
+      "bytes": 8629
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\r16_eight\\history.json",
+      "sha256": "f8e3d1018fdde9e5a0ca498718e96191bf9094250c4d0fa34d3564b6ffc106f8",
+      "bytes": 41383
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\r16_eight\\result.json",
+      "sha256": "aee93a231c1b7133f7563eaeb837fd11a05bb52a96fb2f474d16815f941feafb",
+      "bytes": 6601
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\r16_eight\\sampling_audit.json",
+      "sha256": "3617fe9a995da895c66a43c0531cdaf66bc846909896f6356a6b868eaef0050f",
+      "bytes": 1283
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\spatial_splits\\sample_0000.json",
+      "sha256": "a42466f4db84a806e33fba7cc852735b65b7e334a20f52224aeff6127277b0e8",
+      "bytes": 633
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\spatial_splits\\sample_0000.npz",
+      "sha256": "8f5d3824e0f3eae7be68a55a23ac14e70c3bcf41b7da4f3efa13b2dd30eebbf8",
+      "bytes": 698399
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\spatial_splits\\sample_0001.json",
+      "sha256": "0b6809b62f687dca8ffc772e3fa2df3fd2717d3c797235bba13ff4a040359e40",
+      "bytes": 633
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\spatial_splits\\sample_0001.npz",
+      "sha256": "347e9601bfced1fa8c9613dd6ea9bfb5d4041125c5c0ecb3fa353607ac1918ab",
+      "bytes": 698414
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\spatial_splits\\sample_0002.json",
+      "sha256": "3022cf5704c0b34fa9bb38a98263fed9e7b13e1ff030582967df9049d4bb90d6",
+      "bytes": 633
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\spatial_splits\\sample_0002.npz",
+      "sha256": "8965c5c753464c1e47ed9a59745c4de0ebc1a4f614291128d8485e0f99f48ba2",
+      "bytes": 698393
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\spatial_splits\\sample_0003.json",
+      "sha256": "048774416571f88cf2287b4d18620ff4f78581b528b504f46068ff2a1b5680c3",
+      "bytes": 633
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\spatial_splits\\sample_0003.npz",
+      "sha256": "14b6fea28d7b74c70f3e9889012749973fac8fd353fb0a2311b58847830f89f1",
+      "bytes": 698428
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\spatial_splits\\sample_0004.json",
+      "sha256": "1f427a9c124964f5582cc77c7a08b9e771817c8719b5fd75b783a4649795251c",
+      "bytes": 633
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\spatial_splits\\sample_0004.npz",
+      "sha256": "abd5b72a32c2ca17978da6ced3e16c6ef662b036512bf0c429c740773674a848",
+      "bytes": 698477
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\spatial_splits\\sample_0005.json",
+      "sha256": "a426cd6a1fd276ceb654ce5b593c1e35a9401ee7cdcf3f7bf6268bf2fe0ea2cc",
+      "bytes": 633
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\spatial_splits\\sample_0005.npz",
+      "sha256": "f1afd62c399156296def6248d87334e578e9379d8dce60af91aef87b98b9b094",
+      "bytes": 698432
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\spatial_splits\\sample_0006.json",
+      "sha256": "ae353cb19203af2bc0b23cd8851e256202c320f4d6a7eeb903c23c9f88bbd4bf",
+      "bytes": 633
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\spatial_splits\\sample_0006.npz",
+      "sha256": "cffd55f3c0984999f5ad5cd4300bd9a23439863933268f2bdc296c4956bb5adf",
+      "bytes": 698489
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\spatial_splits\\sample_0007.json",
+      "sha256": "1b0bd7cb2a920208aa5204e86366ab31479d5f6aa8f411f582adac4a1aaedd05",
+      "bytes": 633
+    },
+    {
+      "path": "runs\\nmc_probe_holdout_2026-10-26\\spatial_splits\\sample_0007.npz",
+      "sha256": "75134dedf0e0515da7faa00fe9126fef4eea24b67ab17ee7db238f00144ac43c",
+      "bytes": 698460
+    }
+  ]
+}

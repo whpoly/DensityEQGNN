@@ -1,0 +1,82 @@
+{
+  "step": 470000,
+  "checkpoint_sha256": "e0f2dc8873ade73dd5293882df29e164f8f32dd699f0a410a9db49ec098bd428",
+  "ids": [
+    43,
+    67,
+    74
+  ],
+  "split": "validation, first three in manifest order",
+  "timing": "concurrent long training on same GPU; one warmup then three synchronized alternating runs per path per structure; input loading excluded",
+  "records": [
+    {
+      "id": 43,
+      "points": 439040,
+      "seconds": {
+        "reference": [
+          7.623740799957886,
+          9.17885380005464,
+          9.154319199966267
+        ],
+        "fused": [
+          0.629129699897021,
+          0.9865627000108361,
+          0.9573453001212329
+        ]
+      },
+      "ref_nmae_pct": 0.09989021151480205,
+      "fused_nmae_pct": 0.0998917621329153,
+      "relative_l1": 1.3272175232363473e-07,
+      "max_abs": 3.814697265625e-06,
+      "pointwise_pass": true,
+      "occupation_max_abs": 2.86102294921875e-06,
+      "occupation_rel_l1_pct": 0.2907862365245819
+    },
+    {
+      "id": 67,
+      "points": 439040,
+      "seconds": {
+        "reference": [
+          4.27872100006789,
+          4.2712383000180125,
+          4.253123299917206
+        ],
+        "fused": [
+          0.6781969999428838,
+          0.6527915999758989,
+          0.6682238997891545
+        ]
+      },
+      "ref_nmae_pct": 0.16612422305956923,
+      "fused_nmae_pct": 0.16612568378970724,
+      "relative_l1": 1.3262014896167207e-07,
+      "max_abs": 2.86102294921875e-06,
+      "pointwise_pass": true,
+      "occupation_max_abs": 3.5762786865234375e-06,
+      "occupation_rel_l1_pct": 0.5677106380462646
+    },
+    {
+      "id": 74,
+      "points": 439040,
+      "seconds": {
+        "reference": [
+          4.2234378000721335,
+          4.187836600001901,
+          4.201562899863347
+        ],
+        "fused": [
+          0.6364482000935823,
+          0.668278899975121,
+          0.6475460000801831
+        ]
+      },
+      "ref_nmae_pct": 0.11857832533325814,
+      "fused_nmae_pct": 0.11857976937019402,
+      "relative_l1": 1.3433244324595881e-07,
+      "max_abs": 3.814697265625e-06,
+      "pointwise_pass": true,
+      "occupation_max_abs": 2.86102294921875e-06,
+      "occupation_rel_l1_pct": 0.4564381539821625
+    }
+  ]
+}

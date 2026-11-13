@@ -1,0 +1,198 @@
+{
+  "input_directory": "runs\\nmc_oracle_pbc_sweep",
+  "sample_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "num_samples": 8,
+  "metric": "macro mean of per-structure full-grid NMAE, stored as ratios",
+  "interpretation": "per-structure fitted densities; not generalization scores or certified lower bounds",
+  "variants": {
+    "current": {
+      "mean_nmae": 0.002667540625704815,
+      "min_nmae": 0.002289377359765742,
+      "max_nmae": 0.0029182229369189927,
+      "coefficients_min": 11400,
+      "coefficients_max": 14100,
+      "mean_absolute_charge_error": 5.240191097211629e-05,
+      "maximum_negative_fraction": 0.0,
+      "maximum_stored_matrix_vs_float64_eval_difference": 4.034149771615231e-09,
+      "largest_final_polish_improvement": 6.669433926164911e-07,
+      "maximum_numerical_dual_feasibility_residual": 2.5014030731497494e-06,
+      "maximum_numerical_primal_dual_gap": 0.0006924522235110856,
+      "mean_radial_error_contributions": [
+        1.6069684266390272e-09,
+        5.3560956989538994e-05,
+        0.00026652479033378726,
+        0.0015292759670733794,
+        0.0008180795875957214,
+        9.771674396130804e-08
+      ]
+    },
+    "regular": {
+      "mean_nmae": 0.0026856902244715344,
+      "min_nmae": 0.0023651191518651465,
+      "max_nmae": 0.0029551684743098256,
+      "coefficients_min": 11400,
+      "coefficients_max": 14100,
+      "mean_absolute_charge_error": 2.5423646370584474e-05,
+      "maximum_negative_fraction": 0.0,
+      "maximum_stored_matrix_vs_float64_eval_difference": 5.758466871310514e-09,
+      "largest_final_polish_improvement": 7.496508213438412e-07,
+      "maximum_numerical_dual_feasibility_residual": 4.015867099527171e-06,
+      "maximum_numerical_primal_dual_gap": 0.0007975061116593744,
+      "mean_radial_error_contributions": [
+        4.056910945797385e-05,
+        6.432352500088356e-05,
+        0.000282313110796221,
+        0.0015218202478999823,
+        0.0007765808331647245,
+        8.339815174881057e-08
+      ]
+    },
+    "regular_bonds": {
+      "mean_nmae": 0.0023523619865820386,
+      "min_nmae": 0.002047859081144173,
+      "max_nmae": 0.0025460105160724582,
+      "coefficients_min": 14424,
+      "coefficients_max": 19068,
+      "mean_absolute_charge_error": 3.141898180263255e-05,
+      "maximum_negative_fraction": 0.0,
+      "maximum_stored_matrix_vs_float64_eval_difference": 1.783815964297858e-08,
+      "largest_final_polish_improvement": 1.169927442806664e-06,
+      "maximum_numerical_dual_feasibility_residual": 6.8093274770142376e-06,
+      "maximum_numerical_primal_dual_gap": 0.0007003493133606298,
+      "mean_radial_error_contributions": [
+        3.551596688863684e-05,
+        5.654335616128017e-05,
+        0.00024973657363366246,
+        0.0012609247220025414,
+        0.0007495659646114703,
+        7.540328444748269e-08
+      ]
+    },
+    "regular_capacity": {
+      "mean_nmae": 0.0015030895299203966,
+      "min_nmae": 0.0012176492582012181,
+      "max_nmae": 0.001787463996923145,
+      "coefficients_min": 14250,
+      "coefficients_max": 18800,
+      "mean_absolute_charge_error": 7.296783417376578e-05,
+      "maximum_negative_fraction": 0.0,
+      "maximum_stored_matrix_vs_float64_eval_difference": 1.461263617920372e-07,
+      "largest_final_polish_improvement": 1.7519775435840016e-05,
+      "maximum_numerical_dual_feasibility_residual": 1.47038954110279e-05,
+      "maximum_numerical_primal_dual_gap": 0.0007061472665654195,
+      "mean_radial_error_contributions": [
+        1.1311111447035967e-05,
+        1.9148294920618885e-05,
+        0.0001060812978268633,
+        0.00077852762008447,
+        0.0005879308693179028,
+        9.03363235058287e-08
+      ]
+    }
+  },
+  "gnn_controls": {
+    "gnn_old_graph_old_decoder": {
+      "mean_nmae": 0.011819022622619541,
+      "min_nmae": 0.009844973093101471,
+      "max_nmae": 0.014778673368033129
+    },
+    "gnn_old_graph_corrected_decoder": {
+      "mean_nmae": 0.0119764760286652,
+      "min_nmae": 0.010031712458779452,
+      "max_nmae": 0.0149974882259329
+    },
+    "gnn_corrected_graph_corrected_decoder": {
+      "mean_nmae": 0.26368271645084684,
+      "min_nmae": 0.2463829342658992,
+      "max_nmae": 0.2937107996520647
+    }
+  },
+  "paired_comparisons": {
+    "regular": {
+      "wins_over_current": 3,
+      "relative_reduction_of_macro_nmae": -0.006803869673746243
+    },
+    "regular_bonds": {
+      "wins_over_current": 8,
+      "relative_reduction_of_macro_nmae": 0.11815326675277915
+    },
+    "regular_capacity": {
+      "wins_over_current": 8,
+      "relative_reduction_of_macro_nmae": 0.4365260961964724
+    }
+  },
+  "capacity_match_relative_count_differences": {
+    "0": -0.01405496119152505,
+    "1": 0.026796894565489504,
+    "2": 0.018922852983988436,
+    "3": -0.00819318671841307,
+    "4": -0.012063227953410971,
+    "5": 0.011526699600094004,
+    "6": -0.012063227953410971,
+    "7": 0.018922852983988436
+  },
+  "fixed_r16": {
+    "records": [
+      {
+        "sample_id": 0,
+        "source": "runs\\nmc_oracle_pbc_sweep\\sample_0000_regular_capacity.json",
+        "num_coefficients": 18800,
+        "full_grid_nmae": 0.001443679306232414
+      },
+      {
+        "sample_id": 1,
+        "source": "runs\\nmc_oracle_pbc_sweep\\sample_0001_regular_capacity.json",
+        "num_coefficients": 16400,
+        "full_grid_nmae": 0.0015148394552689103
+      },
+      {
+        "sample_id": 2,
+        "source": "runs\\nmc_oracle_pbc_sweep\\sample_0002_regular_capacity.json",
+        "num_coefficients": 16800,
+        "full_grid_nmae": 0.0014446566379191206
+      },
+      {
+        "sample_id": 3,
+        "source": "runs\\nmc_oracle_pbc_sweep\\sample_0003_regular_capacity.json",
+        "num_coefficients": 18400,
+        "full_grid_nmae": 0.0012176492582012181
+      },
+      {
+        "sample_id": 4,
+        "source": "runs\\nmc_oracle_pbc_fixed_r16\\sample_0004_regular_r16.json",
+        "num_coefficients": 15200,
+        "full_grid_nmae": 0.0015548510119403017
+      },
+      {
+        "sample_id": 5,
+        "source": "runs\\nmc_oracle_pbc_sweep\\sample_0005_regular_capacity.json",
+        "num_coefficients": 17200,
+        "full_grid_nmae": 0.0013001598223494812
+      },
+      {
+        "sample_id": 6,
+        "source": "runs\\nmc_oracle_pbc_fixed_r16\\sample_0006_regular_r16.json",
+        "num_coefficients": 15200,
+        "full_grid_nmae": 0.0015650856698510211
+      },
+      {
+        "sample_id": 7,
+        "source": "runs\\nmc_oracle_pbc_sweep\\sample_0007_regular_capacity.json",
+        "num_coefficients": 16800,
+        "full_grid_nmae": 0.0015797186560925485
+      }
+    ],
+    "mean_nmae": 0.0014525799772318769,
+    "min_nmae": 0.0012176492582012181,
+    "max_nmae": 0.0015797186560925485
+  }
+}

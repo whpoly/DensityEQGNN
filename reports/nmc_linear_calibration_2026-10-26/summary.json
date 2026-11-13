@@ -1,0 +1,622 @@
+{
+  "scope": "8 local training structures; full-grid evaluation; not a generalization benchmark",
+  "results": {
+    "r12": {
+      "macro_nmae": 0.017361860812443997,
+      "p90_nmae": 0.018369020533469196,
+      "oracle_macro_nmae": 0.002667540625704815,
+      "macro_excess_nmae": 0.014694320186739182,
+      "ratio_to_oracle_macro": 6.5085647225547545,
+      "records": [
+        {
+          "sample_id": 0,
+          "formula": "Li11 Mn2 Co5 Ni5 O24",
+          "full_grid_nmae": 0.01975828649631984,
+          "oracle_nmae": 0.0027893568260804924,
+          "excess_nmae": 0.016968929670239347,
+          "ratio_to_oracle": 7.083456053947569,
+          "relative_signed_charge_error": 0.0019966623932491626,
+          "negative_density_integral_fraction": 3.4310415026700745e-06,
+          "coefficient_rms": 0.22046036856364637,
+          "radial_error_contributions": [
+            8.344908938944483e-06,
+            9.183899894733678e-05,
+            0.0032452452714745272,
+            0.01308959616472807,
+            0.003323116701024746,
+            1.444512062164709e-07
+          ],
+          "max_cached_vs_direct_difference": 5.329070518200751e-15
+        },
+        {
+          "sample_id": 1,
+          "formula": "Li5 Co10 Ni2 O24",
+          "full_grid_nmae": 0.017773620835104635,
+          "oracle_nmae": 0.0029182229369189927,
+          "excess_nmae": 0.014855397898185643,
+          "ratio_to_oracle": 6.090563065023985,
+          "relative_signed_charge_error": -0.0010456232017308704,
+          "negative_density_integral_fraction": 4.1387533633953206e-07,
+          "coefficient_rms": 0.22369059225449192,
+          "radial_error_contributions": [
+            1.4532501818889108e-05,
+            8.153488538354337e-05,
+            0.0027715688376622532,
+            0.012251591259474769,
+            0.0026535981928299313,
+            7.951579352513313e-07
+          ],
+          "max_cached_vs_direct_difference": 5.329070518200751e-15
+        },
+        {
+          "sample_id": 2,
+          "formula": "Li6 Mn7 Co2 Ni3 O24",
+          "full_grid_nmae": 0.016792898551943127,
+          "oracle_nmae": 0.0025886843643474836,
+          "excess_nmae": 0.014204214187595644,
+          "ratio_to_oracle": 6.487039819617417,
+          "relative_signed_charge_error": 0.0002372531569379421,
+          "negative_density_integral_fraction": 2.362418773020501e-05,
+          "coefficient_rms": 0.21033522626075646,
+          "radial_error_contributions": [
+            3.5300777455726573e-06,
+            8.550279608966914e-05,
+            0.002746322272096706,
+            0.010916285067157989,
+            0.0030411418811944146,
+            1.1645765877195891e-07
+          ],
+          "max_cached_vs_direct_difference": 3.552713678800501e-15
+        },
+        {
+          "sample_id": 3,
+          "formula": "Li10 Mn12 O24",
+          "full_grid_nmae": 0.01739523991594509,
+          "oracle_nmae": 0.002289377359765742,
+          "excess_nmae": 0.015105862556179349,
+          "ratio_to_oracle": 7.598240561671773,
+          "relative_signed_charge_error": 0.0013553583180435113,
+          "negative_density_integral_fraction": 4.381895148321808e-08,
+          "coefficient_rms": 0.1888253020091213,
+          "radial_error_contributions": [
+            5.545998164680983e-06,
+            7.532636914084013e-05,
+            0.00276818110928158,
+            0.011972954046945282,
+            0.0025732323924127108,
+            0.0
+          ],
+          "max_cached_vs_direct_difference": 2.6645352591003757e-15
+        },
+        {
+          "sample_id": 4,
+          "formula": "Li2 Mn6 Ni6 O24",
+          "full_grid_nmae": 0.0151074113050921,
+          "oracle_nmae": 0.0026954261167762817,
+          "excess_nmae": 0.012411985188315818,
+          "ratio_to_oracle": 5.604832279046291,
+          "relative_signed_charge_error": -0.00015511261928401676,
+          "negative_density_integral_fraction": 5.264131388090941e-06,
+          "coefficient_rms": 0.23010870591042457,
+          "radial_error_contributions": [
+            2.8982840052426256e-06,
+            7.818383337712143e-05,
+            0.0025266068621567894,
+            0.009636520285824887,
+            0.0028629576629119304,
+            2.4437681613080996e-07
+          ],
+          "max_cached_vs_direct_difference": 5.329070518200751e-15
+        },
+        {
+          "sample_id": 5,
+          "formula": "Li7 Mn10 Co2 O24",
+          "full_grid_nmae": 0.017446525077279385,
+          "oracle_nmae": 0.002392600552685228,
+          "excess_nmae": 0.015053924524594158,
+          "ratio_to_oracle": 7.291867026319567,
+          "relative_signed_charge_error": 0.0010529137526779945,
+          "negative_density_integral_fraction": 7.528090345816675e-06,
+          "coefficient_rms": 0.1944596927818121,
+          "radial_error_contributions": [
+            3.879611063744947e-06,
+            8.44880220048543e-05,
+            0.0027380302532786834,
+            0.011435746341607276,
+            0.003184380849324829,
+            0.0
+          ],
+          "max_cached_vs_direct_difference": 3.552713678800501e-15
+        },
+        {
+          "sample_id": 6,
+          "formula": "Li2 Mn2 Co6 Ni4 O24",
+          "full_grid_nmae": 0.01729924648909198,
+          "oracle_nmae": 0.0028201901334625346,
+          "excess_nmae": 0.014479056355629445,
+          "ratio_to_oracle": 6.1340709918208765,
+          "relative_signed_charge_error": -0.0005286281556846237,
+          "negative_density_integral_fraction": 2.0283841040260936e-06,
+          "coefficient_rms": 0.23360682610831537,
+          "radial_error_contributions": [
+            6.76717010162521e-06,
+            9.299523476751763e-05,
+            0.0028743324359276523,
+            0.01170929093054741,
+            0.002614848429009204,
+            1.012288738565264e-06
+          ],
+          "max_cached_vs_direct_difference": 3.552713678800501e-15
+        },
+        {
+          "sample_id": 7,
+          "formula": "Li6 Mn2 Co3 Ni7 O24",
+          "full_grid_nmae": 0.017321657828775813,
+          "oracle_nmae": 0.002846466715601766,
+          "excess_nmae": 0.014475191113174047,
+          "ratio_to_oracle": 6.0853189443017515,
+          "relative_signed_charge_error": 1.0934025686498625e-05,
+          "negative_density_integral_fraction": 6.055337158338674e-07,
+          "coefficient_rms": 0.22871353012630297,
+          "radial_error_contributions": [
+            5.404955337895232e-06,
+            9.048129174706764e-05,
+            0.0029540694437991412,
+            0.011424412345599346,
+            0.0028464734183727726,
+            8.163739195873289e-07
+          ],
+          "max_cached_vs_direct_difference": 3.552713678800501e-15
+        }
+      ],
+      "variant": "r12",
+      "parent_macro_nmae": 0.025357708737053248,
+      "reduced_map_macro_nmae": 0.017361860812437256,
+      "export_max_coefficient_difference": 2.73917735715834e-10,
+      "frozen_parameters_unchanged": true,
+      "frozen_sha256": "fe425125188ca8341ca7557e17fbe5b5cec93770715fa5204640b660c9e1612c",
+      "feature_spectrum": [
+        {
+          "degree": 0,
+          "rows": 337,
+          "columns": 2759,
+          "rank": 317,
+          "rtol": 1e-08,
+          "largest_singular": 33.05395616372228,
+          "smallest_retained": 3.463659905636405e-07,
+          "ranks_at_rtol": {
+            "0.0001": 69,
+            "1e-06": 236,
+            "1e-08": 317,
+            "1e-10": 337,
+            "1e-12": 337
+          },
+          "svd_seconds": 0.07444840000243858
+        },
+        {
+          "degree": 1,
+          "rows": 1011,
+          "columns": 3522,
+          "rank": 846,
+          "rtol": 1e-08,
+          "largest_singular": 3.201676455907238,
+          "smallest_retained": 3.2445454611541293e-08,
+          "ranks_at_rtol": {
+            "0.0001": 195,
+            "1e-06": 528,
+            "1e-08": 846,
+            "1e-10": 1011,
+            "1e-12": 1011
+          },
+          "svd_seconds": 0.6595460000098683
+        },
+        {
+          "degree": 2,
+          "rows": 1685,
+          "columns": 3126,
+          "rank": 954,
+          "rtol": 1e-08,
+          "largest_singular": 1.6380141662903935,
+          "smallest_retained": 1.6457320455807993e-08,
+          "ranks_at_rtol": {
+            "0.0001": 245,
+            "1e-06": 584,
+            "1e-08": 954,
+            "1e-10": 1590,
+            "1e-12": 1685
+          },
+          "svd_seconds": 1.5510427999543026
+        },
+        {
+          "degree": 3,
+          "rows": 2359,
+          "columns": 1170,
+          "rank": 433,
+          "rtol": 1e-08,
+          "largest_singular": 0.3973525383201181,
+          "smallest_retained": 4.019576058222094e-09,
+          "ranks_at_rtol": {
+            "0.0001": 149,
+            "1e-06": 277,
+            "1e-08": 433,
+            "1e-10": 1078,
+            "1e-12": 1170
+          },
+          "svd_seconds": 0.3543933000182733
+        },
+        {
+          "degree": 4,
+          "rows": 3033,
+          "columns": 390,
+          "rank": 209,
+          "rtol": 1e-08,
+          "largest_singular": 0.14899549968360418,
+          "smallest_retained": 1.5125587388609872e-09,
+          "ranks_at_rtol": {
+            "0.0001": 72,
+            "1e-06": 111,
+            "1e-08": 209,
+            "1e-10": 390,
+            "1e-12": 390
+          },
+          "svd_seconds": 0.0434802999952808
+        }
+      ],
+      "reduced_parameter_count": 33108,
+      "linear_parameter_rms": [
+        814.7389304867013,
+        52178.154311080245,
+        145507.0533999368,
+        616929.7337977599,
+        2030255.587596266
+      ],
+      "basis_config": {
+        "num_radial": 12,
+        "lmax": 4,
+        "cutoff": 3.0,
+        "pbc": true,
+        "regular_radial": false,
+        "radial_whitening": true,
+        "radial_minimum": 0.09375
+      },
+      "model_config": {
+        "architecture": "mace_like",
+        "num_radial": 12,
+        "lmax": 2,
+        "hidden_lmax": 2,
+        "density_lmax": 4,
+        "readout_edge_lmax": 2,
+        "scalar_channels": 24,
+        "vector_channels": 12,
+        "tensor_channels": 6,
+        "octupole_channels": 0,
+        "num_interactions": 3,
+        "edge_basis": 16,
+        "radial_hidden": 64,
+        "cutoff": 6.0,
+        "num_species": 119,
+        "pbc": true,
+        "learnable_atomic_baseline": true
+      },
+      "seed": 42,
+      "interpretation": "Finite-budget linear calibration on eight training structures, not a certified capacity floor",
+      "elapsed_seconds": 591.0637626999523
+    },
+    "r16": {
+      "macro_nmae": 0.016901474656349787,
+      "p90_nmae": 0.017926818114795014,
+      "oracle_macro_nmae": 0.0014525799772318769,
+      "macro_excess_nmae": 0.015448894679117909,
+      "ratio_to_oracle_macro": 11.635486459450064,
+      "records": [
+        {
+          "sample_id": 0,
+          "formula": "Li11 Mn2 Co5 Ni5 O24",
+          "full_grid_nmae": 0.019047792966046074,
+          "oracle_nmae": 0.001443679306232414,
+          "excess_nmae": 0.01760411365981366,
+          "ratio_to_oracle": 13.193922558712371,
+          "relative_signed_charge_error": 0.0028227661698594815,
+          "negative_density_integral_fraction": 6.086793874623782e-06,
+          "coefficient_rms": 0.18858372982391522,
+          "radial_error_contributions": [
+            1.243783757187485e-05,
+            8.592543385343082e-05,
+            0.0031879327907739594,
+            0.013011498743376914,
+            0.002749837395789479,
+            1.6076468041490006e-07
+          ],
+          "max_cached_vs_direct_difference": 5.329070518200751e-15
+        },
+        {
+          "sample_id": 1,
+          "formula": "Li5 Co10 Ni2 O24",
+          "full_grid_nmae": 0.0174464003214017,
+          "oracle_nmae": 0.0015148394552689103,
+          "excess_nmae": 0.01593156086613279,
+          "ratio_to_oracle": 11.516996247173045,
+          "relative_signed_charge_error": 6.814697852356074e-05,
+          "negative_density_integral_fraction": 2.7500256710041644e-06,
+          "coefficient_rms": 0.19682970431203473,
+          "radial_error_contributions": [
+            1.2126964682285531e-05,
+            7.146126699684926e-05,
+            0.0027283022652037996,
+            0.011917260506957133,
+            0.0027159183824015266,
+            1.3309351601078388e-06
+          ],
+          "max_cached_vs_direct_difference": 3.552713678800501e-15
+        },
+        {
+          "sample_id": 2,
+          "formula": "Li6 Mn7 Co2 Ni3 O24",
+          "full_grid_nmae": 0.01648708379643732,
+          "oracle_nmae": 0.0014446566379191206,
+          "excess_nmae": 0.015042427158518197,
+          "ratio_to_oracle": 11.412458409622696,
+          "relative_signed_charge_error": 0.000732002305086543,
+          "negative_density_integral_fraction": 2.740757139068676e-05,
+          "coefficient_rms": 0.18318706819708283,
+          "radial_error_contributions": [
+            1.2924109490300192e-05,
+            7.816966262166849e-05,
+            0.002735775574477356,
+            0.010491226471289809,
+            0.003168825512853024,
+            1.624657051572232e-07
+          ],
+          "max_cached_vs_direct_difference": 3.552713678800501e-15
+        },
+        {
+          "sample_id": 3,
+          "formula": "Li10 Mn12 O24",
+          "full_grid_nmae": 0.01662609670725093,
+          "oracle_nmae": 0.0012176492582012181,
+          "excess_nmae": 0.015408447449049713,
+          "ratio_to_oracle": 13.65425765693149,
+          "relative_signed_charge_error": 0.0017762931614046823,
+          "negative_density_integral_fraction": 5.549244971540914e-06,
+          "coefficient_rms": 0.1602672848107052,
+          "radial_error_contributions": [
+            6.149357576667692e-06,
+            6.420275474112328e-05,
+            0.0026249693792349212,
+            0.011350085894930756,
+            0.0025806893207674614,
+            0.0
+          ],
+          "max_cached_vs_direct_difference": 2.6645352591003757e-15
+        },
+        {
+          "sample_id": 4,
+          "formula": "Li2 Mn6 Ni6 O24",
+          "full_grid_nmae": 0.014959700116207656,
+          "oracle_nmae": 0.0015548510119403017,
+          "excess_nmae": 0.013404849104267353,
+          "ratio_to_oracle": 9.621307766034391,
+          "relative_signed_charge_error": 0.00033864920279453556,
+          "negative_density_integral_fraction": 5.252792395965381e-06,
+          "coefficient_rms": 0.20178411461369478,
+          "radial_error_contributions": [
+            1.1068277533552375e-05,
+            7.474423092949428e-05,
+            0.00261766489894242,
+            0.009260382544149308,
+            0.002995416993172705,
+            4.231714801760637e-07
+          ],
+          "max_cached_vs_direct_difference": 3.552713678800501e-15
+        },
+        {
+          "sample_id": 5,
+          "formula": "Li7 Mn10 Co2 O24",
+          "full_grid_nmae": 0.017060560065412046,
+          "oracle_nmae": 0.0013001598223494812,
+          "excess_nmae": 0.015760400243062564,
+          "ratio_to_oracle": 13.121894533383136,
+          "relative_signed_charge_error": 0.0013769312440749843,
+          "negative_density_integral_fraction": 1.3301597205568029e-05,
+          "coefficient_rms": 0.16866852796545947,
+          "radial_error_contributions": [
+            1.2398544892536992e-05,
+            8.224149347840953e-05,
+            0.0026899696469991825,
+            0.011006839080837867,
+            0.003269111299204049,
+            0.0
+          ],
+          "max_cached_vs_direct_difference": 3.552713678800501e-15
+        },
+        {
+          "sample_id": 6,
+          "formula": "Li2 Mn2 Co6 Ni4 O24",
+          "full_grid_nmae": 0.016986448569625646,
+          "oracle_nmae": 0.0015650856698510211,
+          "excess_nmae": 0.015421362899774626,
+          "ratio_to_oracle": 10.853366621932311,
+          "relative_signed_charge_error": 0.0002771957427398009,
+          "negative_density_integral_fraction": 8.223692803901856e-08,
+          "coefficient_rms": 0.20511294093634497,
+          "radial_error_contributions": [
+            9.878230712738311e-06,
+            7.884590349933173e-05,
+            0.0028361274183792244,
+            0.011382081256010462,
+            0.002678326848323129,
+            1.1889127007604982e-06
+          ],
+          "max_cached_vs_direct_difference": 5.329070518200751e-15
+        },
+        {
+          "sample_id": 7,
+          "formula": "Li6 Mn2 Co3 Ni7 O24",
+          "full_grid_nmae": 0.01659771470841692,
+          "oracle_nmae": 0.0015797186560925485,
+          "excess_nmae": 0.01501799605232437,
+          "ratio_to_oracle": 10.506753619958854,
+          "relative_signed_charge_error": 0.0007841238218003405,
+          "negative_density_integral_fraction": 6.002844462442192e-06,
+          "coefficient_rms": 0.2008704457926469,
+          "radial_error_contributions": [
+            1.296554246147498e-05,
+            8.476279512654791e-05,
+            0.0028904169807525276,
+            0.01089260795013744,
+            0.002716622247548622,
+            3.3919239030003373e-07
+          ],
+          "max_cached_vs_direct_difference": 5.329070518200751e-15
+        }
+      ],
+      "variant": "r16",
+      "parent_macro_nmae": 0.024385904487567195,
+      "reduced_map_macro_nmae": 0.016901474656853772,
+      "export_max_coefficient_difference": 9.856849295108994e-10,
+      "frozen_parameters_unchanged": true,
+      "frozen_sha256": "0b16d7aece8c07e711852f4c721014216dd555b9eb442cad401c06b27b79e233",
+      "feature_spectrum": [
+        {
+          "degree": 0,
+          "rows": 337,
+          "columns": 2759,
+          "rank": 317,
+          "rtol": 1e-08,
+          "largest_singular": 26.72689766043724,
+          "smallest_retained": 3.1728898170320703e-07,
+          "ranks_at_rtol": {
+            "0.0001": 68,
+            "1e-06": 238,
+            "1e-08": 317,
+            "1e-10": 337,
+            "1e-12": 337
+          },
+          "svd_seconds": 0.09260550001636147
+        },
+        {
+          "degree": 1,
+          "rows": 1011,
+          "columns": 3522,
+          "rank": 856,
+          "rtol": 1e-08,
+          "largest_singular": 2.383467381834466,
+          "smallest_retained": 2.3982562774715908e-08,
+          "ranks_at_rtol": {
+            "0.0001": 196,
+            "1e-06": 536,
+            "1e-08": 856,
+            "1e-10": 1011,
+            "1e-12": 1011
+          },
+          "svd_seconds": 0.6457023000111803
+        },
+        {
+          "degree": 2,
+          "rows": 1685,
+          "columns": 3126,
+          "rank": 956,
+          "rtol": 1e-08,
+          "largest_singular": 1.4062151615635876,
+          "smallest_retained": 1.4086514242256444e-08,
+          "ranks_at_rtol": {
+            "0.0001": 240,
+            "1e-06": 579,
+            "1e-08": 956,
+            "1e-10": 1581,
+            "1e-12": 1685
+          },
+          "svd_seconds": 1.40702440001769
+        },
+        {
+          "degree": 3,
+          "rows": 2359,
+          "columns": 1170,
+          "rank": 438,
+          "rtol": 1e-08,
+          "largest_singular": 0.2965519061132283,
+          "smallest_retained": 3.0121768406573627e-09,
+          "ranks_at_rtol": {
+            "0.0001": 150,
+            "1e-06": 282,
+            "1e-08": 438,
+            "1e-10": 1071,
+            "1e-12": 1170
+          },
+          "svd_seconds": 0.33724680001614615
+        },
+        {
+          "degree": 4,
+          "rows": 3033,
+          "columns": 390,
+          "rank": 191,
+          "rtol": 1e-08,
+          "largest_singular": 0.1527782780141175,
+          "smallest_retained": 1.540595197429127e-09,
+          "ranks_at_rtol": {
+            "0.0001": 68,
+            "1e-06": 110,
+            "1e-08": 191,
+            "1e-10": 390,
+            "1e-12": 390
+          },
+          "svd_seconds": 0.0390309999929741
+        }
+      ],
+      "reduced_parameter_count": 44128,
+      "linear_parameter_rms": [
+        515.1698858337309,
+        58812.30158487804,
+        118661.78196384598,
+        578786.6916220888,
+        1940340.1102245701
+      ],
+      "basis_config": {
+        "num_radial": 16,
+        "lmax": 4,
+        "cutoff": 3.0,
+        "pbc": true,
+        "regular_radial": true,
+        "radial_whitening": true,
+        "radial_minimum": 0.09375
+      },
+      "model_config": {
+        "architecture": "mace_like",
+        "num_radial": 16,
+        "lmax": 2,
+        "hidden_lmax": 2,
+        "density_lmax": 4,
+        "readout_edge_lmax": 2,
+        "scalar_channels": 24,
+        "vector_channels": 12,
+        "tensor_channels": 6,
+        "octupole_channels": 0,
+        "num_interactions": 3,
+        "edge_basis": 16,
+        "radial_hidden": 64,
+        "cutoff": 6.0,
+        "num_species": 119,
+        "pbc": true,
+        "learnable_atomic_baseline": true
+      },
+      "seed": 42,
+      "interpretation": "Finite-budget linear calibration on eight training structures, not a certified capacity floor",
+      "elapsed_seconds": 1088.214963299979
+    }
+  },
+  "matched_settings": {
+    "probes": 32768,
+    "core_radius": 0.35,
+    "rounds": 3,
+    "iterations": 300,
+    "cg_steps": 400,
+    "svd_rtol": 1e-08,
+    "seed": 42
+  },
+  "paired_data_and_probe_indices_verified": true,
+  "pending": [
+    "Relaxed SVD threshold sensitivity fit",
+    "Float32 export stability audit",
+    "Own probe-node model training (not part of this completed calibration pair)"
+  ]
+}

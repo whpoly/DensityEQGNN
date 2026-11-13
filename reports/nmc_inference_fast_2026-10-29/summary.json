@@ -1,0 +1,27 @@
+{
+  "eden": {
+    "test_nmae": 0.002847905403352127,
+    "fresh_seconds": 1.2440719874575734
+  },
+  "eden_gpu_sad": {
+    "test_nmae": 0.002847905745105847,
+    "fresh_seconds": 1.130709687495255
+  },
+  "baseline": {
+    "test_nmae": 0.0030610699773255547,
+    "fresh_seconds": 0.6425127000111388
+  },
+  "optimized": {
+    "test_nmae": 0.003061069977001952,
+    "fresh_seconds": 0.44604698750481475
+  },
+  "components": {
+    "old_decoder": 0.27796950000629295,
+    "atom_decoder": 0.32724276251974516,
+    "grouped_decoder": 0.18422032498347107,
+    "cpu_sad": 0.13203337497543544,
+    "gpu_sad": 0.007410487494780682
+  },
+  "max_abs_density_difference": 5.960464477539063e-08,
+  "max_relative_l1_difference": 8.153414143267038e-12
+}

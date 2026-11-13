@@ -1,0 +1,1210 @@
+{
+  "models": {
+    "coefficient": {
+      "records": [
+        {
+          "sample_id": 0,
+          "formula": "Li11 Mn2 Co5 Ni5 O24",
+          "train_nmae": 0.021897454709462128,
+          "train_charge_error": 0.0036037033243025264,
+          "train_negative_fraction": 1.4078864906065912e-05,
+          "validation_nmae": 0.02223119716928404,
+          "validation_charge_error": 0.003388915980824136,
+          "validation_negative_fraction": 1.3014112524415652e-05,
+          "test_nmae": 0.02158300820099541,
+          "test_charge_error": 0.002898828440576018,
+          "test_negative_fraction": 1.220489153989593e-05,
+          "full_grid_nmae": 0.021899335095624597
+        },
+        {
+          "sample_id": 1,
+          "formula": "Li5 Co10 Ni2 O24",
+          "train_nmae": 0.02023099540593191,
+          "train_charge_error": 0.0035521030613025425,
+          "train_negative_fraction": 3.080888707274321e-08,
+          "validation_nmae": 0.019764177716822963,
+          "validation_charge_error": 0.003226649983637087,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.019775424970089245,
+          "test_charge_error": 0.0029110765220181746,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.020139087326970274
+        },
+        {
+          "sample_id": 2,
+          "formula": "Li6 Mn7 Co2 Ni3 O24",
+          "train_nmae": 0.0204857425353708,
+          "train_charge_error": 0.0022216681944328747,
+          "train_negative_fraction": 1.4440029717009768e-05,
+          "validation_nmae": 0.020134936532006865,
+          "validation_charge_error": 0.002046650981939537,
+          "validation_negative_fraction": 1.7582443489964156e-05,
+          "test_nmae": 0.020789749681037566,
+          "test_charge_error": 0.0025338935803329386,
+          "test_negative_fraction": 1.634096189599035e-05,
+          "full_grid_nmae": 0.020481611160692605
+        },
+        {
+          "sample_id": 3,
+          "formula": "Li10 Mn12 O24",
+          "train_nmae": 0.022626840932051168,
+          "train_charge_error": 0.0011303385729567184,
+          "train_negative_fraction": 4.444889913924468e-06,
+          "validation_nmae": 0.02193048429432156,
+          "validation_charge_error": 0.0010642146038610917,
+          "validation_negative_fraction": 5.378599320144778e-06,
+          "test_nmae": 0.022628510812021062,
+          "test_charge_error": 0.0015630382549950775,
+          "test_negative_fraction": 4.69104050591064e-06,
+          "full_grid_nmae": 0.022556226350740765
+        },
+        {
+          "sample_id": 4,
+          "formula": "Li2 Mn6 Ni6 O24",
+          "train_nmae": 0.019406765837664097,
+          "train_charge_error": 0.003210422451517182,
+          "train_negative_fraction": 2.025101022432376e-06,
+          "validation_nmae": 0.01906987644946963,
+          "validation_charge_error": 0.003238157588292768,
+          "validation_negative_fraction": 2.7072678542041463e-06,
+          "test_nmae": 0.019231074078319522,
+          "test_charge_error": 0.0032914530706870193,
+          "test_negative_fraction": 1.6077799720930178e-06,
+          "full_grid_nmae": 0.019355651445899298
+        },
+        {
+          "sample_id": 5,
+          "formula": "Li7 Mn10 Co2 O24",
+          "train_nmae": 0.02112385745693713,
+          "train_charge_error": 0.002214319748377295,
+          "train_negative_fraction": 1.672341115322656e-06,
+          "validation_nmae": 0.020864000212096105,
+          "validation_charge_error": 0.0016874492197640162,
+          "validation_negative_fraction": 1.399615342973394e-06,
+          "test_nmae": 0.02098469286651481,
+          "test_charge_error": 0.0020843706589812145,
+          "test_negative_fraction": 3.413437196950357e-06,
+          "full_grid_nmae": 0.021083582565762822
+        },
+        {
+          "sample_id": 6,
+          "formula": "Li2 Mn2 Co6 Ni4 O24",
+          "train_nmae": 0.019699526896144223,
+          "train_charge_error": 0.00311752577795245,
+          "train_negative_fraction": 1.040334766955652e-06,
+          "validation_nmae": 0.019110036263395636,
+          "validation_charge_error": 0.002858136665814817,
+          "validation_negative_fraction": 3.4066772547304455e-07,
+          "test_nmae": 0.01928274644059204,
+          "test_charge_error": 0.003029110609171205,
+          "test_negative_fraction": 9.024688363089631e-07,
+          "full_grid_nmae": 0.019598741609521474
+        },
+        {
+          "sample_id": 7,
+          "formula": "Li6 Mn2 Co3 Ni7 O24",
+          "train_nmae": 0.02024320703607148,
+          "train_charge_error": 0.00406546230152681,
+          "train_negative_fraction": 2.4654693768284747e-07,
+          "validation_nmae": 0.02006096283863624,
+          "validation_charge_error": 0.004045417537916485,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.020579925295026,
+          "test_charge_error": 0.004136260091677179,
+          "test_negative_fraction": 2.0271605657451033e-07,
+          "full_grid_nmae": 0.020258947972932834
+        }
+      ],
+      "train_macro_nmae": 0.020714298851204117,
+      "validation_macro_nmae": 0.020395708934504132,
+      "test_macro_nmae": 0.020606891543074456,
+      "full_grid_macro_nmae": 0.020671647941018084,
+      "model_name": "r16",
+      "best_step": 16000,
+      "seed": 42,
+      "parameter_count": 521472,
+      "sampling_audit": [
+        {
+          "sample_id": 0,
+          "unique_training_points": 350184,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 1,
+          "unique_training_points": 350223,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 2,
+          "unique_training_points": 350219,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 3,
+          "unique_training_points": 350213,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 4,
+          "unique_training_points": 350257,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 5,
+          "unique_training_points": 350157,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 6,
+          "unique_training_points": 350223,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 7,
+          "unique_training_points": 350246,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        }
+      ],
+      "elapsed_seconds": 1348.713253199996,
+      "interpretation": "unseen spatial grid points in seen structures; not unseen-structure generalization",
+      "checkpoint_sha256": "d9553ed92cc1f545b4794df96f6772a3144d80fcd97e20533cb52c2d65002b72"
+    },
+    "query": {
+      "records": [
+        {
+          "sample_id": 0,
+          "train_nmae": 0.006498356341022573,
+          "validation_nmae": 0.006539478234661385,
+          "test_nmae": 0.006396787608377309,
+          "full_grid_nmae": 0.0064922477919361855
+        },
+        {
+          "sample_id": 1,
+          "train_nmae": 0.004713425250105056,
+          "validation_nmae": 0.004688518582679613,
+          "test_nmae": 0.00472648980966655,
+          "full_grid_nmae": 0.004712263310045775
+        },
+        {
+          "sample_id": 2,
+          "train_nmae": 0.008132182655706088,
+          "validation_nmae": 0.00804262362242647,
+          "test_nmae": 0.008165319747986347,
+          "full_grid_nmae": 0.00812663301658997
+        },
+        {
+          "sample_id": 3,
+          "train_nmae": 0.011945396034915718,
+          "validation_nmae": 0.011581730019119664,
+          "test_nmae": 0.011949215622369143,
+          "full_grid_nmae": 0.011908811752204809
+        },
+        {
+          "sample_id": 4,
+          "train_nmae": 0.007253876229923516,
+          "validation_nmae": 0.007249349204637809,
+          "test_nmae": 0.007200178358649711,
+          "full_grid_nmae": 0.0072479953721787185
+        },
+        {
+          "sample_id": 5,
+          "train_nmae": 0.00952916256759819,
+          "validation_nmae": 0.009558277128524894,
+          "test_nmae": 0.009496484893546658,
+          "full_grid_nmae": 0.009528787457421369
+        },
+        {
+          "sample_id": 6,
+          "train_nmae": 0.005837695004876699,
+          "validation_nmae": 0.005769129958889361,
+          "test_nmae": 0.0059240591679113426,
+          "full_grid_nmae": 0.00583940210764355
+        },
+        {
+          "sample_id": 7,
+          "train_nmae": 0.005609465333306173,
+          "validation_nmae": 0.0055847376110044235,
+          "test_nmae": 0.005599561320580529,
+          "full_grid_nmae": 0.00560601726375803
+        }
+      ],
+      "train_macro_nmae": 0.007439944927181752,
+      "validation_macro_nmae": 0.007376730545242953,
+      "test_macro_nmae": 0.0074322620661359485,
+      "full_grid_macro_nmae": 0.0074327697589723005,
+      "best_step": 16000,
+      "checkpoint_sha256": "921e27958b52c790edf47db9358e2907de905e4979d35706e288ae0a947c17d4",
+      "sampling_audit": [
+        {
+          "sample_id": 0,
+          "unique_training_points": 350184,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 1,
+          "unique_training_points": 350223,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 2,
+          "unique_training_points": 350219,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 3,
+          "unique_training_points": 350213,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 4,
+          "unique_training_points": 350257,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 5,
+          "unique_training_points": 350157,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 6,
+          "unique_training_points": 350223,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 7,
+          "unique_training_points": 350246,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        }
+      ]
+    },
+    "deepdft": {
+      "records": [
+        {
+          "sample_id": 0,
+          "formula": "Li11 Mn2 Co5 Ni5 O24",
+          "train_nmae": 0.0019283867906434936,
+          "train_charge_error": -2.844156104710274e-06,
+          "train_negative_fraction": 0.0,
+          "validation_nmae": 0.001969868848358319,
+          "validation_charge_error": 1.220768422881456e-05,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.001948134825221746,
+          "test_charge_error": -2.492862371281168e-05,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.0019345578119799262
+        },
+        {
+          "sample_id": 1,
+          "formula": "Li5 Co10 Ni2 O24",
+          "train_nmae": 0.001507425893229766,
+          "train_charge_error": 0.00018359765415828158,
+          "train_negative_fraction": 0.0,
+          "validation_nmae": 0.001518666098948676,
+          "validation_charge_error": 0.00021388973747662007,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.0015228055052978805,
+          "test_charge_error": 0.00015145783648002562,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.001510080457255807
+        },
+        {
+          "sample_id": 2,
+          "formula": "Li6 Mn7 Co2 Ni3 O24",
+          "train_nmae": 0.002631391992469746,
+          "train_charge_error": 0.00012997167101475043,
+          "train_negative_fraction": 0.0,
+          "validation_nmae": 0.0026735472131694912,
+          "validation_charge_error": 8.792890222327712e-05,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.0026956493602387386,
+          "test_charge_error": 0.00011884284550895759,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.0026420749323437186
+        },
+        {
+          "sample_id": 3,
+          "formula": "Li10 Mn12 O24",
+          "train_nmae": 0.0020900630651872272,
+          "train_charge_error": 0.00010791624528092873,
+          "train_negative_fraction": 0.0,
+          "validation_nmae": 0.002100498405441035,
+          "validation_charge_error": 9.380171943910901e-05,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.0021109362053005104,
+          "test_charge_error": 0.00010827469019244526,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.002093202570273732
+        },
+        {
+          "sample_id": 4,
+          "formula": "Li2 Mn6 Ni6 O24",
+          "train_nmae": 0.0021912431325715525,
+          "train_charge_error": 0.00014574146811603477,
+          "train_negative_fraction": 0.0,
+          "validation_nmae": 0.0022476673399401655,
+          "validation_charge_error": 0.00015760437869486466,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.0022011932464330287,
+          "test_charge_error": 0.0001241064797145018,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.002197833617270477
+        },
+        {
+          "sample_id": 5,
+          "formula": "Li7 Mn10 Co2 O24",
+          "train_nmae": 0.0028056611277851133,
+          "train_charge_error": 0.0001278271606447993,
+          "train_negative_fraction": 0.0,
+          "validation_nmae": 0.0028388107705436174,
+          "validation_charge_error": 9.674003711126758e-05,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.002838696964211648,
+          "test_charge_error": 0.00012877879277691702,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.0028123463946876258
+        },
+        {
+          "sample_id": 6,
+          "formula": "Li2 Mn2 Co6 Ni4 O24",
+          "train_nmae": 0.0018155402286026549,
+          "train_charge_error": 0.0001694189567626153,
+          "train_negative_fraction": 0.0,
+          "validation_nmae": 0.0018449245137520545,
+          "validation_charge_error": 0.00017408445651523032,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.001846722133895002,
+          "test_charge_error": 0.000189795999218212,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.0018216005330204353
+        },
+        {
+          "sample_id": 7,
+          "formula": "Li6 Mn2 Co3 Ni7 O24",
+          "train_nmae": 0.001933137469459949,
+          "train_charge_error": 5.3518676348496426e-05,
+          "train_negative_fraction": 0.0,
+          "validation_nmae": 0.0019363918090046987,
+          "validation_charge_error": 5.9577809826439905e-05,
+          "validation_negative_fraction": 0.0,
+          "test_nmae": 0.0019630644543743737,
+          "test_charge_error": 3.78046436545372e-05,
+          "test_negative_fraction": 0.0,
+          "full_grid_nmae": 0.0019364663440927423
+        }
+      ],
+      "train_macro_nmae": 0.0021128562124936878,
+      "validation_macro_nmae": 0.0021412968748947573,
+      "test_macro_nmae": 0.002140900336871616,
+      "full_grid_macro_nmae": 0.002118520332615558,
+      "model_name": "deepdft",
+      "best_step": 16000,
+      "seed": 42,
+      "parameter_count": 1487233,
+      "sampling_audit": [
+        {
+          "sample_id": 0,
+          "unique_training_points": 350184,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 1,
+          "unique_training_points": 350223,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 2,
+          "unique_training_points": 350219,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 3,
+          "unique_training_points": 350213,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 4,
+          "unique_training_points": 350257,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 5,
+          "unique_training_points": 350157,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 6,
+          "unique_training_points": 350223,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 7,
+          "unique_training_points": 350246,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        }
+      ],
+      "elapsed_seconds": 1564.1547508999938,
+      "interpretation": "unseen spatial grid points in seen structures; not unseen-structure generalization",
+      "checkpoint_sha256": "2603f37a00247fd4db8fa9d18ba56c1d429828380dee1501664d1cca975a883b"
+    },
+    "refined": {
+      "records": [
+        {
+          "sample_id": 0,
+          "train_nmae": 0.006207912740545991,
+          "validation_nmae": 0.006246639584547041,
+          "test_nmae": 0.00610102645880027,
+          "full_grid_nmae": 0.006201026316109663
+        },
+        {
+          "sample_id": 1,
+          "train_nmae": 0.0044583833064241575,
+          "validation_nmae": 0.0044319069386333215,
+          "test_nmae": 0.004475977541736976,
+          "full_grid_nmae": 0.004457519226137034
+        },
+        {
+          "sample_id": 2,
+          "train_nmae": 0.007839857444077098,
+          "validation_nmae": 0.007741117488650893,
+          "test_nmae": 0.007872788181647824,
+          "full_grid_nmae": 0.007833374718715088
+        },
+        {
+          "sample_id": 3,
+          "train_nmae": 0.011562887979555125,
+          "validation_nmae": 0.011193781718268592,
+          "test_nmae": 0.011552519229526536,
+          "full_grid_nmae": 0.011524337672652091
+        },
+        {
+          "sample_id": 4,
+          "train_nmae": 0.006951467866645332,
+          "validation_nmae": 0.006938932376349696,
+          "test_nmae": 0.006880539744916745,
+          "full_grid_nmae": 0.006943051221239083
+        },
+        {
+          "sample_id": 5,
+          "train_nmae": 0.009194002133063163,
+          "validation_nmae": 0.009207498296579478,
+          "test_nmae": 0.009172633576528415,
+          "full_grid_nmae": 0.009193198375245017
+        },
+        {
+          "sample_id": 6,
+          "train_nmae": 0.005553103491504524,
+          "validation_nmae": 0.005487151348196171,
+          "test_nmae": 0.005644526384074652,
+          "full_grid_nmae": 0.005555577162765874
+        },
+        {
+          "sample_id": 7,
+          "train_nmae": 0.005314555551649184,
+          "validation_nmae": 0.005309844202903853,
+          "test_nmae": 0.005314442199585688,
+          "full_grid_nmae": 0.005314076748118985
+        }
+      ],
+      "train_macro_nmae": 0.007135271314183072,
+      "validation_macro_nmae": 0.007069608994266131,
+      "test_macro_nmae": 0.007126806664602138,
+      "full_grid_macro_nmae": 0.007127770180122854,
+      "best_step": 4000,
+      "checkpoint_sha256": "034dee192470e2fe72e2f3ca0062a7b07b3f836b602b8dbd8736a166c58ac49a",
+      "sampling_audit": [
+        {
+          "sample_id": 0,
+          "unique_training_points": 351215,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 1,
+          "unique_training_points": 351217,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 2,
+          "unique_training_points": 351211,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 3,
+          "unique_training_points": 351222,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 4,
+          "unique_training_points": 351221,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 5,
+          "unique_training_points": 351222,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 6,
+          "unique_training_points": 351225,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        },
+        {
+          "sample_id": 7,
+          "unique_training_points": 351222,
+          "validation_points_used_for_gradients": 0,
+          "test_points_used_for_gradients": 0
+        }
+      ]
+    },
+    "oracle": {
+      "records": [
+        {
+          "sample_id": 0,
+          "best_step": 100,
+          "train_nmae": 0.001420640667790718,
+          "validation_nmae": 0.0016460772796919986,
+          "test_nmae": 0.0016403150759232601,
+          "checkpoint_sha256": "17217c2dc62a796b05cae09c5945813cec16cab0d3fc19c1090f09c9c531940c",
+          "split": {
+            "sample_id": 0,
+            "source_sha256": "37671903b0d93ec276e15d14d0acd07ebe02efac038b5c5f1b1d2085f805c128",
+            "grid_points": 439040,
+            "seed": 20261026,
+            "counts": {
+              "train": 351232,
+              "validation": 43904,
+              "test": 43904,
+              "selection": 8192
+            },
+            "indices_sha256": {
+              "train": "f37714a0af4b9e163e35905e2aefd2aa06ffbf76384dce1bbd12f0e4d070a609",
+              "validation": "0afdd71425b5a0068997d1f86d7576fe081206d94cf951aab89619adfdf46fbb",
+              "test": "41947446c38c5394ca660756c9b6754ba4e1c386a68257079efd997edf90fdfc",
+              "selection": "4da7958ae4c127623c6b949cf71927dc7fbca9cfff0a546ebddf4a6525651dff"
+            }
+          },
+          "fit_points": 351232,
+          "validation_points_used_for_fit": 0,
+          "test_points_used_for_fit": 0
+        },
+        {
+          "sample_id": 1,
+          "best_step": 125,
+          "train_nmae": 0.001496334395866781,
+          "validation_nmae": 0.0016602375759116777,
+          "test_nmae": 0.0016733691451320475,
+          "checkpoint_sha256": "1d4e13d7a60eee3584800c9215b564f990571f22953f3eaab73797554580fdf0",
+          "split": {
+            "sample_id": 1,
+            "source_sha256": "c9b8d31ef80b47153da4c79b2331d7429b7b2da0edf8b468750bcf99aef66953",
+            "grid_points": 439040,
+            "seed": 20261026,
+            "counts": {
+              "train": 351232,
+              "validation": 43904,
+              "test": 43904,
+              "selection": 8192
+            },
+            "indices_sha256": {
+              "train": "5af2caa3118b6d84941fa09ffa744daee25a76151e0fcbe9111c7ae2544ab361",
+              "validation": "a0d140b1ad52621b57e82e273564b82d2fd03ec8dc78596ea1054d09ae174ca5",
+              "test": "4a5a9ca1cff56fc5a4c273501e47a2bd29189dc2c3baae4a33c6eaf93801608d",
+              "selection": "6376150626924471346f60c6fd83cda660af547371aa2707f800000b0337e7f5"
+            }
+          },
+          "fit_points": 351232,
+          "validation_points_used_for_fit": 0,
+          "test_points_used_for_fit": 0
+        },
+        {
+          "sample_id": 2,
+          "best_step": 100,
+          "train_nmae": 0.0014274736354796022,
+          "validation_nmae": 0.0016399630008329235,
+          "test_nmae": 0.00162541968845894,
+          "checkpoint_sha256": "d2a474f52664d8a4e3b77cefa2e854df655fdeec0af36cfe6b41a3d560c6e6a6",
+          "split": {
+            "sample_id": 2,
+            "source_sha256": "c76fe0a472a46db6f8443b0f53a58110bf88897da1f31c4c212241b8a210279a",
+            "grid_points": 439040,
+            "seed": 20261026,
+            "counts": {
+              "train": 351232,
+              "validation": 43904,
+              "test": 43904,
+              "selection": 8192
+            },
+            "indices_sha256": {
+              "train": "76e7b103cd4527d6c86dcdbdba5c2c6296b440998f4217b6917bd1df2805c80f",
+              "validation": "dc6e4c3f18ef67d4fd9c2078f71e30ac8bff999a0a93e48d1e1f76b85750a9b7",
+              "test": "f8ed150cdd857cc75d23f00a5d1d83dee97993fb09ed336cbdfe5c7db97a8e38",
+              "selection": "5e9ed6e94ffed7f885891bc322cb12f2488d2a8e372ac5769776278b134200fa"
+            }
+          },
+          "fit_points": 351232,
+          "validation_points_used_for_fit": 0,
+          "test_points_used_for_fit": 0
+        },
+        {
+          "sample_id": 3,
+          "best_step": 150,
+          "train_nmae": 0.0012013926299807424,
+          "validation_nmae": 0.0013247990010643474,
+          "test_nmae": 0.0013642977878155754,
+          "checkpoint_sha256": "f2da247a5f45ae1da54130309b54b52837211e8978ba8a41d7b5b274b93586cd",
+          "split": {
+            "sample_id": 3,
+            "source_sha256": "275303397bdf5801f50eeca5ae925400b4af6b433ec1ef26f52c9e46f538db29",
+            "grid_points": 439040,
+            "seed": 20261026,
+            "counts": {
+              "train": 351232,
+              "validation": 43904,
+              "test": 43904,
+              "selection": 8192
+            },
+            "indices_sha256": {
+              "train": "b3439559ec37ffb0dad515d120f6c51db275c274ba5f46011eaba8c98bb17232",
+              "validation": "edda2697875c3474b2b8e2a3b48da073e9f2a8f12928b7cac509b5b4ee78010f",
+              "test": "46fc9e1640e62af78a5425c73dd888c77b95cf659b13b6b28d5c20a840f3a572",
+              "selection": "c29e0a6fb9669e5c1f21f79cfa698ae58621309177122d45daa4fd7f64f9155c"
+            }
+          },
+          "fit_points": 351232,
+          "validation_points_used_for_fit": 0,
+          "test_points_used_for_fit": 0
+        },
+        {
+          "sample_id": 4,
+          "best_step": 100,
+          "train_nmae": 0.0015341805952746963,
+          "validation_nmae": 0.0017817370681907632,
+          "test_nmae": 0.0017746034707479456,
+          "checkpoint_sha256": "450b87667dee9b1ecc8699cc279da5f69be4f887b8e792e5b9d4d7054f1b1af1",
+          "split": {
+            "sample_id": 4,
+            "source_sha256": "67a678c0932f1baa7826ebce76223c7c481c7644055511bfce0f63388f11388d",
+            "grid_points": 439040,
+            "seed": 20261026,
+            "counts": {
+              "train": 351232,
+              "validation": 43904,
+              "test": 43904,
+              "selection": 8192
+            },
+            "indices_sha256": {
+              "train": "09cc21c9f60f941b18a6f705ae608e253b4f736dbf76276e24ead0085c741943",
+              "validation": "d8727fce961ed64f726ddb911e36a2cfd858fd5a6d30453ad42629962494196e",
+              "test": "8084a8400e235e25a9607831a793576a1cc4a2fac635d88b2f1a62778f59134d",
+              "selection": "39482be49d9d9ca0bc65dc907a97d3e578f2eaef962e6b3f0c6b4cc0f49ba436"
+            }
+          },
+          "fit_points": 351232,
+          "validation_points_used_for_fit": 0,
+          "test_points_used_for_fit": 0
+        },
+        {
+          "sample_id": 5,
+          "best_step": 75,
+          "train_nmae": 0.0013037448122077367,
+          "validation_nmae": 0.0014231644858988192,
+          "test_nmae": 0.00142327756253359,
+          "checkpoint_sha256": "1ccce3bf0908cef0a6ef3807e7ba2952cff1fa8b8c9a7d29b7739befcf3cb279",
+          "split": {
+            "sample_id": 5,
+            "source_sha256": "12a8a0ec694fecb76e6fdf39773da402457f117a0d6ce59d340236642290c850",
+            "grid_points": 439040,
+            "seed": 20261026,
+            "counts": {
+              "train": 351232,
+              "validation": 43904,
+              "test": 43904,
+              "selection": 8192
+            },
+            "indices_sha256": {
+              "train": "1646f0e7480973b8ec6afc767ef86288bbf874d7afc0ba99690502592bf1b9ea",
+              "validation": "5ec8fc2f63160abd2a5e2772306880ea742f88bfe1d2d86127dec97870bcb241",
+              "test": "e1d3ba61ff3b9f1b96280836aed362c8245a43c79940bb768a69b52234efb548",
+              "selection": "19607c0464d43b6074a244b2532aa999e51239e47a2bc5168f054c69c2d27c5c"
+            }
+          },
+          "fit_points": 351232,
+          "validation_points_used_for_fit": 0,
+          "test_points_used_for_fit": 0
+        },
+        {
+          "sample_id": 6,
+          "best_step": 25,
+          "train_nmae": 0.0015748161176490515,
+          "validation_nmae": 0.0017822120091457881,
+          "test_nmae": 0.0017825066215341689,
+          "checkpoint_sha256": "33df516c3a06e4b639407650eb582cd821e5809aee789a3ac4697dd26b424d7d",
+          "split": {
+            "sample_id": 6,
+            "source_sha256": "9c87420a5122a9f5bc9ab99fa1e3abd7be346f3ab1a553f429da00bf45ce78d7",
+            "grid_points": 439040,
+            "seed": 20261026,
+            "counts": {
+              "train": 351232,
+              "validation": 43904,
+              "test": 43904,
+              "selection": 8192
+            },
+            "indices_sha256": {
+              "train": "7fbf53c3514df83ece28bbb56c0b931641f3406f4f4646b0782a251748ee175a",
+              "validation": "1c0089967e22db0f390622e68b70be68ebf4c7fd2c25a2d8c229fd323556532e",
+              "test": "a675facdc317ebdeb56ef5a5e0b8668d3a29886ec527fd9e0870ed3b5d5b7f06",
+              "selection": "dc15a3e5a552a492994619186cb6972459f8f8320d0037c16fc2e47952a620f7"
+            }
+          },
+          "fit_points": 351232,
+          "validation_points_used_for_fit": 0,
+          "test_points_used_for_fit": 0
+        },
+        {
+          "sample_id": 7,
+          "best_step": 100,
+          "train_nmae": 0.0015576613770299712,
+          "validation_nmae": 0.0018032530357576734,
+          "test_nmae": 0.0018078799571146261,
+          "checkpoint_sha256": "5779905a56a1247a0b5d384c93c7b9372fa05adf4253e2835ddb8a86c8770039",
+          "split": {
+            "sample_id": 7,
+            "source_sha256": "c27f7980b24101798fc6f9f1ec10022a3f7c01172e51ef87bd38567b91498232",
+            "grid_points": 439040,
+            "seed": 20261026,
+            "counts": {
+              "train": 351232,
+              "validation": 43904,
+              "test": 43904,
+              "selection": 8192
+            },
+            "indices_sha256": {
+              "train": "f0968979d18bded02b4f9cdbf8969796bd76eea9be09097724e7ec493ea00bd7",
+              "validation": "9187e0042a2333b608cff37e741253793ac24a5881f580c69b2356c91f640618",
+              "test": "b259de77249a537b48a549fde479ab52e67b0a5b1a652957624328bfeb7d4c64",
+              "selection": "588f750cc745574331ef2bc359e15e7d52850091b4d1c0a2af6471335e2e24b4"
+            }
+          },
+          "fit_points": 351232,
+          "validation_points_used_for_fit": 0,
+          "test_points_used_for_fit": 0
+        }
+      ],
+      "train_macro_nmae": 0.0014395305289099125,
+      "validation_macro_nmae": 0.0016326804320617489,
+      "test_macro_nmae": 0.001636458663657519
+    }
+  },
+  "query_settings": {
+    "readout": "query",
+    "output": "runs\\nmc_bottleneck_2026-10-27\\query_eight",
+    "samples": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "steps": 16000,
+    "probes": 1024,
+    "eval_every": 500,
+    "chunk": 2048,
+    "seed": 42,
+    "lr": 0.001,
+    "min_lr": 1e-05,
+    "query_radial_hidden": 25,
+    "parent": null,
+    "cpu": false,
+    "model_config": {
+      "architecture": "mace_like",
+      "num_radial": 16,
+      "lmax": 2,
+      "hidden_lmax": 2,
+      "density_lmax": 4,
+      "readout_edge_lmax": 2,
+      "scalar_channels": 24,
+      "vector_channels": 12,
+      "tensor_channels": 6,
+      "octupole_channels": 0,
+      "num_interactions": 3,
+      "edge_basis": 16,
+      "radial_hidden": 64,
+      "cutoff": 6.0,
+      "num_species": 119,
+      "pbc": true,
+      "learnable_atomic_baseline": true
+    },
+    "basis_config": {
+      "num_radial": 16,
+      "lmax": 4,
+      "cutoff": 3.0,
+      "pbc": true,
+      "regular_radial": true,
+      "radial_whitening": true,
+      "radial_minimum": 0.09375
+    },
+    "parameter_count": 519248,
+    "trunk_initial_sha256": "57bd4a4808a11449cdaf8312f0080edba3e7a6866c0544e251af70ec4d60e93c",
+    "trunk_parameters": 338928,
+    "source_hashes": {
+      "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\train_nmc_paired_readout.py": "0c67ed3152fd5d7ef38310306dad60e2e5926500d7592df6e51b667ad6e1b49c",
+      "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\models\\paired_readout.py": "211eee0f4989c3d25dd981ae18821caed322c573587ef8acadefdfa519bddd7b",
+      "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\models\\mace_like_model.py": "39cb82252836b5182ecfe9ce6aa70f47d8dbb505d016c3ee9961874da26b44e2",
+      "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\nmc_probe_holdout.py": "fa75daa0a730c664f0c7091adb44596d0d2934b41f274e0562e9492558637a3b",
+      "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\train_nmc_probe_holdout.py": "5407689c931c0697ae8398178c58477d5e14d4863788db70bc86cf70a79e6189",
+      "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\fit_nmc_holdout_oracle.py": "5196488e756b0746255aeb26f519bedb550b8fa3921b3caf97ca8a1f3f0fe582"
+    },
+    "loss": "training-only normalized L1",
+    "optimizer": "Adam; cosine lr; no weight decay; clip 5",
+    "selection": "fixed 8192 validation points per structure; tests sealed until separate final evaluation",
+    "query_cutoff": 3.0,
+    "query_features": "final atom backbone state only",
+    "initialization": "from scratch; identical atom backbone seed; no oracle labels",
+    "parent_sha256": null,
+    "torch_version": "2.11.0+cu128",
+    "device": "cuda"
+  },
+  "paired_control_audit": {
+    "coefficient_control": "runs\\nmc_probe_holdout_2026-10-26\\r16_eight",
+    "query": "runs\\nmc_bottleneck_2026-10-27\\query_eight",
+    "control_checkpoint_sha256": "d9553ed92cc1f545b4794df96f6772a3144d80fcd97e20533cb52c2d65002b72",
+    "identical_backbone_initialization": true,
+    "identical_settings_and_sources": true,
+    "identical_actual_sample_coverage": true,
+    "archived_production_source_files_unchanged": 23,
+    "control_parameters": 521472,
+    "query_parameters": 519248,
+    "backbone_parameters": 338928,
+    "reuse_reason": "Existing coefficient run has identical production architecture, initialization, split, sampling RNG and training protocol; new wrapper matches production forward and backbone gradients exactly."
+  },
+  "oracle_validation_audits": [
+    {
+      "sample_id": 0,
+      "best_step": 100,
+      "selection_nmae": 0.001613248237853625,
+      "validation_nmae": 0.0016460772796919158,
+      "cache_vs_production_selection_nmae_difference": 4.032744478090454e-08,
+      "checkpoint_sha256": "17217c2dc62a796b05cae09c5945813cec16cab0d3fc19c1090f09c9c531940c",
+      "fit_points": 351232,
+      "validation_points_used_for_fit": 0,
+      "test_points_used_for_fit": 0,
+      "test_evaluated": false,
+      "elapsed_seconds": 390.1322752000415
+    },
+    {
+      "sample_id": 1,
+      "best_step": 125,
+      "selection_nmae": 0.0016445622167384753,
+      "validation_nmae": 0.001660237575911603,
+      "cache_vs_production_selection_nmae_difference": 6.100070116523901e-08,
+      "checkpoint_sha256": "1d4e13d7a60eee3584800c9215b564f990571f22953f3eaab73797554580fdf0",
+      "fit_points": 351232,
+      "validation_points_used_for_fit": 0,
+      "test_points_used_for_fit": 0,
+      "test_evaluated": false,
+      "elapsed_seconds": 187.48058090003906
+    },
+    {
+      "sample_id": 2,
+      "best_step": 100,
+      "selection_nmae": 0.001661614460235953,
+      "validation_nmae": 0.0016399630008329521,
+      "cache_vs_production_selection_nmae_difference": 1.4414740996757797e-08,
+      "checkpoint_sha256": "d2a474f52664d8a4e3b77cefa2e854df655fdeec0af36cfe6b41a3d560c6e6a6",
+      "fit_points": 351232,
+      "validation_points_used_for_fit": 0,
+      "test_points_used_for_fit": 0,
+      "test_evaluated": false,
+      "elapsed_seconds": 122.22813609999139
+    },
+    {
+      "sample_id": 3,
+      "best_step": 150,
+      "selection_nmae": 0.0013250918296229238,
+      "validation_nmae": 0.001324799001064259,
+      "cache_vs_production_selection_nmae_difference": 1.4146560944915988e-07,
+      "checkpoint_sha256": "f2da247a5f45ae1da54130309b54b52837211e8978ba8a41d7b5b274b93586cd",
+      "fit_points": 351232,
+      "validation_points_used_for_fit": 0,
+      "test_points_used_for_fit": 0,
+      "test_evaluated": false,
+      "elapsed_seconds": 283.5471566999913
+    },
+    {
+      "sample_id": 4,
+      "best_step": 100,
+      "selection_nmae": 0.0018270968430610397,
+      "validation_nmae": 0.0017817370681907673,
+      "cache_vs_production_selection_nmae_difference": 2.6687575663264518e-08,
+      "checkpoint_sha256": "450b87667dee9b1ecc8699cc279da5f69be4f887b8e792e5b9d4d7054f1b1af1",
+      "fit_points": 351232,
+      "validation_points_used_for_fit": 0,
+      "test_points_used_for_fit": 0,
+      "test_evaluated": false,
+      "elapsed_seconds": 102.904785599967
+    },
+    {
+      "sample_id": 5,
+      "best_step": 75,
+      "selection_nmae": 0.0014239034976006068,
+      "validation_nmae": 0.0014231644858989278,
+      "cache_vs_production_selection_nmae_difference": 1.0389508867309806e-07,
+      "checkpoint_sha256": "1ccce3bf0908cef0a6ef3807e7ba2952cff1fa8b8c9a7d29b7739befcf3cb279",
+      "fit_points": 351232,
+      "validation_points_used_for_fit": 0,
+      "test_points_used_for_fit": 0,
+      "test_evaluated": false,
+      "elapsed_seconds": 404.23746920004487
+    },
+    {
+      "sample_id": 6,
+      "best_step": 25,
+      "selection_nmae": 0.0019294684185105298,
+      "validation_nmae": 0.0017822120091457864,
+      "cache_vs_production_selection_nmae_difference": 4.109507725866962e-09,
+      "checkpoint_sha256": "33df516c3a06e4b639407650eb582cd821e5809aee789a3ac4697dd26b424d7d",
+      "fit_points": 351232,
+      "validation_points_used_for_fit": 0,
+      "test_points_used_for_fit": 0,
+      "test_evaluated": false,
+      "elapsed_seconds": 102.08460070000729
+    },
+    {
+      "sample_id": 7,
+      "best_step": 100,
+      "selection_nmae": 0.0017385984651914952,
+      "validation_nmae": 0.0018032530357576728,
+      "cache_vs_production_selection_nmae_difference": 1.05878053358998e-07,
+      "checkpoint_sha256": "5779905a56a1247a0b5d384c93c7b9372fa05adf4253e2835ddb8a86c8770039",
+      "fit_points": 351232,
+      "validation_points_used_for_fit": 0,
+      "test_points_used_for_fit": 0,
+      "test_evaluated": false,
+      "elapsed_seconds": 194.22470339998836
+    }
+  ],
+  "oracle_optimization_diagnostic": [
+    {
+      "sample_id": 0,
+      "ls_train_nmae": 0.0016913455538989403,
+      "ls_selection_nmae": 0.0018160724786734177,
+      "ls_coefficient_rms": 1.2600163967391254,
+      "best_selection_nmae": 0.001613288565298406,
+      "best_coefficient_rms": 48.89115622340191
+    },
+    {
+      "sample_id": 1,
+      "ls_train_nmae": 0.0017134471550510637,
+      "ls_selection_nmae": 0.0018422933070640704,
+      "ls_coefficient_rms": 1.0069766550695318,
+      "best_selection_nmae": 0.0016446232174396405,
+      "best_coefficient_rms": 58.22274924086783
+    },
+    {
+      "sample_id": 2,
+      "ls_train_nmae": 0.001648926755090695,
+      "ls_selection_nmae": 0.0017964473754725286,
+      "ls_coefficient_rms": 0.7472887277882897,
+      "best_selection_nmae": 0.0016616288749769497,
+      "best_coefficient_rms": 23.785915196364105
+    },
+    {
+      "sample_id": 3,
+      "ls_train_nmae": 0.0013892248195649427,
+      "ls_selection_nmae": 0.0014721796368065425,
+      "ls_coefficient_rms": 0.8118116324865682,
+      "best_selection_nmae": 0.0013249503640134746,
+      "best_coefficient_rms": 40.75182140714478
+    },
+    {
+      "sample_id": 4,
+      "ls_train_nmae": 0.0017967176461628088,
+      "ls_selection_nmae": 0.0019450552813148356,
+      "ls_coefficient_rms": 0.6429667866186836,
+      "best_selection_nmae": 0.001827123530636703,
+      "best_coefficient_rms": 8.379186396700055
+    },
+    {
+      "sample_id": 5,
+      "ls_train_nmae": 0.0014592371670910892,
+      "ls_selection_nmae": 0.00154132526127557,
+      "ls_coefficient_rms": 0.746844179830497,
+      "best_selection_nmae": 0.0014240073926892799,
+      "best_coefficient_rms": 36.40090685193844
+    },
+    {
+      "sample_id": 6,
+      "ls_train_nmae": 0.0017766649749256529,
+      "ls_selection_nmae": 0.001931868801152961,
+      "ls_coefficient_rms": 0.798534479466152,
+      "best_selection_nmae": 0.001929464309002804,
+      "best_coefficient_rms": 7.0128403142097016
+    },
+    {
+      "sample_id": 7,
+      "ls_train_nmae": 0.0018465950180701037,
+      "ls_selection_nmae": 0.0019430810205170329,
+      "ls_coefficient_rms": 0.9433174203236725,
+      "best_selection_nmae": 0.0017387043432448542,
+      "best_coefficient_rms": 34.49564053880703
+    }
+  ],
+  "primary_query_test_target_reached": false,
+  "selected_query": "refined",
+  "selected_query_test_target_reached": false,
+  "refinement_settings": {
+    "readout": "query",
+    "output": "runs\\nmc_bottleneck_2026-10-27\\query_eight_refine",
+    "samples": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "steps": 4000,
+    "probes": 4096,
+    "eval_every": 500,
+    "chunk": 2048,
+    "seed": 42,
+    "lr": 0.0001,
+    "min_lr": 1e-06,
+    "query_radial_hidden": 25,
+    "parent": "runs\\nmc_bottleneck_2026-10-27\\query_eight\\best.pt",
+    "cpu": false,
+    "model_config": {
+      "architecture": "mace_like",
+      "num_radial": 16,
+      "lmax": 2,
+      "hidden_lmax": 2,
+      "density_lmax": 4,
+      "readout_edge_lmax": 2,
+      "scalar_channels": 24,
+      "vector_channels": 12,
+      "tensor_channels": 6,
+      "octupole_channels": 0,
+      "num_interactions": 3,
+      "edge_basis": 16,
+      "radial_hidden": 64,
+      "cutoff": 6.0,
+      "num_species": 119,
+      "pbc": true,
+      "learnable_atomic_baseline": true
+    },
+    "basis_config": {
+      "num_radial": 16,
+      "lmax": 4,
+      "cutoff": 3.0,
+      "pbc": true,
+      "regular_radial": true,
+      "radial_whitening": true,
+      "radial_minimum": 0.09375
+    },
+    "parameter_count": 519248,
+    "trunk_initial_sha256": "bcf02a414543707dcc2e327ce0ae2f81c6d48d3724d8bf8856192f081df7427d",
+    "trunk_parameters": 338928,
+    "source_hashes": {
+      "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\train_nmc_paired_readout.py": "0c67ed3152fd5d7ef38310306dad60e2e5926500d7592df6e51b667ad6e1b49c",
+      "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\models\\paired_readout.py": "211eee0f4989c3d25dd981ae18821caed322c573587ef8acadefdfa519bddd7b",
+      "C:\\Users\\User\\Desktop\\density EQGNN\\src\\density_eqgnn\\models\\mace_like_model.py": "39cb82252836b5182ecfe9ce6aa70f47d8dbb505d016c3ee9961874da26b44e2",
+      "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\nmc_probe_holdout.py": "fa75daa0a730c664f0c7091adb44596d0d2934b41f274e0562e9492558637a3b",
+      "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\train_nmc_probe_holdout.py": "5407689c931c0697ae8398178c58477d5e14d4863788db70bc86cf70a79e6189",
+      "C:\\Users\\User\\Desktop\\density EQGNN\\scripts\\fit_nmc_holdout_oracle.py": "5196488e756b0746255aeb26f519bedb550b8fa3921b3caf97ca8a1f3f0fe582"
+    },
+    "loss": "training-only normalized L1",
+    "optimizer": "Adam; cosine lr; no weight decay; clip 5",
+    "selection": "fixed 8192 validation points per structure; tests sealed until separate final evaluation",
+    "query_cutoff": 3.0,
+    "query_features": "final atom backbone state only",
+    "initialization": "validation-selected parent; optimizer reset; no oracle labels",
+    "parent_sha256": "921e27958b52c790edf47db9358e2907de905e4979d35706e288ae0a947c17d4",
+    "torch_version": "2.11.0+cu128",
+    "device": "cuda"
+  },
+  "refinement_decision": {
+    "decision_date": "2026-10-27",
+    "basis": "Validation only; no new oracle or query test evaluation has occurred.",
+    "primary_best_step": 16000,
+    "primary_selection_macro_nmae": 0.007436871563735853,
+    "primary_at_14000": 0.0075474,
+    "rationale": "The query head reduces validation error substantially relative to the matched coefficient control, but the final learning-rate tail still improves slowly. A single bounded larger-minibatch, lower-learning-rate refinement tests whether stochastic optimization is limiting accuracy.",
+    "parent": "runs/nmc_bottleneck_2026-10-27/query_eight/best.pt",
+    "output": "runs/nmc_bottleneck_2026-10-27/query_eight_refine",
+    "steps": 4000,
+    "probes": 4096,
+    "lr": 0.0001,
+    "min_lr": 1e-06,
+    "eval_every": 500,
+    "seed": 42,
+    "optimizer": "Fresh Adam, cosine schedule; all weights trainable; same L1 objective",
+    "selection_rule": "Minimum fixed selection-validation macro NMAE across the original parent and refinement checkpoints; keep parent if refinement is worse.",
+    "stopping_rule": "One refinement run of 4000 updates. Freeze this round's choices before test evaluation; no further adaptation using test results.",
+    "reporting": "Retain original 16000-step equal-budget comparison; report refinement as additional optimization budget, not a matched control."
+  },
+  "frozen_selection": {
+    "frozen_at_utc": "2026-10-27T17:33:29.701220+00:00",
+    "selection_basis": "Fixed validation selection points only; no test metrics read",
+    "candidates": {
+      "query_eight": {
+        "best_step": 16000,
+        "selection_macro_nmae": 0.007436871563735853,
+        "checkpoint_sha256": "921e27958b52c790edf47db9358e2907de905e4979d35706e288ae0a947c17d4"
+      },
+      "query_eight_refine": {
+        "best_step": 4000,
+        "selection_macro_nmae": 0.007125728330629117,
+        "checkpoint_sha256": "034dee192470e2fe72e2f3ca0062a7b07b3f836b602b8dbd8736a166c58ac49a"
+      }
+    },
+    "selected_query": "query_eight_refine",
+    "oracle_checkpoint_sha256": {
+      "0": "17217c2dc62a796b05cae09c5945813cec16cab0d3fc19c1090f09c9c531940c",
+      "1": "1d4e13d7a60eee3584800c9215b564f990571f22953f3eaab73797554580fdf0",
+      "2": "d2a474f52664d8a4e3b77cefa2e854df655fdeec0af36cfe6b41a3d560c6e6a6",
+      "3": "f2da247a5f45ae1da54130309b54b52837211e8978ba8a41d7b5b274b93586cd",
+      "4": "450b87667dee9b1ecc8699cc279da5f69be4f887b8e792e5b9d4d7054f1b1af1",
+      "5": "1ccce3bf0908cef0a6ef3807e7ba2952cff1fa8b8c9a7d29b7739befcf3cb279",
+      "6": "33df516c3a06e4b639407650eb582cd821e5809aee789a3ac4697dd26b424d7d",
+      "7": "5779905a56a1247a0b5d384c93c7b9372fa05adf4253e2835ddb8a86c8770039"
+    },
+    "refinement_decision_sha256": "74899a9f138995acc0abff2a740fd1f59e9f49236b272f2570cd1ea4fb36e59e",
+    "no_more_adaptive_runs_this_round": true
+  }
+}

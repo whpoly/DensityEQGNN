@@ -1,9 +1,8 @@
+ase
+e3nn>=0.6
+lz4
 numpy
 torch
 pymatgen
-mp-api
+scipy
 PyYAML
-tqdm
-
-# Optional, for a full higher-order E(3) implementation matching ChargE3Net more closely:
-# e3nn
