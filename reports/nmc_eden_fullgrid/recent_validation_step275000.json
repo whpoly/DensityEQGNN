@@ -1,0 +1,212 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\density EQGNN\\runs\\nmc_eden_fullgrid\\probe_adamw_l1_seed42\\validation.json",
+  "source_sha256": "5291377d007a272a974ac3dd384071ded1bb2a480874dd20953c1a9c3a936033",
+  "endpoint_step": 275000,
+  "validation_structures": 50,
+  "density_probes_per_structure": 5000,
+  "relative_errors_in_rows": "ratios; plotted values multiplied by 100",
+  "rows": [
+    {
+      "step": 200000,
+      "epoch": 275.86206896551727,
+      "lr": 0.005,
+      "next_lr": 0.005,
+      "density_mae": 0.0007070186745841056,
+      "density_nmae": 0.0010170001082587987,
+      "occupation_mae": 0.001302428311901167,
+      "occupation_relative_l1": 0.004829559926874936,
+      "scheduler_score": 0.001039524710504338
+    },
+    {
+      "step": 205000,
+      "epoch": 282.7586206896552,
+      "lr": 0.005,
+      "next_lr": 0.005,
+      "density_mae": 0.0007304589136037976,
+      "density_nmae": 0.00105037696310319,
+      "occupation_mae": 0.0011545976414345206,
+      "occupation_relative_l1": 0.004279210357926786,
+      "scheduler_score": 0.0010545126826036722
+    },
+    {
+      "step": 210000,
+      "epoch": 289.6551724137931,
+      "lr": 0.005,
+      "next_lr": 0.005,
+      "density_mae": 0.0006947831052821129,
+      "density_nmae": 0.0009998667484614999,
+      "occupation_mae": 0.0012142721330747007,
+      "occupation_relative_l1": 0.004503419985994696,
+      "scheduler_score": 0.0010152314428705721
+    },
+    {
+      "step": 215000,
+      "epoch": 296.55172413793105,
+      "lr": 0.005,
+      "next_lr": 0.005,
+      "density_mae": 0.0007163164915982633,
+      "density_nmae": 0.001030484476359561,
+      "occupation_mae": 0.0012078676035162062,
+      "occupation_relative_l1": 0.00448028180282563,
+      "scheduler_score": 0.001042060183826834
+    },
+    {
+      "step": 220000,
+      "epoch": 303.44827586206895,
+      "lr": 0.005,
+      "next_lr": 0.005,
+      "density_mae": 0.0007119300577323884,
+      "density_nmae": 0.0010238284897059202,
+      "occupation_mae": 0.0012368782737758011,
+      "occupation_relative_l1": 0.004592177658341825,
+      "scheduler_score": 0.0010388381395023316
+    },
+    {
+      "step": 225000,
+      "epoch": 310.3448275862069,
+      "lr": 0.005,
+      "next_lr": 0.005,
+      "density_mae": 0.0007132915675174445,
+      "density_nmae": 0.0010266799596138298,
+      "occupation_mae": 0.0011743628117255867,
+      "occupation_relative_l1": 0.004363608346320689,
+      "scheduler_score": 0.0010353132372256369
+    },
+    {
+      "step": 230000,
+      "epoch": 317.2413793103448,
+      "lr": 0.005,
+      "next_lr": 0.005,
+      "density_mae": 0.0007144967466592789,
+      "density_nmae": 0.0010273386514745653,
+      "occupation_mae": 0.001278254217468202,
+      "occupation_relative_l1": 0.004735004776157439,
+      "scheduler_score": 0.0010461913887411356
+    },
+    {
+      "step": 235000,
+      "epoch": 324.13793103448273,
+      "lr": 0.005,
+      "next_lr": 0.005,
+      "density_mae": 0.0007369830959942192,
+      "density_nmae": 0.0010600001108832656,
+      "occupation_mae": 0.0013383267435710877,
+      "occupation_relative_l1": 0.004972935100086034,
+      "scheduler_score": 0.0010814432392362505
+    },
+    {
+      "step": 240000,
+      "epoch": 331.0344827586207,
+      "lr": 0.005,
+      "next_lr": 0.0025,
+      "density_mae": 0.0007571058953180909,
+      "density_nmae": 0.0010891538485884667,
+      "occupation_mae": 0.0011620697926264256,
+      "occupation_relative_l1": 0.004312459202483296,
+      "scheduler_score": 0.0010898475057911127
+    },
+    {
+      "step": 245000,
+      "epoch": 337.9310344827586,
+      "lr": 0.0025,
+      "next_lr": 0.0025,
+      "density_mae": 0.0006545062316581607,
+      "density_nmae": 0.0009416228905320168,
+      "occupation_mae": 0.0010613669559825212,
+      "occupation_relative_l1": 0.003933040029369295,
+      "scheduler_score": 0.0009479973558336497
+    },
+    {
+      "step": 250000,
+      "epoch": 344.82758620689657,
+      "lr": 0.0025,
+      "next_lr": 0.0025,
+      "density_mae": 0.0006374740740284323,
+      "density_nmae": 0.0009172626305371523,
+      "occupation_mae": 0.0012269918504171074,
+      "occupation_relative_l1": 0.004551591794006526,
+      "scheduler_score": 0.0009426814026664942
+    },
+    {
+      "step": 255000,
+      "epoch": 351.7241379310345,
+      "lr": 0.0025,
+      "next_lr": 0.0025,
+      "density_mae": 0.0006590565375518054,
+      "density_nmae": 0.0009479102643672377,
+      "occupation_mae": 0.001032426671590656,
+      "occupation_relative_l1": 0.0038305050227791073,
+      "scheduler_score": 0.0009507310576736927
+    },
+    {
+      "step": 260000,
+      "epoch": 358.62068965517244,
+      "lr": 0.0025,
+      "next_lr": 0.0025,
+      "density_mae": 0.0006482404266716913,
+      "density_nmae": 0.0009324496111366898,
+      "occupation_mae": 0.0010429272695910185,
+      "occupation_relative_l1": 0.003873504134826362,
+      "scheduler_score": 0.0009379424084909261
+    },
+    {
+      "step": 265000,
+      "epoch": 365.51724137931035,
+      "lr": 0.0025,
+      "next_lr": 0.0025,
+      "density_mae": 0.0006347036320948973,
+      "density_nmae": 0.0009132000373210758,
+      "occupation_mae": 0.001063463952159509,
+      "occupation_relative_l1": 0.003948788517154753,
+      "scheduler_score": 0.0009229094814509153
+    },
+    {
+      "step": 270000,
+      "epoch": 372.41379310344826,
+      "lr": 0.0025,
+      "next_lr": 0.0025,
+      "density_mae": 0.0006443780189147219,
+      "density_nmae": 0.000927060634130612,
+      "occupation_mae": 0.0011031757795717566,
+      "occupation_relative_l1": 0.004092670208774507,
+      "scheduler_score": 0.0009390042477753014
+    },
+    {
+      "step": 275000,
+      "epoch": 379.3103448275862,
+      "lr": 0.0025,
+      "next_lr": 0.0025,
+      "density_mae": 0.0006536073511233553,
+      "density_nmae": 0.0009403663629200309,
+      "occupation_mae": 0.0010596672538667918,
+      "occupation_relative_l1": 0.003928620382212102,
+      "scheduler_score": 0.0009467565082013608
+    }
+  ],
+  "window_comparison": {
+    "before_steps": [
+      225000,
+      230000,
+      235000,
+      240000
+    ],
+    "recent_steps": [
+      260000,
+      265000,
+      270000,
+      275000
+    ],
+    "metrics": {
+      "density_nmae": {
+        "before_mean_pct": 0.10507931426400319,
+        "recent_mean_pct": 0.09282691613771021,
+        "relative_reduction_pct": 11.660142828406572
+      },
+      "occupation_relative_l1": {
+        "before_mean_pct": 0.45960018562618643,
+        "recent_mean_pct": 0.3960895810741931,
+        "relative_reduction_pct": 13.818663816565413
+      }
+    }
+  }
+}

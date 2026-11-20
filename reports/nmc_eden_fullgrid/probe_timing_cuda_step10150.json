@@ -1,0 +1,137 @@
+{
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 5060 Ti",
+  "split": "train",
+  "seed": 42,
+  "probes": 1000,
+  "repeats": 4,
+  "chunk": 150000,
+  "checkpoint_step": 10150,
+  "checkpoint_sha256": "e61e3c6aed1d3150843dbd3bf6fab05a57962c4807fc70c7396387fca8a0ef6d",
+  "gradient_audit": "same weights, encoder activations and probes, highest FP32 matmul precision",
+  "timing_scope": "joint forward and backward, medium matmul precision, inputs in memory, including probe selection and periodic neighbour lookup; no optimizer, file IO or validation",
+  "median_seconds": {
+    "full": 4.470895199920051,
+    "sampled": 1.3430098500102758
+  },
+  "speedup": 3.329011473658099,
+  "structures": [
+    {
+      "id": 0,
+      "atoms": 47,
+      "grid_points": 439040,
+      "valid_paw": 1953,
+      "native_atom_grid_pairs": 6203671,
+      "agreement": {
+        "density_max_abs": 4.76837158203125e-07,
+        "occupation_max_abs": 0.0,
+        "parameter_gradients": {
+          "representation": {
+            "reference_norm": 0.004625344460933299,
+            "relative_l2": 2.745020965054537e-07
+          },
+          "probe": {
+            "reference_norm": 0.016067174229846402,
+            "relative_l2": 2.3725726447305257e-07
+          },
+          "aug": {
+            "reference_norm": 0.0005545928578941621,
+            "relative_l2": 0.0
+          }
+        }
+      },
+      "seconds": {
+        "full": [
+          5.002171600004658,
+          5.225713399937376,
+          3.9447807997930795,
+          4.813808400183916
+        ],
+        "sampled": [
+          0.7020215999800712,
+          1.403795399935916,
+          1.4106860000174493,
+          0.5831009999383241
+        ]
+      }
+    },
+    {
+      "id": 1029,
+      "atoms": 46,
+      "grid_points": 439040,
+      "valid_paw": 1938,
+      "native_atom_grid_pairs": 6085202,
+      "agreement": {
+        "density_max_abs": 1.1920928955078125e-07,
+        "occupation_max_abs": 0.0,
+        "parameter_gradients": {
+          "representation": {
+            "reference_norm": 0.006196164621920628,
+            "relative_l2": 1.8933648664147103e-07
+          },
+          "probe": {
+            "reference_norm": 0.019765221513097963,
+            "relative_l2": 2.2216728992180676e-07
+          },
+          "aug": {
+            "reference_norm": 0.0005665555199749453,
+            "relative_l2": 0.0
+          }
+        }
+      },
+      "seconds": {
+        "full": [
+          5.5780553999356925,
+          3.9731894000433385,
+          5.0742367000784725,
+          4.3629783999640495
+        ],
+        "sampled": [
+          1.6525504000019282,
+          1.561778899980709,
+          1.457391900010407,
+          0.5843849999364465
+        ]
+      }
+    },
+    {
+      "id": 1999,
+      "atoms": 37,
+      "grid_points": 439040,
+      "valid_paw": 1803,
+      "native_atom_grid_pairs": 5290519,
+      "agreement": {
+        "density_max_abs": 4.76837158203125e-07,
+        "occupation_max_abs": 0.0,
+        "parameter_gradients": {
+          "representation": {
+            "reference_norm": 0.0037156140700215236,
+            "relative_l2": 2.85042488503494e-07
+          },
+          "probe": {
+            "reference_norm": 0.01622679878923824,
+            "relative_l2": 1.9195222620577053e-07
+          },
+          "aug": {
+            "reference_norm": 0.0005570833993747914,
+            "relative_l2": 0.0
+          }
+        }
+      },
+      "seconds": {
+        "full": [
+          3.5599336000159383,
+          4.578811999876052,
+          2.7923296000808477,
+          3.5604745000600815
+        ],
+        "sampled": [
+          1.3445035999175161,
+          0.5305332001298666,
+          1.2408359998371452,
+          1.3415161001030356
+        ]
+      }
+    }
+  ]
+}

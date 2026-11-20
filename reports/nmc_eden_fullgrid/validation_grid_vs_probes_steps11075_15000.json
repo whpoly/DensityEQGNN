@@ -1,0 +1,970 @@
+{
+  "split": "validation",
+  "structure_count": 50,
+  "points_per_grid": 439040,
+  "fixed_probes": 5000,
+  "probe_seed": "[75113, official structure id]",
+  "paw": "all valid coefficients for both evaluations",
+  "seed": 42,
+  "split_sha256": "a8722f4d63a764be424c8ff5efadb7526a179351879ccc127ef81649f1cddd4b",
+  "reduced_precision_matmul": false,
+  "inference_chunk": 32000,
+  "aggregation": "mean across 50 per-structure ratios; percentages below",
+  "origin_10350_full_grid": {
+    "step": 10350,
+    "epoch": 8,
+    "structures_seen": 10350,
+    "sampled_updates": 0,
+    "density_nmae": 0.002101649011598182,
+    "occupation_relative_l1": 0.013061046691426981,
+    "occupation_mae": 0.00352016770807007,
+    "paper_density": 0.002101649017733845,
+    "score": 0.0022435008867674675,
+    "lr": 0.005
+  },
+  "results": {
+    "fullgrid_warm_start_then_probes": {
+      "step": 11075,
+      "provenance": {
+        "checkpoint_container_sha256": "8bb81333318d4ee6e77cedb0571e5659b7f7604d23250ff2598fd99c66c06f38",
+        "container_step": 11075,
+        "key": "model"
+      },
+      "mean_percent": {
+        "density_full": 0.1844543548084251,
+        "density_full_at_fixed_probes": 0.18501191113195997,
+        "density_fixed_probes": 0.1850119290590001,
+        "paw_full": 1.0303958900737535,
+        "paw_probe": 1.03039577407477
+      },
+      "archived_mean_percent": {
+        "density_full": 0.18813482094653478,
+        "paw_full": 1.029653516371693
+      },
+      "per_structure_ratios": [
+        {
+          "id": 43,
+          "valid_paw": 1818,
+          "density_full": 0.0016300245035202907,
+          "density_full_at_fixed_probes": 0.0015929030919010552,
+          "density_fixed_probes": 0.001592904661836629,
+          "paw_full": 0.008496057103207258,
+          "paw_probe": 0.008496061963183055
+        },
+        {
+          "id": 67,
+          "valid_paw": 1878,
+          "density_full": 0.002339345303629978,
+          "density_full_at_fixed_probes": 0.0022995562476947687,
+          "density_fixed_probes": 0.002299556461138381,
+          "paw_full": 0.015470593792410234,
+          "paw_probe": 0.01547058019682744
+        },
+        {
+          "id": 74,
+          "valid_paw": 1878,
+          "density_full": 0.0017898712757890693,
+          "density_full_at_fixed_probes": 0.0018013884018148374,
+          "density_fixed_probes": 0.0018013887910999222,
+          "paw_full": 0.012422534209349804,
+          "paw_probe": 0.012422537219830686
+        },
+        {
+          "id": 107,
+          "valid_paw": 1923,
+          "density_full": 0.0018891388150406273,
+          "density_full_at_fixed_probes": 0.001943572746050358,
+          "density_fixed_probes": 0.0019435715925936565,
+          "paw_full": 0.010624324905496417,
+          "paw_probe": 0.010624332659271084
+        },
+        {
+          "id": 179,
+          "valid_paw": 1878,
+          "density_full": 0.0023084944320036632,
+          "density_full_at_fixed_probes": 0.00223199044539961,
+          "density_fixed_probes": 0.002231990934831282,
+          "paw_full": 0.014397616452036037,
+          "paw_probe": 0.01439761359766514
+        },
+        {
+          "id": 231,
+          "valid_paw": 1863,
+          "density_full": 0.0014907223575535951,
+          "density_full_at_fixed_probes": 0.0015245263377085775,
+          "density_fixed_probes": 0.0015245275552117105,
+          "paw_full": 0.009635624008525792,
+          "paw_probe": 0.009635632226296396
+        },
+        {
+          "id": 341,
+          "valid_paw": 1878,
+          "density_full": 0.002230394178120341,
+          "density_full_at_fixed_probes": 0.0022046584048441616,
+          "density_fixed_probes": 0.0022046576244225003,
+          "paw_full": 0.010585471296525272,
+          "paw_probe": 0.010585459649820378
+        },
+        {
+          "id": 381,
+          "valid_paw": 1803,
+          "density_full": 0.0018734641285896672,
+          "density_full_at_fixed_probes": 0.0018942161836524153,
+          "density_fixed_probes": 0.00189421649865023,
+          "paw_full": 0.010505932386201403,
+          "paw_probe": 0.010505940618692295
+        },
+        {
+          "id": 404,
+          "valid_paw": 1893,
+          "density_full": 0.0016798647793103644,
+          "density_full_at_fixed_probes": 0.0017032938880163161,
+          "density_fixed_probes": 0.0017032952819159802,
+          "paw_full": 0.010004841696270824,
+          "paw_probe": 0.010004828617530982
+        },
+        {
+          "id": 425,
+          "valid_paw": 1803,
+          "density_full": 0.0016431021609448534,
+          "density_full_at_fixed_probes": 0.0016573864814856966,
+          "density_fixed_probes": 0.0016573867156606395,
+          "paw_full": 0.009438575863507355,
+          "paw_probe": 0.009438567969092945
+        },
+        {
+          "id": 432,
+          "valid_paw": 1833,
+          "density_full": 0.0026729134565354543,
+          "density_full_at_fixed_probes": 0.0026818517423454506,
+          "density_fixed_probes": 0.002681852565807986,
+          "paw_full": 0.015967879559676896,
+          "paw_probe": 0.015967886599053998
+        },
+        {
+          "id": 450,
+          "valid_paw": 1938,
+          "density_full": 0.0014657121711643454,
+          "density_full_at_fixed_probes": 0.0014871258781067231,
+          "density_fixed_probes": 0.001487126358958011,
+          "paw_full": 0.007442870678667333,
+          "paw_probe": 0.007442864684559445
+        },
+        {
+          "id": 452,
+          "valid_paw": 1833,
+          "density_full": 0.002237614717931034,
+          "density_full_at_fixed_probes": 0.002220411171050917,
+          "density_fixed_probes": 0.00222041006330574,
+          "paw_full": 0.01322192190348893,
+          "paw_probe": 0.013221922483831462
+        },
+        {
+          "id": 476,
+          "valid_paw": 1878,
+          "density_full": 0.0017600339303418524,
+          "density_full_at_fixed_probes": 0.0017268175624009835,
+          "density_fixed_probes": 0.0017268163133134806,
+          "paw_full": 0.011328319669055575,
+          "paw_probe": 0.011328322320643104
+        },
+        {
+          "id": 599,
+          "valid_paw": 1803,
+          "density_full": 0.0017113003999701616,
+          "density_full_at_fixed_probes": 0.001779565007781233,
+          "density_fixed_probes": 0.001779566398119113,
+          "paw_full": 0.008952726520152863,
+          "paw_probe": 0.008952738237136375
+        },
+        {
+          "id": 674,
+          "valid_paw": 1848,
+          "density_full": 0.0015936595948874187,
+          "density_full_at_fixed_probes": 0.0015893949797514142,
+          "density_fixed_probes": 0.0015893950974353345,
+          "paw_full": 0.01123721223947327,
+          "paw_probe": 0.011237218904611932
+        },
+        {
+          "id": 749,
+          "valid_paw": 1923,
+          "density_full": 0.0014396127259176646,
+          "density_full_at_fixed_probes": 0.0014538739837507504,
+          "density_fixed_probes": 0.0014538737161428762,
+          "paw_full": 0.007055968470976242,
+          "paw_probe": 0.007055976250095495
+        },
+        {
+          "id": 784,
+          "valid_paw": 1878,
+          "density_full": 0.0015348808918454525,
+          "density_full_at_fixed_probes": 0.0015232939171882173,
+          "density_fixed_probes": 0.0015232951164475233,
+          "paw_full": 0.008059663119569852,
+          "paw_probe": 0.008059665155227996
+        },
+        {
+          "id": 791,
+          "valid_paw": 1953,
+          "density_full": 0.0022829795019832155,
+          "density_full_at_fixed_probes": 0.0023107404697385978,
+          "density_fixed_probes": 0.0023107407118210894,
+          "paw_full": 0.017360067770031733,
+          "paw_probe": 0.017360069088541673
+        },
+        {
+          "id": 916,
+          "valid_paw": 1788,
+          "density_full": 0.002098946764538778,
+          "density_full_at_fixed_probes": 0.0021453374331950703,
+          "density_fixed_probes": 0.0021453381910176363,
+          "paw_full": 0.011608391918815403,
+          "paw_probe": 0.011608391912468364
+        },
+        {
+          "id": 945,
+          "valid_paw": 1833,
+          "density_full": 0.0023197757589106067,
+          "density_full_at_fixed_probes": 0.002396419138566553,
+          "density_fixed_probes": 0.0023964202911844236,
+          "paw_full": 0.011916648639851687,
+          "paw_probe": 0.01191663381767775
+        },
+        {
+          "id": 948,
+          "valid_paw": 1968,
+          "density_full": 0.001996785084244176,
+          "density_full_at_fixed_probes": 0.0019474943961198398,
+          "density_fixed_probes": 0.001947494845394059,
+          "paw_full": 0.012812458405453645,
+          "paw_probe": 0.01281246699642916
+        },
+        {
+          "id": 960,
+          "valid_paw": 1968,
+          "density_full": 0.001370043411318395,
+          "density_full_at_fixed_probes": 0.0013763625673756871,
+          "density_fixed_probes": 0.0013763636805210117,
+          "paw_full": 0.006233526316961059,
+          "paw_probe": 0.006233537427807381
+        },
+        {
+          "id": 995,
+          "valid_paw": 1953,
+          "density_full": 0.0014054463451611092,
+          "density_full_at_fixed_probes": 0.0014099615692344507,
+          "density_fixed_probes": 0.0014099608283648357,
+          "paw_full": 0.005560234560292013,
+          "paw_probe": 0.005560230324273258
+        },
+        {
+          "id": 1030,
+          "valid_paw": 1818,
+          "density_full": 0.001985322441123402,
+          "density_full_at_fixed_probes": 0.001962187779113481,
+          "density_fixed_probes": 0.001962187405187784,
+          "paw_full": 0.011490192412455491,
+          "paw_probe": 0.011490190603367156
+        },
+        {
+          "id": 1031,
+          "valid_paw": 1923,
+          "density_full": 0.001789605855893098,
+          "density_full_at_fixed_probes": 0.001830929703332903,
+          "density_fixed_probes": 0.0018309300826658726,
+          "paw_full": 0.009640033659635398,
+          "paw_probe": 0.009640025613158461
+        },
+        {
+          "id": 1052,
+          "valid_paw": 1833,
+          "density_full": 0.0015668323395772788,
+          "density_full_at_fixed_probes": 0.001608862718417263,
+          "density_fixed_probes": 0.0016088634873358645,
+          "paw_full": 0.00903099542389822,
+          "paw_probe": 0.009030982706693523
+        },
+        {
+          "id": 1181,
+          "valid_paw": 1818,
+          "density_full": 0.0015582505332452778,
+          "density_full_at_fixed_probes": 0.0016126229304326105,
+          "density_fixed_probes": 0.001612622537183843,
+          "paw_full": 0.005660337217505639,
+          "paw_probe": 0.005660328721409329
+        },
+        {
+          "id": 1184,
+          "valid_paw": 1893,
+          "density_full": 0.0017110889338333838,
+          "density_full_at_fixed_probes": 0.001772573083102106,
+          "density_fixed_probes": 0.0017725741297937318,
+          "paw_full": 0.009114304412588195,
+          "paw_probe": 0.009114315681020906
+        },
+        {
+          "id": 1189,
+          "valid_paw": 1818,
+          "density_full": 0.0015730474450439214,
+          "density_full_at_fixed_probes": 0.0015358699590404244,
+          "density_fixed_probes": 0.001535870692358394,
+          "paw_full": 0.007176652344398963,
+          "paw_probe": 0.007176646558803412
+        },
+        {
+          "id": 1190,
+          "valid_paw": 1788,
+          "density_full": 0.0018119541979680475,
+          "density_full_at_fixed_probes": 0.001790441025599351,
+          "density_fixed_probes": 0.001790440343674704,
+          "paw_full": 0.009864492274502009,
+          "paw_probe": 0.009864489080359497
+        },
+        {
+          "id": 1222,
+          "valid_paw": 1833,
+          "density_full": 0.0019314433147892371,
+          "density_full_at_fixed_probes": 0.0019004420724608524,
+          "density_fixed_probes": 0.0019004415874598567,
+          "paw_full": 0.010212793593684103,
+          "paw_probe": 0.010212787236165517
+        },
+        {
+          "id": 1228,
+          "valid_paw": 1848,
+          "density_full": 0.0016011068296038489,
+          "density_full_at_fixed_probes": 0.001559167459235945,
+          "density_fixed_probes": 0.0015591674231143445,
+          "paw_full": 0.009774728159825592,
+          "paw_probe": 0.00977471921354362
+        },
+        {
+          "id": 1306,
+          "valid_paw": 1848,
+          "density_full": 0.001906807770725942,
+          "density_full_at_fixed_probes": 0.0019276353918085,
+          "density_fixed_probes": 0.001927635763567365,
+          "paw_full": 0.011139078290398967,
+          "paw_probe": 0.011139081283680246
+        },
+        {
+          "id": 1320,
+          "valid_paw": 1833,
+          "density_full": 0.002026779552359137,
+          "density_full_at_fixed_probes": 0.002015178042017649,
+          "density_fixed_probes": 0.00201517717773686,
+          "paw_full": 0.009653007989704962,
+          "paw_probe": 0.009653001272446312
+        },
+        {
+          "id": 1419,
+          "valid_paw": 1788,
+          "density_full": 0.0029420432034176006,
+          "density_full_at_fixed_probes": 0.0030214355920781533,
+          "density_fixed_probes": 0.0030214358185586977,
+          "paw_full": 0.01820668902658084,
+          "paw_probe": 0.018206680077170613
+        },
+        {
+          "id": 1527,
+          "valid_paw": 1848,
+          "density_full": 0.0017073226618086836,
+          "density_full_at_fixed_probes": 0.0016932448984246513,
+          "density_fixed_probes": 0.0016932445755784389,
+          "paw_full": 0.007515743671392021,
+          "paw_probe": 0.007515746163118287
+        },
+        {
+          "id": 1691,
+          "valid_paw": 1968,
+          "density_full": 0.0014602545550720602,
+          "density_full_at_fixed_probes": 0.001405520303856054,
+          "density_fixed_probes": 0.0014055219728245972,
+          "paw_full": 0.008122586665584576,
+          "paw_probe": 0.008122579057746859
+        },
+        {
+          "id": 1727,
+          "valid_paw": 1968,
+          "density_full": 0.0016638636137032048,
+          "density_full_at_fixed_probes": 0.001646235921523837,
+          "density_fixed_probes": 0.001646236086472451,
+          "paw_full": 0.00930395276292592,
+          "paw_probe": 0.009303956515226659
+        },
+        {
+          "id": 1732,
+          "valid_paw": 1923,
+          "density_full": 0.0016557212648343179,
+          "density_full_at_fixed_probes": 0.0016958649400710144,
+          "density_fixed_probes": 0.0016958645331520824,
+          "paw_full": 0.00892433621802958,
+          "paw_probe": 0.008924336048626278
+        },
+        {
+          "id": 1778,
+          "valid_paw": 1878,
+          "density_full": 0.0015732991757860804,
+          "density_full_at_fixed_probes": 0.0016046694775313523,
+          "density_fixed_probes": 0.0016046693751721808,
+          "paw_full": 0.010153930572974914,
+          "paw_probe": 0.010153929423787253
+        },
+        {
+          "id": 1779,
+          "valid_paw": 1968,
+          "density_full": 0.0021668395996279613,
+          "density_full_at_fixed_probes": 0.002132344237733529,
+          "density_fixed_probes": 0.00213234492540789,
+          "paw_full": 0.011272601590393214,
+          "paw_probe": 0.011272604036500338
+        },
+        {
+          "id": 1785,
+          "valid_paw": 1833,
+          "density_full": 0.001753226653141706,
+          "density_full_at_fixed_probes": 0.0017812799248657569,
+          "density_fixed_probes": 0.001781280620276283,
+          "paw_full": 0.008753344731209606,
+          "paw_probe": 0.008753349388493297
+        },
+        {
+          "id": 1814,
+          "valid_paw": 1938,
+          "density_full": 0.0015186212265987362,
+          "density_full_at_fixed_probes": 0.001487001231628216,
+          "density_fixed_probes": 0.0014870012347803058,
+          "paw_full": 0.00710900568442405,
+          "paw_probe": 0.007109005223153341
+        },
+        {
+          "id": 1838,
+          "valid_paw": 1833,
+          "density_full": 0.001991774207862416,
+          "density_full_at_fixed_probes": 0.002017046036326796,
+          "density_fixed_probes": 0.0020170446143140614,
+          "paw_full": 0.010955184684951264,
+          "paw_probe": 0.010955185569383482
+        },
+        {
+          "id": 1863,
+          "valid_paw": 1938,
+          "density_full": 0.001720363991999534,
+          "density_full_at_fixed_probes": 0.0017511941819156058,
+          "density_fixed_probes": 0.001751195160849056,
+          "paw_full": 0.009860541185611566,
+          "paw_probe": 0.009860541849063775
+        },
+        {
+          "id": 1887,
+          "valid_paw": 1923,
+          "density_full": 0.0018186680720431267,
+          "density_full_at_fixed_probes": 0.0017890789871634184,
+          "density_fixed_probes": 0.0017890785101019933,
+          "paw_full": 0.00755931613797537,
+          "paw_probe": 0.00755931793894057
+        },
+        {
+          "id": 1899,
+          "valid_paw": 1893,
+          "density_full": 0.0026273512885696274,
+          "density_full_at_fixed_probes": 0.002604940779766601,
+          "density_fixed_probes": 0.00260493943476041,
+          "paw_full": 0.013776991314342114,
+          "paw_probe": 0.01377698162426591
+        },
+        {
+          "id": 1918,
+          "valid_paw": 1968,
+          "density_full": 0.0013545774189715532,
+          "density_full_at_fixed_probes": 0.0013521545631285034,
+          "density_fixed_probes": 0.0013521548189925161,
+          "paw_full": 0.006944682698284002,
+          "paw_probe": 0.006944681363381673
+        },
+        {
+          "id": 1959,
+          "valid_paw": 1818,
+          "density_full": 0.0020468845673612566,
+          "density_full_at_fixed_probes": 0.002105892280231718,
+          "density_fixed_probes": 0.0021058919229864203,
+          "paw_full": 0.013642960827603325,
+          "paw_probe": 0.013642945867310808
+        }
+      ]
+    },
+    "probes_from_scratch": {
+      "step": 15000,
+      "provenance": {
+        "checkpoint_container_sha256": "cc7aa9fdd449c4dd78b7e42f8128de657bbfec914f3d09e5a3cc3a70136f3f47",
+        "container_step": 17000,
+        "key": "best_model"
+      },
+      "mean_percent": {
+        "density_full": 1.6519420834311693,
+        "density_full_at_fixed_probes": 1.657163599856999,
+        "density_fixed_probes": 1.6571635326914165,
+        "paw_full": 8.580418432069058,
+        "paw_probe": 8.580418438607149
+      },
+      "archived_mean_percent": {
+        "density_fixed_probes": 1.6571634896099567,
+        "paw_probe": 8.580418579280376
+      },
+      "per_structure_ratios": [
+        {
+          "id": 43,
+          "valid_paw": 1818,
+          "density_full": 0.01558361176296121,
+          "density_full_at_fixed_probes": 0.015180854724864657,
+          "density_fixed_probes": 0.015180856542458451,
+          "paw_full": 0.06841020113605338,
+          "paw_probe": 0.06841019523367536
+        },
+        {
+          "id": 67,
+          "valid_paw": 1878,
+          "density_full": 0.021056766304048347,
+          "density_full_at_fixed_probes": 0.02093602312958129,
+          "density_fixed_probes": 0.020936022853586082,
+          "paw_full": 0.12289701137189786,
+          "paw_probe": 0.12289701466252151
+        },
+        {
+          "id": 74,
+          "valid_paw": 1878,
+          "density_full": 0.016351038436015663,
+          "density_full_at_fixed_probes": 0.016286793757686747,
+          "density_fixed_probes": 0.016286798069072246,
+          "paw_full": 0.08768198585371566,
+          "paw_probe": 0.08768198960662314
+        },
+        {
+          "id": 107,
+          "valid_paw": 1923,
+          "density_full": 0.016287150668180834,
+          "density_full_at_fixed_probes": 0.016475208373036437,
+          "density_fixed_probes": 0.016475209024820386,
+          "paw_full": 0.0909522419589444,
+          "paw_probe": 0.09095223695922576
+        },
+        {
+          "id": 179,
+          "valid_paw": 1878,
+          "density_full": 0.01896224573694967,
+          "density_full_at_fixed_probes": 0.018508751170077182,
+          "density_fixed_probes": 0.018508748235629084,
+          "paw_full": 0.117137011176282,
+          "paw_probe": 0.11713700742546918
+        },
+        {
+          "id": 231,
+          "valid_paw": 1863,
+          "density_full": 0.014362259958019168,
+          "density_full_at_fixed_probes": 0.014351991167431178,
+          "density_fixed_probes": 0.014351993339228845,
+          "paw_full": 0.05518493639707387,
+          "paw_probe": 0.055184934963259304
+        },
+        {
+          "id": 341,
+          "valid_paw": 1878,
+          "density_full": 0.02116848338204973,
+          "density_full_at_fixed_probes": 0.020947267512536744,
+          "density_fixed_probes": 0.02094726534009767,
+          "paw_full": 0.13508862508674038,
+          "paw_probe": 0.13508861079227105
+        },
+        {
+          "id": 381,
+          "valid_paw": 1803,
+          "density_full": 0.01776643150893963,
+          "density_full_at_fixed_probes": 0.018441024098047328,
+          "density_fixed_probes": 0.018441022837500026,
+          "paw_full": 0.0956624827728769,
+          "paw_probe": 0.09566248834821134
+        },
+        {
+          "id": 404,
+          "valid_paw": 1893,
+          "density_full": 0.014588379417269013,
+          "density_full_at_fixed_probes": 0.014490970715054084,
+          "density_fixed_probes": 0.014490968171626343,
+          "paw_full": 0.05077100659476032,
+          "paw_probe": 0.05077100740091436
+        },
+        {
+          "id": 425,
+          "valid_paw": 1803,
+          "density_full": 0.014477025424150948,
+          "density_full_at_fixed_probes": 0.014350369374492503,
+          "density_fixed_probes": 0.014350367390102498,
+          "paw_full": 0.06263414437028289,
+          "paw_probe": 0.06263413492256623
+        },
+        {
+          "id": 432,
+          "valid_paw": 1833,
+          "density_full": 0.02141993034858197,
+          "density_full_at_fixed_probes": 0.021180150144548507,
+          "density_fixed_probes": 0.021180150900991408,
+          "paw_full": 0.1273410876091786,
+          "paw_probe": 0.1273410941897758
+        },
+        {
+          "id": 450,
+          "valid_paw": 1938,
+          "density_full": 0.013703330584312456,
+          "density_full_at_fixed_probes": 0.014131330023400373,
+          "density_fixed_probes": 0.014131333660443337,
+          "paw_full": 0.06753477412938921,
+          "paw_probe": 0.0675347749369864
+        },
+        {
+          "id": 452,
+          "valid_paw": 1833,
+          "density_full": 0.019321406685023215,
+          "density_full_at_fixed_probes": 0.019465113634304754,
+          "density_fixed_probes": 0.019465109360212587,
+          "paw_full": 0.11744491925599028,
+          "paw_probe": 0.11744492584103561
+        },
+        {
+          "id": 476,
+          "valid_paw": 1878,
+          "density_full": 0.015247392791594013,
+          "density_full_at_fixed_probes": 0.01492095398384016,
+          "density_fixed_probes": 0.014920951146675175,
+          "paw_full": 0.07176605236797719,
+          "paw_probe": 0.07176604707285429
+        },
+        {
+          "id": 599,
+          "valid_paw": 1803,
+          "density_full": 0.014048372262556957,
+          "density_full_at_fixed_probes": 0.01403994185759374,
+          "density_fixed_probes": 0.014039942666481283,
+          "paw_full": 0.05332306776071628,
+          "paw_probe": 0.05332307831682344
+        },
+        {
+          "id": 674,
+          "valid_paw": 1848,
+          "density_full": 0.015015181552762625,
+          "density_full_at_fixed_probes": 0.01485784626484818,
+          "density_fixed_probes": 0.014857849351228183,
+          "paw_full": 0.059480477605074404,
+          "paw_probe": 0.059480475640428895
+        },
+        {
+          "id": 749,
+          "valid_paw": 1923,
+          "density_full": 0.013661892695416258,
+          "density_full_at_fixed_probes": 0.013908831954379778,
+          "density_fixed_probes": 0.013908837346162769,
+          "paw_full": 0.06173387054865506,
+          "paw_probe": 0.061733889044370216
+        },
+        {
+          "id": 784,
+          "valid_paw": 1878,
+          "density_full": 0.014574049753489342,
+          "density_full_at_fixed_probes": 0.014717340084459385,
+          "density_fixed_probes": 0.01471732811110719,
+          "paw_full": 0.054160154208544226,
+          "paw_probe": 0.05416016118674367
+        },
+        {
+          "id": 791,
+          "valid_paw": 1953,
+          "density_full": 0.024322604498775435,
+          "density_full_at_fixed_probes": 0.023965369778769056,
+          "density_fixed_probes": 0.023965373245636332,
+          "paw_full": 0.12328048944051652,
+          "paw_probe": 0.1232804884128638
+        },
+        {
+          "id": 916,
+          "valid_paw": 1788,
+          "density_full": 0.018388498532308,
+          "density_full_at_fixed_probes": 0.018784885147903232,
+          "density_fixed_probes": 0.018784884152716702,
+          "paw_full": 0.09933738422801842,
+          "paw_probe": 0.09933739518645439
+        },
+        {
+          "id": 945,
+          "valid_paw": 1833,
+          "density_full": 0.02127736872538344,
+          "density_full_at_fixed_probes": 0.021832878117604027,
+          "density_fixed_probes": 0.021832881029420628,
+          "paw_full": 0.1390704251431772,
+          "paw_probe": 0.139070423573799
+        },
+        {
+          "id": 948,
+          "valid_paw": 1968,
+          "density_full": 0.019885016999680684,
+          "density_full_at_fixed_probes": 0.01985874310161934,
+          "density_fixed_probes": 0.019858739694714717,
+          "paw_full": 0.1368624124224199,
+          "paw_probe": 0.13686242059555329
+        },
+        {
+          "id": 960,
+          "valid_paw": 1968,
+          "density_full": 0.013499323306317864,
+          "density_full_at_fixed_probes": 0.01338149994814213,
+          "density_fixed_probes": 0.01338149913775205,
+          "paw_full": 0.08199469141505995,
+          "paw_probe": 0.08199467880650424
+        },
+        {
+          "id": 995,
+          "valid_paw": 1953,
+          "density_full": 0.013380177556740945,
+          "density_full_at_fixed_probes": 0.014081553826954132,
+          "density_fixed_probes": 0.014081550641700427,
+          "paw_full": 0.06335535971826362,
+          "paw_probe": 0.06335536075910686
+        },
+        {
+          "id": 1030,
+          "valid_paw": 1818,
+          "density_full": 0.01815925037695617,
+          "density_full_at_fixed_probes": 0.0178579972396796,
+          "density_fixed_probes": 0.017857989418040208,
+          "paw_full": 0.10476818018493989,
+          "paw_probe": 0.10476818531332684
+        },
+        {
+          "id": 1031,
+          "valid_paw": 1923,
+          "density_full": 0.01392682925943832,
+          "density_full_at_fixed_probes": 0.013610599153814315,
+          "density_fixed_probes": 0.013610601357384546,
+          "paw_full": 0.06745991505518019,
+          "paw_probe": 0.06745990721572394
+        },
+        {
+          "id": 1052,
+          "valid_paw": 1833,
+          "density_full": 0.0148922726730518,
+          "density_full_at_fixed_probes": 0.015770457912279972,
+          "density_fixed_probes": 0.015770454554578178,
+          "paw_full": 0.05590109956062874,
+          "paw_probe": 0.0559010963913249
+        },
+        {
+          "id": 1181,
+          "valid_paw": 1818,
+          "density_full": 0.014934256245808025,
+          "density_full_at_fixed_probes": 0.015338557488150226,
+          "density_fixed_probes": 0.015338559755769721,
+          "paw_full": 0.06305310003560058,
+          "paw_probe": 0.06305308943738544
+        },
+        {
+          "id": 1184,
+          "valid_paw": 1893,
+          "density_full": 0.014246443771796393,
+          "density_full_at_fixed_probes": 0.01465992839102798,
+          "density_fixed_probes": 0.014659926780133548,
+          "paw_full": 0.06436263565507101,
+          "paw_probe": 0.0643626601294243
+        },
+        {
+          "id": 1189,
+          "valid_paw": 1818,
+          "density_full": 0.014836651679725652,
+          "density_full_at_fixed_probes": 0.014884817826143036,
+          "density_fixed_probes": 0.01488481399764161,
+          "paw_full": 0.06290389414661332,
+          "paw_probe": 0.06290389313062947
+        },
+        {
+          "id": 1190,
+          "valid_paw": 1788,
+          "density_full": 0.01564632929170184,
+          "density_full_at_fixed_probes": 0.016386738270472014,
+          "density_fixed_probes": 0.01638674291119727,
+          "paw_full": 0.07506425710886178,
+          "paw_probe": 0.0750642564949466
+        },
+        {
+          "id": 1222,
+          "valid_paw": 1833,
+          "density_full": 0.018139307544324985,
+          "density_full_at_fixed_probes": 0.018245403000161,
+          "density_fixed_probes": 0.018245402504211902,
+          "paw_full": 0.10980068607194224,
+          "paw_probe": 0.10980067420521102
+        },
+        {
+          "id": 1228,
+          "valid_paw": 1848,
+          "density_full": 0.015184836777212963,
+          "density_full_at_fixed_probes": 0.01469264592785317,
+          "density_fixed_probes": 0.01469264439108793,
+          "paw_full": 0.054335687741485665,
+          "paw_probe": 0.05433568491922346
+        },
+        {
+          "id": 1306,
+          "valid_paw": 1848,
+          "density_full": 0.015894610090194324,
+          "density_full_at_fixed_probes": 0.016013111036504022,
+          "density_fixed_probes": 0.016013112894233135,
+          "paw_full": 0.07611114204549929,
+          "paw_probe": 0.07611112522840091
+        },
+        {
+          "id": 1320,
+          "valid_paw": 1833,
+          "density_full": 0.017365461436423583,
+          "density_full_at_fixed_probes": 0.01732247229509134,
+          "density_fixed_probes": 0.01732247493258593,
+          "paw_full": 0.10543707963054688,
+          "paw_probe": 0.10543708204966612
+        },
+        {
+          "id": 1419,
+          "valid_paw": 1788,
+          "density_full": 0.020992867670859578,
+          "density_full_at_fixed_probes": 0.02078488744631842,
+          "density_fixed_probes": 0.02078488199735235,
+          "paw_full": 0.12439984577479608,
+          "paw_probe": 0.12439983452278651
+        },
+        {
+          "id": 1527,
+          "valid_paw": 1848,
+          "density_full": 0.016214373738348206,
+          "density_full_at_fixed_probes": 0.016526682845320308,
+          "density_fixed_probes": 0.016526678735004588,
+          "paw_full": 0.07736644865016612,
+          "paw_probe": 0.07736646754667047
+        },
+        {
+          "id": 1691,
+          "valid_paw": 1968,
+          "density_full": 0.014631008612125216,
+          "density_full_at_fixed_probes": 0.014256116991865587,
+          "density_fixed_probes": 0.014256114249502724,
+          "paw_full": 0.0756658860143684,
+          "paw_probe": 0.07566589430566852
+        },
+        {
+          "id": 1727,
+          "valid_paw": 1968,
+          "density_full": 0.015990752978678018,
+          "density_full_at_fixed_probes": 0.015360391788520696,
+          "density_fixed_probes": 0.015360391388231384,
+          "paw_full": 0.09192711449299566,
+          "paw_probe": 0.09192710759894822
+        },
+        {
+          "id": 1732,
+          "valid_paw": 1923,
+          "density_full": 0.014720398208026645,
+          "density_full_at_fixed_probes": 0.015742083182347953,
+          "density_fixed_probes": 0.01574208293573042,
+          "paw_full": 0.07711383522544489,
+          "paw_probe": 0.07711382996296662
+        },
+        {
+          "id": 1778,
+          "valid_paw": 1878,
+          "density_full": 0.014754315567727539,
+          "density_full_at_fixed_probes": 0.014109210986601159,
+          "density_fixed_probes": 0.0141092124422124,
+          "paw_full": 0.055484748959131074,
+          "paw_probe": 0.055484747971338504
+        },
+        {
+          "id": 1779,
+          "valid_paw": 1968,
+          "density_full": 0.0142179110638595,
+          "density_full_at_fixed_probes": 0.01412789272676671,
+          "density_fixed_probes": 0.014127889690537281,
+          "paw_full": 0.06919421081638367,
+          "paw_probe": 0.06919422012071255
+        },
+        {
+          "id": 1785,
+          "valid_paw": 1833,
+          "density_full": 0.015888417985533355,
+          "density_full_at_fixed_probes": 0.015854360854250505,
+          "density_fixed_probes": 0.015854358263946787,
+          "paw_full": 0.07750784446220257,
+          "paw_probe": 0.07750784583220412
+        },
+        {
+          "id": 1814,
+          "valid_paw": 1938,
+          "density_full": 0.014328625730045428,
+          "density_full_at_fixed_probes": 0.01442680821336602,
+          "density_fixed_probes": 0.014426801139025525,
+          "paw_full": 0.06939769267401304,
+          "paw_probe": 0.06939771083851833
+        },
+        {
+          "id": 1838,
+          "valid_paw": 1833,
+          "density_full": 0.0187005044619498,
+          "density_full_at_fixed_probes": 0.018984369083556336,
+          "density_fixed_probes": 0.018984373336838573,
+          "paw_full": 0.11101473241286894,
+          "paw_probe": 0.11101474141768172
+        },
+        {
+          "id": 1863,
+          "valid_paw": 1938,
+          "density_full": 0.016766520786015524,
+          "density_full_at_fixed_probes": 0.016699924825960746,
+          "density_fixed_probes": 0.01669993149797848,
+          "paw_full": 0.10326028650498682,
+          "paw_probe": 0.10326028542612427
+        },
+        {
+          "id": 1887,
+          "valid_paw": 1923,
+          "density_full": 0.015724585037359077,
+          "density_full_at_fixed_probes": 0.01578483621876047,
+          "density_fixed_probes": 0.01578483084049256,
+          "paw_full": 0.07528242060911415,
+          "paw_probe": 0.07528240540044155
+        },
+        {
+          "id": 1899,
+          "valid_paw": 1893,
+          "density_full": 0.02174559032689204,
+          "density_full_at_fixed_probes": 0.021890666225048823,
+          "density_fixed_probes": 0.02189066474674342,
+          "paw_full": 0.14610419217791776,
+          "paw_probe": 0.14610416862897027
+        },
+        {
+          "id": 1918,
+          "valid_paw": 1968,
+          "density_full": 0.012740377801882957,
+          "density_full_at_fixed_probes": 0.0121543855891995,
+          "density_fixed_probes": 0.012154387045307493,
+          "paw_full": 0.06624195992717262,
+          "paw_probe": 0.06624195839793379
+        },
+        {
+          "id": 1959,
+          "valid_paw": 1818,
+          "density_full": 0.016980603708120275,
+          "density_full_at_fixed_probes": 0.018000762518264612,
+          "density_fixed_probes": 0.018000762290575865,
+          "paw_full": 0.08794550752498954,
+          "paw_probe": 0.08794551293930793
+        }
+      ]
+    }
+  },
+  "evaluated_at_utc": "2026-11-13T23:31:45.071216+00:00"
+}

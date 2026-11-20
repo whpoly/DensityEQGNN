@@ -1,0 +1,25 @@
+{
+  "test_count": 500,
+  "summary": {
+    "deep_42": {
+      "density_nmae": 0.0006064722675867263,
+      "density_mae": 0.00041948925975972284,
+      "occupation_mae": 0.0006272762203983215,
+      "occupation_relative_l1": 0.002329820436134626
+    },
+    "deep_seconds": 0.8698301259998698
+  },
+  "selections": {
+    "deep_42": {
+      "checkpoint_sha256": "19c8eee16e101f53bd69ce94a6202e6b5671544cc27f1f886cb0b6e7fd716397",
+      "validation": {
+        "step": 4900000,
+        "lr": 1.3529775681668826e-05,
+        "density_mae": 0.00039763524895533917,
+        "density_nmae": 0.0005727302929153666,
+        "occupation_mae": 0.0005952945176977664,
+        "occupation_relative_l1": 0.002210369703825563
+      }
+    }
+  }
+}

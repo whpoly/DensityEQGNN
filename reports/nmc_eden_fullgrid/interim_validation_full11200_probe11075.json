@@ -1,0 +1,697 @@
+{
+  "split": "validation",
+  "count": 50,
+  "kind": "interim_current_checkpoint_comparison",
+  "relation_to_planned_decision": "Interim means at current exposure; decision.json uses the original matched exposure.",
+  "seed": 42,
+  "reference_split_sha256": "a8722f4d63a764be424c8ff5efadb7526a179351879ccc127ef81649f1cddd4b",
+  "fork_sha256": "8b61a0b10d4978a9063af9b45b3bf048bbcc2443cee76ce5a0b373cdd85953d8",
+  "fork_step": 10350,
+  "captured_utc": "2026-11-13T17:54:51.286951+00:00",
+  "evaluated_utc": "2026-11-13T17:56:06.123498+00:00",
+  "full_step": 11200,
+  "full_checkpoint_sha256": "2ee1bdea6f396210d8a9e89849a435d81c8f88049ab7f39b4c7b4830999f81db",
+  "full_additional_structures": 850,
+  "probe_step": 11075,
+  "probe_additional_structures": 1450,
+  "probe_update_count": 725,
+  "probe_validation_sha256": "a1adf4a65683358bf973aa112da7ef0085839482711832f7d412d1395d084e0e",
+  "relative_margin_pct": 1.0,
+  "metrics": {
+    "density_nmae": {
+      "full_pct": 0.19984098000502193,
+      "probe_pct": 0.18813482094653478,
+      "relative_change_pct": -5.857737015797748,
+      "max_probe_pct_at_margin": 0.20183938980507216,
+      "paired_95pct_relative_change": [
+        -7.411751748860729,
+        -4.420801742527402
+      ],
+      "meets_interim_margin": true
+    },
+    "occupation_relative_l1": {
+      "full_pct": 1.2661969464560707,
+      "probe_pct": 1.029653516371693,
+      "relative_change_pct": -18.68140898194659,
+      "max_probe_pct_at_margin": 1.2788589159206314,
+      "paired_95pct_relative_change": [
+        -22.569072580883642,
+        -14.95151789252086
+      ],
+      "meets_interim_margin": true
+    }
+  },
+  "both_within_interim_margin": true,
+  "paired_records": [
+    {
+      "id": 43,
+      "points": 439040,
+      "valid_paw": 1818,
+      "full": {
+        "density_nmae": 0.0019146257924259056,
+        "occupation_relative_l1": 0.010569760521274615
+      },
+      "probe": {
+        "density_nmae": 0.0016861274209788487,
+        "occupation_relative_l1": 0.008480207825315217
+      }
+    },
+    {
+      "id": 67,
+      "points": 439040,
+      "valid_paw": 1878,
+      "full": {
+        "density_nmae": 0.0024130334521736446,
+        "occupation_relative_l1": 0.017968972997668076
+      },
+      "probe": {
+        "density_nmae": 0.0023817768073790308,
+        "occupation_relative_l1": 0.015445172823306885
+      }
+    },
+    {
+      "id": 74,
+      "points": 439040,
+      "valid_paw": 1878,
+      "full": {
+        "density_nmae": 0.0019263090204376108,
+        "occupation_relative_l1": 0.01635119593778653
+      },
+      "probe": {
+        "density_nmae": 0.0018737888294767405,
+        "occupation_relative_l1": 0.01240170330952421
+      }
+    },
+    {
+      "id": 107,
+      "points": 439040,
+      "valid_paw": 1923,
+      "full": {
+        "density_nmae": 0.0019609578110286125,
+        "occupation_relative_l1": 0.013411219745960424
+      },
+      "probe": {
+        "density_nmae": 0.001910834023641602,
+        "occupation_relative_l1": 0.010615192395961214
+      }
+    },
+    {
+      "id": 179,
+      "points": 439040,
+      "valid_paw": 1878,
+      "full": {
+        "density_nmae": 0.002396999425614737,
+        "occupation_relative_l1": 0.015560811749238077
+      },
+      "probe": {
+        "density_nmae": 0.0023651091115596263,
+        "occupation_relative_l1": 0.014397654167640373
+      }
+    },
+    {
+      "id": 231,
+      "points": 439040,
+      "valid_paw": 1863,
+      "full": {
+        "density_nmae": 0.0017212713811347227,
+        "occupation_relative_l1": 0.011867200252800804
+      },
+      "probe": {
+        "density_nmae": 0.0014997818365170325,
+        "occupation_relative_l1": 0.009631026248632994
+      }
+    },
+    {
+      "id": 341,
+      "points": 439040,
+      "valid_paw": 1878,
+      "full": {
+        "density_nmae": 0.0022982795293929295,
+        "occupation_relative_l1": 0.012850071667975737
+      },
+      "probe": {
+        "density_nmae": 0.0022874304994561392,
+        "occupation_relative_l1": 0.010548964340747993
+      }
+    },
+    {
+      "id": 381,
+      "points": 439040,
+      "valid_paw": 1803,
+      "full": {
+        "density_nmae": 0.0020669866629240024,
+        "occupation_relative_l1": 0.010729668421063923
+      },
+      "probe": {
+        "density_nmae": 0.00189484234083068,
+        "occupation_relative_l1": 0.0105022676757198
+      }
+    },
+    {
+      "id": 404,
+      "points": 439040,
+      "valid_paw": 1893,
+      "full": {
+        "density_nmae": 0.001894626696280515,
+        "occupation_relative_l1": 0.012506526846624679
+      },
+      "probe": {
+        "density_nmae": 0.001773932898796809,
+        "occupation_relative_l1": 0.010038567925288214
+      }
+    },
+    {
+      "id": 425,
+      "points": 439040,
+      "valid_paw": 1803,
+      "full": {
+        "density_nmae": 0.001799214770021093,
+        "occupation_relative_l1": 0.01053184596443216
+      },
+      "probe": {
+        "density_nmae": 0.001667580680388448,
+        "occupation_relative_l1": 0.009435454206705654
+      }
+    },
+    {
+      "id": 432,
+      "points": 439040,
+      "valid_paw": 1833,
+      "full": {
+        "density_nmae": 0.002707237627419609,
+        "occupation_relative_l1": 0.017248876091000287
+      },
+      "probe": {
+        "density_nmae": 0.00267769530195738,
+        "occupation_relative_l1": 0.01590770330433995
+      }
+    },
+    {
+      "id": 450,
+      "points": 439040,
+      "valid_paw": 1938,
+      "full": {
+        "density_nmae": 0.0015725041740787058,
+        "occupation_relative_l1": 0.011715982354008576
+      },
+      "probe": {
+        "density_nmae": 0.0014807944467590615,
+        "occupation_relative_l1": 0.007423042022131833
+      }
+    },
+    {
+      "id": 452,
+      "points": 439040,
+      "valid_paw": 1833,
+      "full": {
+        "density_nmae": 0.00228904811859773,
+        "occupation_relative_l1": 0.014460173434936307
+      },
+      "probe": {
+        "density_nmae": 0.002287708166373764,
+        "occupation_relative_l1": 0.013210856960678813
+      }
+    },
+    {
+      "id": 476,
+      "points": 439040,
+      "valid_paw": 1878,
+      "full": {
+        "density_nmae": 0.0017878287007695997,
+        "occupation_relative_l1": 0.015721184878031015
+      },
+      "probe": {
+        "density_nmae": 0.0017667356422445008,
+        "occupation_relative_l1": 0.011309031156142117
+      }
+    },
+    {
+      "id": 599,
+      "points": 439040,
+      "valid_paw": 1803,
+      "full": {
+        "density_nmae": 0.0017502786896609745,
+        "occupation_relative_l1": 0.008740351329348387
+      },
+      "probe": {
+        "density_nmae": 0.0017429000896417644,
+        "occupation_relative_l1": 0.008960005622712831
+      }
+    },
+    {
+      "id": 674,
+      "points": 439040,
+      "valid_paw": 1848,
+      "full": {
+        "density_nmae": 0.0016636166267488908,
+        "occupation_relative_l1": 0.015247167583593731
+      },
+      "probe": {
+        "density_nmae": 0.0016168622423329046,
+        "occupation_relative_l1": 0.011197789426700099
+      }
+    },
+    {
+      "id": 749,
+      "points": 439040,
+      "valid_paw": 1923,
+      "full": {
+        "density_nmae": 0.0016269479494092863,
+        "occupation_relative_l1": 0.011306248337013656
+      },
+      "probe": {
+        "density_nmae": 0.0014605330183467661,
+        "occupation_relative_l1": 0.0070495192917183905
+      }
+    },
+    {
+      "id": 784,
+      "points": 439040,
+      "valid_paw": 1878,
+      "full": {
+        "density_nmae": 0.0018760222830946785,
+        "occupation_relative_l1": 0.008116213416631953
+      },
+      "probe": {
+        "density_nmae": 0.0015800316850516204,
+        "occupation_relative_l1": 0.00809704370716897
+      }
+    },
+    {
+      "id": 791,
+      "points": 439040,
+      "valid_paw": 1953,
+      "full": {
+        "density_nmae": 0.002413573740835876,
+        "occupation_relative_l1": 0.01755077198054661
+      },
+      "probe": {
+        "density_nmae": 0.0023387103178862004,
+        "occupation_relative_l1": 0.01733950732498962
+      }
+    },
+    {
+      "id": 916,
+      "points": 439040,
+      "valid_paw": 1788,
+      "full": {
+        "density_nmae": 0.0022405354276204266,
+        "occupation_relative_l1": 0.012096568410572881
+      },
+      "probe": {
+        "density_nmae": 0.002109205849195668,
+        "occupation_relative_l1": 0.011611080420651062
+      }
+    },
+    {
+      "id": 945,
+      "points": 439040,
+      "valid_paw": 1833,
+      "full": {
+        "density_nmae": 0.002347827037219258,
+        "occupation_relative_l1": 0.013456140886913426
+      },
+      "probe": {
+        "density_nmae": 0.0023273006365263143,
+        "occupation_relative_l1": 0.011878283918451957
+      }
+    },
+    {
+      "id": 948,
+      "points": 439040,
+      "valid_paw": 1968,
+      "full": {
+        "density_nmae": 0.002120945829087638,
+        "occupation_relative_l1": 0.014196540385254563
+      },
+      "probe": {
+        "density_nmae": 0.0020569936326432156,
+        "occupation_relative_l1": 0.012827103954893984
+      }
+    },
+    {
+      "id": 960,
+      "points": 439040,
+      "valid_paw": 1968,
+      "full": {
+        "density_nmae": 0.001539476558379759,
+        "occupation_relative_l1": 0.011042534561531512
+      },
+      "probe": {
+        "density_nmae": 0.0014085720312113266,
+        "occupation_relative_l1": 0.0062150337012539325
+      }
+    },
+    {
+      "id": 995,
+      "points": 439040,
+      "valid_paw": 1953,
+      "full": {
+        "density_nmae": 0.001700129058978021,
+        "occupation_relative_l1": 0.008316794218650517
+      },
+      "probe": {
+        "density_nmae": 0.0015220082279371503,
+        "occupation_relative_l1": 0.005586949081332577
+      }
+    },
+    {
+      "id": 1030,
+      "points": 439040,
+      "valid_paw": 1818,
+      "full": {
+        "density_nmae": 0.002133802383495102,
+        "occupation_relative_l1": 0.011898909285770991
+      },
+      "probe": {
+        "density_nmae": 0.002016614144385471,
+        "occupation_relative_l1": 0.011495512230241506
+      }
+    },
+    {
+      "id": 1031,
+      "points": 439040,
+      "valid_paw": 1923,
+      "full": {
+        "density_nmae": 0.0019518670713684358,
+        "occupation_relative_l1": 0.01092388541085802
+      },
+      "probe": {
+        "density_nmae": 0.0018254408866012735,
+        "occupation_relative_l1": 0.00968159490391858
+      }
+    },
+    {
+      "id": 1052,
+      "points": 439040,
+      "valid_paw": 1833,
+      "full": {
+        "density_nmae": 0.001655091105567639,
+        "occupation_relative_l1": 0.014479539497942798
+      },
+      "probe": {
+        "density_nmae": 0.0015862885124805848,
+        "occupation_relative_l1": 0.008971258054227129
+      }
+    },
+    {
+      "id": 1181,
+      "points": 439040,
+      "valid_paw": 1818,
+      "full": {
+        "density_nmae": 0.0016191161845377923,
+        "occupation_relative_l1": 0.009136549869625688
+      },
+      "probe": {
+        "density_nmae": 0.0015769603091046846,
+        "occupation_relative_l1": 0.005623862944345892
+      }
+    },
+    {
+      "id": 1184,
+      "points": 439040,
+      "valid_paw": 1893,
+      "full": {
+        "density_nmae": 0.001868538806981398,
+        "occupation_relative_l1": 0.011115086263303355
+      },
+      "probe": {
+        "density_nmae": 0.0017257546412459525,
+        "occupation_relative_l1": 0.009104511676295753
+      }
+    },
+    {
+      "id": 1189,
+      "points": 439040,
+      "valid_paw": 1818,
+      "full": {
+        "density_nmae": 0.0018768812038742972,
+        "occupation_relative_l1": 0.00854895730586322
+      },
+      "probe": {
+        "density_nmae": 0.001607548282425054,
+        "occupation_relative_l1": 0.0071829897295394365
+      }
+    },
+    {
+      "id": 1190,
+      "points": 439040,
+      "valid_paw": 1788,
+      "full": {
+        "density_nmae": 0.0023484464077422763,
+        "occupation_relative_l1": 0.010804550384900831
+      },
+      "probe": {
+        "density_nmae": 0.0018550803738776526,
+        "occupation_relative_l1": 0.009872203417849928
+      }
+    },
+    {
+      "id": 1222,
+      "points": 439040,
+      "valid_paw": 1833,
+      "full": {
+        "density_nmae": 0.0020840521476300296,
+        "occupation_relative_l1": 0.01137830490900097
+      },
+      "probe": {
+        "density_nmae": 0.00196300274273823,
+        "occupation_relative_l1": 0.010196451804266118
+      }
+    },
+    {
+      "id": 1228,
+      "points": 439040,
+      "valid_paw": 1848,
+      "full": {
+        "density_nmae": 0.0015955641527807876,
+        "occupation_relative_l1": 0.015220720003449732
+      },
+      "probe": {
+        "density_nmae": 0.001637079165138395,
+        "occupation_relative_l1": 0.009716825911463521
+      }
+    },
+    {
+      "id": 1306,
+      "points": 439040,
+      "valid_paw": 1848,
+      "full": {
+        "density_nmae": 0.0020298176710756063,
+        "occupation_relative_l1": 0.014776084165890227
+      },
+      "probe": {
+        "density_nmae": 0.0019400768753757493,
+        "occupation_relative_l1": 0.011106678695382191
+      }
+    },
+    {
+      "id": 1320,
+      "points": 439040,
+      "valid_paw": 1833,
+      "full": {
+        "density_nmae": 0.002414374484994371,
+        "occupation_relative_l1": 0.011485177099170555
+      },
+      "probe": {
+        "density_nmae": 0.00203739791159173,
+        "occupation_relative_l1": 0.009671525343514028
+      }
+    },
+    {
+      "id": 1419,
+      "points": 439040,
+      "valid_paw": 1788,
+      "full": {
+        "density_nmae": 0.0030246886857754583,
+        "occupation_relative_l1": 0.019279281630462275
+      },
+      "probe": {
+        "density_nmae": 0.0029892111871501676,
+        "occupation_relative_l1": 0.018203900806562107
+      }
+    },
+    {
+      "id": 1527,
+      "points": 439040,
+      "valid_paw": 1848,
+      "full": {
+        "density_nmae": 0.0020621214217078267,
+        "occupation_relative_l1": 0.009120952731547524
+      },
+      "probe": {
+        "density_nmae": 0.0017935000806864308,
+        "occupation_relative_l1": 0.007506374510570937
+      }
+    },
+    {
+      "id": 1691,
+      "points": 439040,
+      "valid_paw": 1968,
+      "full": {
+        "density_nmae": 0.001778285696926538,
+        "occupation_relative_l1": 0.011384962353968816
+      },
+      "probe": {
+        "density_nmae": 0.0015397894202665284,
+        "occupation_relative_l1": 0.008101727557435105
+      }
+    },
+    {
+      "id": 1727,
+      "points": 439040,
+      "valid_paw": 1968,
+      "full": {
+        "density_nmae": 0.0018793590466711838,
+        "occupation_relative_l1": 0.011276787232091532
+      },
+      "probe": {
+        "density_nmae": 0.0016836468165525146,
+        "occupation_relative_l1": 0.00932388336630367
+      }
+    },
+    {
+      "id": 1732,
+      "points": 439040,
+      "valid_paw": 1923,
+      "full": {
+        "density_nmae": 0.0016756150157986045,
+        "occupation_relative_l1": 0.015449621468294535
+      },
+      "probe": {
+        "density_nmae": 0.0016654191605513804,
+        "occupation_relative_l1": 0.008879542657897477
+      }
+    },
+    {
+      "id": 1778,
+      "points": 439040,
+      "valid_paw": 1878,
+      "full": {
+        "density_nmae": 0.0015851194696817727,
+        "occupation_relative_l1": 0.0170091358762609
+      },
+      "probe": {
+        "density_nmae": 0.0016058459217888328,
+        "occupation_relative_l1": 0.010087959635190843
+      }
+    },
+    {
+      "id": 1779,
+      "points": 439040,
+      "valid_paw": 1968,
+      "full": {
+        "density_nmae": 0.0023183349855495534,
+        "occupation_relative_l1": 0.011273813705322867
+      },
+      "probe": {
+        "density_nmae": 0.0021924074839319977,
+        "occupation_relative_l1": 0.011363814357762594
+      }
+    },
+    {
+      "id": 1785,
+      "points": 439040,
+      "valid_paw": 1833,
+      "full": {
+        "density_nmae": 0.0020160339131268194,
+        "occupation_relative_l1": 0.010097228409198264
+      },
+      "probe": {
+        "density_nmae": 0.0017682233112976465,
+        "occupation_relative_l1": 0.008765133286064134
+      }
+    },
+    {
+      "id": 1814,
+      "points": 439040,
+      "valid_paw": 1938,
+      "full": {
+        "density_nmae": 0.001589895927241593,
+        "occupation_relative_l1": 0.01196556934068218
+      },
+      "probe": {
+        "density_nmae": 0.001558145075972191,
+        "occupation_relative_l1": 0.007133566849770115
+      }
+    },
+    {
+      "id": 1838,
+      "points": 439040,
+      "valid_paw": 1833,
+      "full": {
+        "density_nmae": 0.0021544778246253976,
+        "occupation_relative_l1": 0.012922347379797975
+      },
+      "probe": {
+        "density_nmae": 0.0020827852836039036,
+        "occupation_relative_l1": 0.01092235803221519
+      }
+    },
+    {
+      "id": 1863,
+      "points": 439040,
+      "valid_paw": 1938,
+      "full": {
+        "density_nmae": 0.0017672126938947544,
+        "occupation_relative_l1": 0.013592978479715617
+      },
+      "probe": {
+        "density_nmae": 0.0017324971223707192,
+        "occupation_relative_l1": 0.009840569726960334
+      }
+    },
+    {
+      "id": 1887,
+      "points": 439040,
+      "valid_paw": 1923,
+      "full": {
+        "density_nmae": 0.0020406065185689572,
+        "occupation_relative_l1": 0.009386847643084489
+      },
+      "probe": {
+        "density_nmae": 0.0018670472786255124,
+        "occupation_relative_l1": 0.00755175939402253
+      }
+    },
+    {
+      "id": 1899,
+      "points": 439040,
+      "valid_paw": 1893,
+      "full": {
+        "density_nmae": 0.0027023782472259165,
+        "occupation_relative_l1": 0.015197759001619196
+      },
+      "probe": {
+        "density_nmae": 0.0026677114537636834,
+        "occupation_relative_l1": 0.013810504769908383
+      }
+    },
+    {
+      "id": 1918,
+      "points": 439040,
+      "valid_paw": 1968,
+      "full": {
+        "density_nmae": 0.0016126317950096692,
+        "occupation_relative_l1": 0.01137615730294091
+      },
+      "probe": {
+        "density_nmae": 0.0013701058911652249,
+        "occupation_relative_l1": 0.006945895863595386
+      }
+    },
+    {
+      "id": 1959,
+      "points": 439040,
+      "valid_paw": 1818,
+      "full": {
+        "density_nmae": 0.0021079007773249533,
+        "occupation_relative_l1": 0.0124344445044135
+      },
+      "probe": {
+        "density_nmae": 0.002062575403443269,
+        "occupation_relative_l1": 0.013657191848534882
+      }
+    }
+  ]
+}
